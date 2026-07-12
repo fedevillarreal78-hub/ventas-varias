@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de gestión — Venta de Apartamento</title>
+<style>
+  :root{
+    --azul:#1a3a5c; --azul-claro:#2e6da4; --verde:#25d366; --verde-oscuro:#1da851;
+    --gris-fondo:#f4f6f8; --gris-texto:#5a6a7a; --rojo:#c0392b; --ambar:#e67e22;
+    --blanco:#fff; --sombra:0 2px 10px rgba(20,40,60,.10); --radio:14px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--gris-fondo); color:#22303e; line-height:1.5; padding-bottom:80px;}
+
+  /* ---------- Barra superior ---------- */
+  .barra{background:var(--azul); color:var(--blanco); padding:16px 18px;
+    display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between;
+    position:sticky; top:0; z-index:50; box-shadow:var(--sombra);}
+  .barra h1{font-size:1.15rem;}
+  .barra small{opacity:.8; font-weight:400; display:block; font-size:.78rem;}
+  .acciones{display:flex; flex-wrap:wrap; gap:8px; align-items:center;}
+  .btn{border:none; border-radius:9px; padding:10px 15px; font-size:.9rem; font-weight:600;
+    cursor:pointer; background:#e8eef4; color:#22303e; transition:filter .15s; text-decoration:none;
+    display:inline-flex; align-items:center; gap:6px;}
+  .btn:hover{filter:brightness(.94);}
+  .btn.primario{background:var(--verde); color:var(--blanco);}
+  .btn.secundario{background:rgba(255,255,255,.16); color:var(--blanco);}
+  .btn.peligro{background:#fdeceb; color:var(--rojo);}
+  .btn.mini{padding:6px 10px; font-size:.8rem;}
+  .pill{background:var(--ambar); color:var(--blanco); font-size:.78rem; font-weight:700;
+    padding:5px 12px; border-radius:20px;}
+  .oculto{display:none !important;}
+
+  /* ---------- Contenedor ---------- */
+  .contenedor{max-width:980px; margin:18px auto; padding:0 16px;}
+
+  /* ---------- Configuración ---------- */
+  details.config{background:var(--blanco); border-radius:var(--radio); box-shadow:var(--sombra);
+    margin-bottom:18px; overflow:hidden;}
+  details.config summary{padding:14px 18px; font-weight:700; cursor:pointer; user-select:none;}
+  .config-campos{padding:4px 18px 18px; display:grid; gap:12px; grid-template-columns:1fr 1fr;}
+  .campo{display:flex; flex-direction:column; gap:4px;}
+  .campo.ancho{grid-column:1/-1;}
+  .campo label{font-size:.8rem; font-weight:700; color:var(--gris-texto);}
+  .campo input,.campo textarea,.campo select{padding:10px 12px; border:1px solid #d5dde5;
+    border-radius:9px; font-size:.92rem; font-family:inherit; background:#fbfcfd;}
+  .campo input:focus,.campo textarea:focus{outline:none; border-color:var(--azul-claro);}
+  .ayuda{font-size:.76rem; color:var(--gris-texto);}
+
+  /* ---------- Lista de productos ---------- */
+  .resumen{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; align-items:center;}
+  .resumen .dato{background:var(--blanco); border-radius:10px; padding:8px 14px;
+    font-size:.85rem; box-shadow:var(--sombra);}
+  .resumen .dato b{font-size:1.05rem;}
+
+  .item{background:var(--blanco); border-radius:var(--radio); box-shadow:var(--sombra);
+    padding:14px; margin-bottom:12px; display:grid; gap:14px;
+    grid-template-columns:92px 1fr auto; align-items:center;}
+  .item.vendido{opacity:.62;}
+  .item .mini-foto{width:92px; height:70px; border-radius:9px; object-fit:cover; background:#e8edf2;}
+  .item .datos .nom{font-weight:700; font-size:1rem;}
+  .item .datos .cat{font-size:.75rem; color:var(--azul-claro); font-weight:700; text-transform:uppercase;}
+  .item .datos .desc{font-size:.8rem; color:var(--gris-texto); max-width:460px;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .precio-linea{display:flex; align-items:center; gap:6px; margin-top:6px;}
+  .precio-linea input{width:110px; padding:7px 9px; border:1px solid #d5dde5; border-radius:8px;
+    font-size:.95rem; font-weight:700; color:var(--azul);}
+  .precio-linea span{font-weight:700; color:var(--azul);}
+
+  .item-der{display:flex; flex-direction:column; gap:9px; align-items:flex-end;}
+  .estados{display:flex; border:1px solid #d5dde5; border-radius:9px; overflow:hidden;}
+  .estados button{border:none; background:var(--blanco); padding:7px 11px; font-size:.78rem;
+    cursor:pointer; color:var(--gris-texto); font-weight:600;}
+  .estados button:not(:last-child){border-right:1px solid #e5ebf0;}
+  .estados button.act-disponible{background:var(--verde); color:var(--blanco);}
+  .estados button.act-reservado{background:var(--ambar); color:var(--blanco);}
+  .estados button.act-vendido{background:var(--rojo); color:var(--blanco);}
+  .estados button.act-oculto{background:#5a6a7a; color:var(--blanco);}
+  .fila-botones{display:flex; gap:6px;}
+
+  /* ---------- Modales ---------- */
+  .fondo-modal{position:fixed; inset:0; background:rgba(10,20,30,.55); z-index:90;
+    display:none; align-items:flex-start; justify-content:center; overflow-y:auto; padding:24px 12px;}
+  .fondo-modal.abierto{display:flex;}
+  .modal{background:var(--blanco); border-radius:var(--radio); max-width:640px; width:100%;
+    padding:22px; box-shadow:0 10px 40px rgba(0,0,0,.25);}
+  .modal h2{font-size:1.15rem; margin-bottom:14px;}
+  .modal .grid2{display:grid; gap:12px; grid-template-columns:1fr 1fr;}
+  .modal .pie-modal{display:flex; justify-content:flex-end; gap:10px; margin-top:18px;}
+
+  /* Fotos en el modal */
+  .fotos-actuales{display:flex; flex-wrap:wrap; gap:10px; margin-top:6px;}
+  .foto-mini{position:relative; width:86px; height:66px;}
+  .foto-mini img{width:100%; height:100%; object-fit:cover; border-radius:8px; border:1px solid #d5dde5;}
+  .foto-mini button{position:absolute; top:-7px; right:-7px; width:22px; height:22px; border:none;
+    border-radius:50%; background:var(--rojo); color:var(--blanco); font-size:13px; line-height:1;
+    cursor:pointer; box-shadow:0 1px 4px rgba(0,0,0,.3);}
+  .foto-mini .principal{position:absolute; bottom:3px; left:3px; background:rgba(26,58,92,.85);
+    color:var(--blanco); font-size:.6rem; padding:1px 6px; border-radius:6px;}
+  .zona-carga{border:2px dashed #b9c6d2; border-radius:10px; padding:18px; text-align:center;
+    color:var(--gris-texto); font-size:.88rem; cursor:pointer; margin-top:10px; transition:all .15s;}
+  .zona-carga:hover,.zona-carga.sobre{border-color:var(--azul-claro); background:#f0f6fb;}
+
+  /* Panel de estado de publicación */
+  .estado-pub{position:fixed; bottom:0; left:0; right:0; background:var(--azul); color:var(--blanco);
+    padding:12px 18px; font-size:.9rem; display:none; z-index:95; text-align:center;}
+  .estado-pub.visible{display:block;}
+
+  /* Fotos pendientes de descarga (modo manual) */
+  .panel-fotos-pend{background:#fff8ec; border:1px solid #f0d9ad; border-radius:var(--radio);
+    padding:14px 18px; margin-bottom:16px; font-size:.88rem;}
+  .panel-fotos-pend h3{font-size:.95rem; margin-bottom:6px;}
+  .panel-fotos-pend .lista-pend{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px;}
+
+  @media (max-width:640px){
+    .item{grid-template-columns:72px 1fr;}
+    .item .mini-foto{width:72px; height:56px;}
+    .item-der{grid-column:1/-1; flex-direction:row; justify-content:space-between; align-items:center; flex-wrap:wrap;}
+    .config-campos,.modal .grid2{grid-template-columns:1fr;}
+    .barra{position:static;}
+  }
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div>
+    <h1>⚙️ Panel de gestión <small>Venta de Apartamento</small></h1>
+  </div>
+  <div class="acciones">
+    <span id="pillCambios" class="pill oculto">● Cambios sin publicar</span>
+    <button class="btn primario" onclick="abrirProducto()">＋ Agregar producto</button>
+    <a class="btn secundario" href="index.html" target="_blank">👁 Ver página</a>
+    <button class="btn secundario" onclick="abrirModal('modalGitHub')">🔗 GitHub</button>
+    <button class="btn secundario" id="btnPublicar" onclick="publicar()">🚀 Publicar</button>
+    <button class="btn secundario" onclick="descargarJS()">⬇ Descargar archivo</button>
+  </div>
+</header>
+
+<div class="contenedor">
+
+  <details class="config">
+    <summary>Configuración general (título, WhatsApp, moneda)</summary>
+    <div class="config-campos">
+      <div class="campo ancho"><label>Título de la página</label>
+        <input id="cfgTitulo"></div>
+      <div class="campo ancho"><label>Subtítulo / mensaje de bienvenida</label>
+        <textarea id="cfgSubtitulo" rows="2"></textarea></div>
+      <div class="campo"><label>WhatsApp (con código de país, solo dígitos)</label>
+        <input id="cfgWhatsapp" placeholder="50255551234">
+        <span class="ayuda">Guatemala = 502 + tu número</span></div>
+      <div class="campo"><label>Símbolo de moneda</label>
+        <input id="cfgMoneda" placeholder="Q"></div>
+      <div class="campo ancho"><label>Nota al pie de la página</label>
+        <input id="cfgNota"></div>
+    </div>
+  </details>
+
+  <div id="panelFotosPend" class="panel-fotos-pend oculto">
+    <h3>📸 Fotos nuevas pendientes</h3>
+    <p>Si publicas con GitHub (botón 🚀) se suben solas. Si trabajas en modo manual,
+    descárgalas y cópialas en la carpeta <b>imagenes/</b>:</p>
+    <div class="lista-pend" id="listaFotosPend"></div>
+  </div>
+
+  <div class="resumen" id="resumen"></div>
+  <main id="lista"></main>
+</div>
+
+<!-- ---------- Modal producto ---------- -->
+<div class="fondo-modal" id="modalProducto">
+  <div class="modal">
+    <h2 id="tituloModal">Agregar producto</h2>
+    <div class="grid2">
+      <div class="campo ancho"><label>Nombre del artículo *</label>
+        <input id="pNombre" placeholder="Ej: Sofá de 3 plazas"></div>
+      <div class="campo"><label>Categoría *</label>
+        <input id="pCategoria" list="listaCats" placeholder="Ej: Muebles">
+        <datalist id="listaCats"></datalist></div>
+      <div class="campo"><label>Estado</label>
+        <select id="pEstado">
+          <option value="disponible">Disponible</option>
+          <option value="reservado">Reservado</option>
+          <option value="vendido">Vendido</option>
+          <option value="oculto">Oculto (no se muestra)</option>
+        </select></div>
+      <div class="campo"><label>Precio (solo número) *</label>
+        <input id="pPrecio" type="number" min="0" placeholder="1500"></div>
+      <div class="campo"><label>Precio anterior (opcional, sale tachado)</label>
+        <input id="pPrecioOriginal" type="number" min="0"></div>
+      <div class="campo ancho"><label>Descripción</label>
+        <textarea id="pDescripcion" rows="2" placeholder="Marca, estado, antigüedad…"></textarea></div>
+      <div class="campo ancho"><label>Medidas (opcional)</label>
+        <input id="pMedidas" placeholder="Ej: 210 × 90 × 85 cm"></div>
+      <div class="campo ancho"><label>Fotos (la primera es la principal)</label>
+        <div class="fotos-actuales" id="fotosActuales"></div>
+        <div class="zona-carga" id="zonaCarga">📷 Toca aquí o arrastra fotos<br>
+          <span class="ayuda">Se comprimen automáticamente para que la página cargue rápido</span></div>
+        <input type="file" id="inputFotos" accept="image/*" multiple class="oculto">
+      </div>
+    </div>
+    <div class="pie-modal">
+      <button class="btn" onclick="cerrarModal('modalProducto')">Cancelar</button>
+      <button class="btn primario" onclick="guardarProducto()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ---------- Modal GitHub ---------- -->
+<div class="fondo-modal" id="modalGitHub">
+  <div class="modal">
+    <h2>Conexión con GitHub</h2>
+    <p class="ayuda" style="margin-bottom:12px">
+      Con esto el botón <b>🚀 Publicar</b> sube tus cambios y fotos directo a la página, sin tocar archivos.
+      Se configura una sola vez en cada dispositivo (los datos quedan solo en este navegador).</p>
+    <div class="grid2">
+      <div class="campo"><label>Usuario de GitHub</label><input id="ghUsuario" placeholder="fede-ejemplo">
+        <span class="ayuda">Tu nombre de usuario, NO tu correo electrónico</span></div>
+      <div class="campo"><label>Repositorio</label><input id="ghRepo" placeholder="venta-apartamento"></div>
+      <div class="campo ancho"><label>Token de acceso</label>
+        <input id="ghToken" type="password" placeholder="github_pat_…">
+        <span class="ayuda">Crear en: GitHub → Settings → Developer settings → Fine-grained tokens →
+        Generate new token. En "Repository access" elige solo tu repositorio y en "Permissions"
+        da a <b>Contents</b> permiso <b>Read and write</b>.</span></div>
+    </div>
+    <div class="pie-modal">
+      <button class="btn peligro" onclick="borrarGitHub()">Borrar conexión</button>
+      <button class="btn" onclick="cerrarModal('modalGitHub')">Cancelar</button>
+      <button class="btn primario" onclick="guardarGitHub()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<div class="estado-pub" id="estadoPub"></div>
+
+<script src="productos.js"></script>
+<script>
+/* =====================================================================
+   PANEL DE GESTIÓN — no necesitas editar este archivo.
+   ===================================================================== */
+const $ = s => document.querySelector(s);
+let productos = JSON.parse(JSON.stringify(PRODUCTOS));   // copia editable
+let config    = JSON.parse(JSON.stringify(CONFIG));
+let nuevasImagenes = {};      // ruta -> dataURL (fotos aún no subidas)
+let editandoId = null;        // id del producto en edición (null = nuevo)
+let fotosTemp = [];           // rutas de fotos del producto en el modal
+let hayCambios = false;
+
+/* ---------- utilidades ---------- */
+const slug = t => (t||"producto").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+  .replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,40) || "producto";
+
+function marcarCambios(){
+  hayCambios = true;
+  $("#pillCambios").classList.remove("oculto");
+}
+window.addEventListener("beforeunload", e => {
+  if(hayCambios){ e.preventDefault(); e.returnValue = ""; }
+});
+
+function srcFoto(ruta){ return nuevasImagenes[ruta] || ruta; }
+const SIN_FOTO = "data:image/svg+xml," + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150"><rect width="200" height="150" fill="#dde5ec"/><text x="100" y="80" font-family="sans-serif" font-size="13" fill="#8a97a4" text-anchor="middle">Sin foto</text></svg>');
+
+/* ---------- pintar lista ---------- */
+function pintar(){
+  // resumen
+  const c = e => productos.filter(p => p.estado === e).length;
+  $("#resumen").innerHTML = `
+    <span class="dato">🟢 Disponibles: <b>${c("disponible")}</b></span>
+    <span class="dato">🟠 Reservados: <b>${c("reservado")}</b></span>
+    <span class="dato">🔴 Vendidos: <b>${c("vendido")}</b></span>
+    <span class="dato">⚪ Ocultos: <b>${c("oculto")}</b></span>`;
+
+  // lista
+  $("#lista").innerHTML = productos.map((p,i) => `
+    <article class="item ${p.estado}">
+      <img class="mini-foto" src="${p.imagenes && p.imagenes.length ? srcFoto(p.imagenes[0]) : SIN_FOTO}" alt="">
+      <div class="datos">
+        <div class="cat">${p.categoria||""}</div>
+        <div class="nom">${p.nombre}</div>
+        <div class="desc">${p.descripcion||""}</div>
+        <div class="precio-linea">
+          <span>${config.moneda}</span>
+          <input type="number" value="${p.precio}" min="0"
+                 onchange="cambiarPrecio('${p.id}', this.value)">
+          ${p.precioOriginal ? `<s style="color:#98a4b0;font-size:.85rem">${config.moneda} ${p.precioOriginal}</s>` : ""}
+        </div>
+      </div>
+      <div class="item-der">
+        <div class="estados">
+          ${["disponible","reservado","vendido","oculto"].map(e => `
+            <button class="${p.estado===e ? "act-"+e : ""}"
+              onclick="cambiarEstado('${p.id}','${e}')">${e[0].toUpperCase()+e.slice(1)}</button>`).join("")}
+        </div>
+        <div class="fila-botones">
+          <button class="btn mini" onclick="mover('${p.id}',-1)" title="Subir">↑</button>
+          <button class="btn mini" onclick="mover('${p.id}',1)" title="Bajar">↓</button>
+          <button class="btn mini" onclick="abrirProducto('${p.id}')">✏️ Editar</button>
+          <button class="btn mini" onclick="duplicar('${p.id}')">⧉ Duplicar</button>
+          <button class="btn mini peligro" onclick="eliminar('${p.id}')">🗑</button>
+        </div>
+      </div>
+    </article>`).join("") || `<p style="text-align:center;color:var(--gris-texto);padding:40px">
+      No hay productos. Usa "＋ Agregar producto".</p>`;
+
+  pintarFotosPendientes();
+}
+
+function pintarFotosPendientes(){
+  const rutas = Object.keys(nuevasImagenes);
+  $("#panelFotosPend").classList.toggle("oculto", !rutas.length);
+  $("#listaFotosPend").innerHTML = rutas.map(r =>
+    `<a class="btn mini" download="${r.split("/").pop()}" href="${nuevasImagenes[r]}">⬇ ${r.split("/").pop()}</a>`).join("");
+}
+
+/* ---------- acciones rápidas ---------- */
+function buscar(id){ return productos.find(p => String(p.id) === String(id)); }
+
+function cambiarEstado(id, e){ buscar(id).estado = e; marcarCambios(); pintar(); }
+function cambiarPrecio(id, v){ buscar(id).precio = Number(v)||0; marcarCambios(); pintar(); }
+
+function eliminar(id){
+  const p = buscar(id);
+  if(!confirm(`¿Eliminar "${p.nombre}" definitivamente?\n\nConsejo: si ya se vendió, es mejor marcarlo como "Vendido"; y si solo quieres retirarlo temporalmente, usa "Oculto".`)) return;
+  productos = productos.filter(x => x !== p);
+  marcarCambios(); pintar();
+}
+
+function duplicar(id){
+  const p = JSON.parse(JSON.stringify(buscar(id)));
+  p.id = p.id + "-copia-" + Date.now().toString().slice(-4);
+  p.nombre = p.nombre + " (copia)";
+  productos.splice(productos.indexOf(buscar(id))+1, 0, p);
+  marcarCambios(); pintar();
+}
+
+function mover(id, d){
+  const i = productos.indexOf(buscar(id));
+  const j = i + d;
+  if(j < 0 || j >= productos.length) return;
+  [productos[i], productos[j]] = [productos[j], productos[i]];
+  marcarCambios(); pintar();
+}
+
+/* ---------- modal producto ---------- */
+function abrirModal(id){ $("#"+id).classList.add("abierto"); }
+function cerrarModal(id){ $("#"+id).classList.remove("abierto"); }
+document.querySelectorAll(".fondo-modal").forEach(m =>
+  m.addEventListener("click", e => { if(e.target === m) m.classList.remove("abierto"); }));
+
+function abrirProducto(id){
+  editandoId = id || null;
+  const p = id ? buscar(id) : null;
+  $("#tituloModal").textContent = p ? "Editar producto" : "Agregar producto";
+  $("#pNombre").value = p ? p.nombre : "";
+  $("#pCategoria").value = p ? p.categoria : "";
+  $("#pEstado").value = p ? p.estado : "disponible";
+  $("#pPrecio").value = p ? p.precio : "";
+  $("#pPrecioOriginal").value = p && p.precioOriginal ? p.precioOriginal : "";
+  $("#pDescripcion").value = p ? (p.descripcion||"") : "";
+  $("#pMedidas").value = p ? (p.medidas||"") : "";
+  fotosTemp = p ? [...(p.imagenes||[])] : [];
+  $("#listaCats").innerHTML = [...new Set(productos.map(x => x.categoria))]
+    .map(c => `<option value="${c}">`).join("");
+  pintarFotosModal();
+  abrirModal("modalProducto");
+}
+
+function pintarFotosModal(){
+  $("#fotosActuales").innerHTML = fotosTemp.map((r,i) => `
+    <div class="foto-mini">
+      <img src="${srcFoto(r)}">
+      ${i===0 ? '<span class="principal">Principal</span>' : ""}
+      <button onclick="quitarFoto(${i})" title="Quitar">×</button>
+    </div>`).join("");
+}
+function quitarFoto(i){
+  const r = fotosTemp.splice(i,1)[0];
+  if(nuevasImagenes[r]) delete nuevasImagenes[r];   // era nueva, se descarta
+  pintarFotosModal();
+}
+
+/* carga y compresión de fotos */
+$("#zonaCarga").onclick = () => $("#inputFotos").click();
+$("#zonaCarga").ondragover = e => { e.preventDefault(); $("#zonaCarga").classList.add("sobre"); };
+$("#zonaCarga").ondragleave = () => $("#zonaCarga").classList.remove("sobre");
+$("#zonaCarga").ondrop = e => {
+  e.preventDefault(); $("#zonaCarga").classList.remove("sobre");
+  agregarFotos([...e.dataTransfer.files]);
+};
+$("#inputFotos").onchange = e => { agregarFotos([...e.target.files]); e.target.value = ""; };
+
+async function agregarFotos(archivos){
+  const base = slug($("#pNombre").value);
+  for(const f of archivos.filter(x => x.type.startsWith("image/"))){
+    const dataUrl = await comprimir(f);
+    let n = 1, ruta;
+    do { ruta = `imagenes/${base}-${n}.jpg`; n++; }
+    while(fotosTemp.includes(ruta) || productos.some(p => (p.imagenes||[]).includes(ruta)));
+    nuevasImagenes[ruta] = dataUrl;
+    fotosTemp.push(ruta);
+  }
+  pintarFotosModal();
+}
+
+function comprimir(archivo){
+  return new Promise(res => {
+    const img = new Image();
+    img.onload = () => {
+      const MAX = 1200;
+      const esc = Math.min(1, MAX / Math.max(img.width, img.height));
+      const cv = document.createElement("canvas");
+      cv.width = Math.round(img.width * esc);
+      cv.height = Math.round(img.height * esc);
+      cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
+      res(cv.toDataURL("image/jpeg", .82));
+    };
+    img.src = URL.createObjectURL(archivo);
+  });
+}
+
+function guardarProducto(){
+  const nombre = $("#pNombre").value.trim();
+  const categoria = $("#pCategoria").value.trim();
+  const precio = Number($("#pPrecio").value);
+  if(!nombre || !categoria || !precio){
+    alert("Completa al menos: nombre, categoría y precio."); return;
+  }
+  const datos = {
+    id: editandoId || (slug(nombre) + "-" + Date.now().toString().slice(-4)),
+    nombre, categoria,
+    precio,
+    descripcion: $("#pDescripcion").value.trim(),
+    estado: $("#pEstado").value,
+    imagenes: [...fotosTemp]
+  };
+  const po = Number($("#pPrecioOriginal").value);
+  if(po) datos.precioOriginal = po;
+  const med = $("#pMedidas").value.trim();
+  if(med) datos.medidas = med;
+
+  if(editandoId){
+    const i = productos.indexOf(buscar(editandoId));
+    productos[i] = datos;
+  } else {
+    productos.unshift(datos);
+  }
+  marcarCambios();
+  cerrarModal("modalProducto");
+  pintar();
+}
+
+/* ---------- configuración general ---------- */
+function cargarConfig(){
+  $("#cfgTitulo").value = config.titulo;
+  $("#cfgSubtitulo").value = config.subtitulo;
+  $("#cfgWhatsapp").value = config.whatsapp;
+  $("#cfgMoneda").value = config.moneda;
+  $("#cfgNota").value = config.notaPie || "";
+  [["cfgTitulo","titulo"],["cfgSubtitulo","subtitulo"],["cfgWhatsapp","whatsapp"],
+   ["cfgMoneda","moneda"],["cfgNota","notaPie"]].forEach(([el,k]) =>
+    $("#"+el).addEventListener("input", e => { config[k] = e.target.value; marcarCambios(); }));
+}
+
+/* ---------- generar productos.js ---------- */
+function generarJS(){
+  const sp = p => {
+    const l = [
+      `    id: ${JSON.stringify(p.id)}`,
+      `    nombre: ${JSON.stringify(p.nombre)}`,
+      `    categoria: ${JSON.stringify(p.categoria)}`,
+      `    precio: ${Number(p.precio)}`
+    ];
+    if(p.precioOriginal) l.push(`    precioOriginal: ${Number(p.precioOriginal)}`);
+    if(p.descripcion)    l.push(`    descripcion: ${JSON.stringify(p.descripcion)}`);
+    if(p.medidas)        l.push(`    medidas: ${JSON.stringify(p.medidas)}`);
+    l.push(`    estado: ${JSON.stringify(p.estado)}`);
+    l.push(`    imagenes: ${JSON.stringify(p.imagenes||[])}`);
+    return "  {\n" + l.join(",\n") + "\n  }";
+  };
+  return `/* Archivo generado por el Panel de gestión (admin.html) — ${new Date().toLocaleString("es-GT")}.
+   Puedes editarlo a mano o seguir usando el panel. */
+
+const CONFIG = {
+  titulo:    ${JSON.stringify(config.titulo)},
+  subtitulo: ${JSON.stringify(config.subtitulo)},
+  whatsapp:  ${JSON.stringify(config.whatsapp)},
+  moneda:    ${JSON.stringify(config.moneda)},
+  notaPie:   ${JSON.stringify(config.notaPie||"")}
+};
+
+const PRODUCTOS = [
+${productos.map(sp).join(",\n\n")}
+];
+`;
+}
+
+function descargarJS(){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([generarJS()], {type:"text/javascript"}));
+  a.download = "productos.js";
+  a.click();
+  const nFotos = Object.keys(nuevasImagenes).length;
+  aviso(nFotos
+    ? `Archivo descargado. Recuerda descargar también las ${nFotos} foto(s) nueva(s) del recuadro amarillo y copiarlas en la carpeta imagenes/.`
+    : "Archivo descargado. Reemplaza el productos.js anterior (en tu carpeta y/o en GitHub).");
+}
+
+/* ---------- GitHub ---------- */
+function ghCfg(){ try { return JSON.parse(localStorage.getItem("ventaGitHub")||"null"); } catch(e){ return null; } }
+
+function cargarGitHubForm(){
+  const c = ghCfg();
+  if(!c) return;
+  $("#ghUsuario").value = c.usuario||""; $("#ghRepo").value = c.repo||""; $("#ghToken").value = c.token||"";
+}
+function guardarGitHub(){
+  const c = { usuario: $("#ghUsuario").value.trim(), repo: $("#ghRepo").value.trim(),
+              token: $("#ghToken").value.trim() };
+  if(!c.usuario || !c.repo || !c.token){ alert("Completa usuario, repositorio y token."); return; }
+  localStorage.setItem("ventaGitHub", JSON.stringify(c));
+  cerrarModal("modalGitHub");
+  aviso("Conexión guardada. Ya puedes usar 🚀 Publicar.");
+}
+function borrarGitHub(){
+  localStorage.removeItem("ventaGitHub");
+  $("#ghUsuario").value = $("#ghRepo").value = $("#ghToken").value = "";
+  aviso("Conexión eliminada de este navegador.");
+}
+
+async function ghSubir(ruta, contenidoB64, mensaje, c){
+  const url = `https://api.github.com/repos/${c.usuario}/${c.repo}/contents/${ruta}`;
+  const cab = { "Authorization": `Bearer ${c.token}`, "Accept": "application/vnd.github+json" };
+  let sha;
+  const prev = await fetch(url, { headers: cab });
+  if(prev.ok) sha = (await prev.json()).sha;
+  const r = await fetch(url, { method:"PUT", headers: cab,
+    body: JSON.stringify({ message: mensaje, content: contenidoB64, ...(sha ? {sha} : {}) }) });
+  if(!r.ok){
+    const e = await r.json().catch(()=>({}));
+    if(r.status === 401) throw new Error("GitHub rechazó el token (Bad credentials). Genera un token nuevo y pégalo COMPLETO en 🔗 GitHub (empieza con github_pat_).");
+    if(r.status === 404) throw new Error(`No se encontró el repositorio «${c.usuario}/${c.repo}». Revisa que el usuario y el nombre del repositorio estén bien escritos, que el repositorio exista y que el token tenga acceso a él.`);
+    if(r.status === 403) throw new Error("El token no tiene permiso de escritura. Al crearlo, en Permissions → Contents elige Read and write.");
+    throw new Error(`${ruta}: ${e.message || r.status}`);
+  }
+}
+
+const aB64 = s => btoa(unescape(encodeURIComponent(s)));
+
+async function publicar(){
+  const c = ghCfg();
+  if(!c){ abrirModal("modalGitHub"); return; }
+  const fotos = Object.entries(nuevasImagenes);
+  try{
+    aviso("Publicando… no cierres la página.");
+    let i = 0;
+    for(const [ruta, dataUrl] of fotos){
+      i++;
+      aviso(`Subiendo foto ${i} de ${fotos.length}…`);
+      await ghSubir(ruta, dataUrl.split(",")[1], `Foto: ${ruta}`, c);
+    }
+    aviso("Actualizando catálogo…");
+    await ghSubir("productos.js", aB64(generarJS()), "Actualización de productos desde el panel", c);
+    nuevasImagenes = {};
+    hayCambios = false;
+    $("#pillCambios").classList.add("oculto");
+    pintar();
+    aviso(`✅ Publicado. La página se actualiza en 1–2 minutos: https://${c.usuario}.github.io/${c.repo}/`, 9000);
+  }catch(err){
+    aviso("⚠️ Error al publicar: " + err.message + " — Revisa usuario, repositorio y token en 🔗 GitHub.", 10000);
+  }
+}
+
+/* ---------- avisos ---------- */
+let tAviso;
+function aviso(txt, ms=5000){
+  const e = $("#estadoPub");
+  e.textContent = txt;
+  e.classList.add("visible");
+  clearTimeout(tAviso);
+  tAviso = setTimeout(() => e.classList.remove("visible"), ms);
+}
+
+document.addEventListener("keydown", e => {
+  if(e.key === "Escape") document.querySelectorAll(".fondo-modal").forEach(m => m.classList.remove("abierto"));
+});
+
+cargarConfig();
+cargarGitHubForm();
+pintar();
+</script>
+</body>
+</html>
