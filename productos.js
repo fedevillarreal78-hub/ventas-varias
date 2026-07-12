@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 4:55:12 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 4:59:59 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -10,6 +10,36 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "divan-de-alta-categoria-5318",
+    nombre: "Divan de alta categoría",
+    categoria: "Muebles",
+    precio: 400,
+    descripcion: "Falta agregar",
+    estado: "disponible",
+    imagenes: ["imagenes/divan-de-alta-categoria-1.jpg"]
+  },
+
+  {
+    id: "mesa-apoyo-comedor-8338",
+    nombre: "Mesa apoyo comedor",
+    categoria: "Muebles",
+    precio: 800,
+    descripcion: "Falta agregar",
+    estado: "disponible",
+    imagenes: ["imagenes/mesa-apoyo-comedor-1.jpg","imagenes/mesa-apoyo-comedor-2.jpg"]
+  },
+
+  {
+    id: "mesa-apoyo-comedor-7140",
+    nombre: "Mesa apoyo comedor",
+    categoria: "Muebles",
+    precio: 600,
+    descripcion: "Agregar descripción",
+    estado: "disponible",
+    imagenes: ["imagenes/producto-1.jpg","imagenes/producto-2.jpg"]
+  },
+
   {
     id: "sofa-tres-plazas",
     nombre: "Sofá de 3 plazas",
