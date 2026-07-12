@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 5:51:33 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 5:57:51 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,32 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "mesa-ratona-mesa-de-centro-grande-de-mad-3654",
+    nombre: "Mesa ratona / mesa de centro grande de madera",
+    categoria: "Muebles",
+    precio: 720,
+    precioOriginal: 900,
+    descripcion: "Mesa de centro rectangular de madera, amplia y funcional. Diseño sobrio, firme y con excelente superficie de apoyo para sala. Se cuenta con dos mesas auxiliares del juego, más pequeñas; si son de su interés no dude en consultar.",
+    medidas: "Aprox. 130 × 70 × 45 cm",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-1.jpg"]
+  },
+
+  {
+    id: "sofa-gris-de-2-cuerpos-con-cojines-8736",
+    nombre: "Sofá gris de 2 cuerpos con cojines",
+    categoria: "Muebles",
+    precio: 1645,
+    precioOriginal: 2050,
+    descripcion: "Sofá de dos cuerpos en tono gris, con cojines decorativos incluidos. Cómodo, moderno y fácil de integrar en sala o estudio.",
+    medidas: "Aprox. 160 × 90 × 85 cm",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/sofa-gris-de-2-cuerpos-con-cojines-1.jpg","imagenes/sofa-gris-de-2-cuerpos-con-cojines-2.jpg","imagenes/sofa-gris-de-2-cuerpos-con-cojines-3.jpg"]
+  },
+
   {
     id: "mesa-auxiliar-de-mimbre-ratan-3602",
     nombre: "Mesa auxiliar de mimbre / ratán",
@@ -113,10 +139,11 @@ const PRODUCTOS = [
     id: "sofa-tres-plazas",
     nombre: "Sofá de 3 plazas",
     categoria: "Muebles",
-    precio: 2500,
-    precioOriginal: 3200,
-    descripcion: "Tela gris, 2 años de uso, excelente estado. Cojines incluidos.",
-    medidas: "210 × 90 × 85 cm",
+    precio: 1700,
+    precioOriginal: 2130,
+    descripcion: "Sofá de tres cuerpos en tono neutro, amplio y cómodo. Excelente opción para sala familiar; combina fácilmente con distintos estilos.",
+    medidas: "Aprox. 220 × 90 × 85 cm",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/sofa-de-3-plazas-1.jpg","imagenes/sofa-de-3-plazas-2.jpg","imagenes/sofa-de-3-plazas-3.jpg"]
   }
