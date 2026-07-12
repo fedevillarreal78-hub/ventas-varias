@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 5:15:19 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 5:19:15 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -6,7 +6,21 @@ const CONFIG = {
   subtitulo: "Vendemos muebles, electrodomésticos y artículos del hogar en excelente estado. Todo debe salir — escríbenos por el que te interese.",
   whatsapp:  "50230010731",
   moneda:    "Q",
-  notaPie:   "Entrega en zona 10, Frente a La Estación, Ciudad de Guatemala. Precios negociables por compra de varios artículos."
+  notaPie:   "Entrega en zona 10, Frente a La Estación, Ciudad de Guatemala. Precios negociables por compra de varios artículos.",
+  infoVenta: {
+    "comoReservar": [
+      "Elija el o los artículos de su interés y pulse el botón de WhatsApp.",
+      "La reserva se confirma con un anticipo del 20%; el saldo se cancela contra entrega a satisfacción del comprador."
+    ],
+    "condiciones": [
+      "Los precios ya incluyen un 20% de descuento sobre el valor estimado de mercado de cada artículo.",
+      "Todos los artículos se encuentran en buen estado y en pleno funcionamiento; pueden verse en persona con cita previa.",
+      "Cada ficha indica la fecha de entrega: los artículos de uso diario se entregan entre el 12 y el 14 de septiembre.",
+      "Entrega en nuestra vivienda, Zona 10 frente a La Estación; el retiro y transporte corren por cuenta del comprador.",
+      "Primero en reservar, primero en derecho."
+    ],
+    "notaFinal": "Próximamente se sumarán nuevos artículos. Si tiene interés en algo en particular, no dude en consultar disponibilidad (por ejemplo: camas, colchones, arreglos navideños completos, plantas y macetas, etc.)."
+  }
 };
 
 const PRODUCTOS = [
