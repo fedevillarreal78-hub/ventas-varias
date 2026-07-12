@@ -97,6 +97,23 @@
   .visor .flecha{background:rgba(255,255,255,.2); color:var(--blanco); width:44px; height:44px; font-size:24px;}
   .visor .pie{color:#cdd8e2; margin-top:12px; font-size:.95rem;}
 
+  /* ---------- Información de venta ---------- */
+  .info-venta{max-width:1180px; margin:16px auto 0; padding:0 16px;}
+  .info-venta .caja{background:var(--blanco); border-radius:var(--radio); box-shadow:var(--sombra);
+    padding:18px 22px;}
+  details.info-venta .caja{margin-top:10px;}
+  details.info-venta summary{display:inline-flex; align-items:center; gap:8px; cursor:pointer;
+    background:var(--blanco); border:1px solid #d5dde5; border-radius:30px; padding:9px 18px;
+    font-weight:700; font-size:.92rem; color:var(--azul); user-select:none;}
+  details.info-venta[open] summary{border-color:var(--azul-claro);}
+  .info-venta h3{color:var(--azul); font-size:1rem; margin:14px 0 6px;}
+  .info-venta h3:first-child{margin-top:0;}
+  .info-venta ol,.info-venta ul{padding-left:22px;}
+  .info-venta li{margin:5px 0; font-size:.92rem; color:#3b4a59;}
+  .info-venta .nota-final{margin-top:14px; padding:10px 14px; background:#f0f6fb;
+    border-left:4px solid var(--azul-claro); border-radius:8px; font-size:.9rem; color:#3b4a59;}
+  section.info-venta{margin-bottom:10px;}
+
   footer{text-align:center; padding:26px 16px 36px; color:var(--gris-texto); font-size:.85rem;}
 
   @media (max-width:560px){
@@ -120,6 +137,11 @@
   </a>
 </header>
 
+<details class="info-venta" id="infoArriba" hidden>
+  <summary>ℹ️ Cómo reservar y condiciones de venta</summary>
+  <div class="caja" id="infoArribaCuerpo"></div>
+</details>
+
 <div class="controles">
   <div class="buscador">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22303e" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
@@ -134,6 +156,10 @@
 <p class="conteo" id="conteo"></p>
 
 <main class="grilla" id="grilla"></main>
+
+<section class="info-venta" id="infoAbajo" hidden>
+  <div class="caja" id="infoAbajoCuerpo"></div>
+</section>
 
 <div class="visor" id="visor">
   <button class="cerrar" onclick="cerrarVisor()">&times;</button>
@@ -178,8 +204,9 @@ function iniciar(){
   $("#contactoGeneral").href =
     `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("Hola, vi la página de venta del apartamento y quisiera más información.")}`;
 
-  // Chips de categoría generados automáticamente
-  const cats = [...new Set(visibles().map(p => p.categoria))];
+  // Categorías principales fijas + cualquier otra presente en los datos
+  const FIJAS = ["Muebles","Electrodomésticos","Bazar","Otros"];
+  const cats = [...new Set([...FIJAS, ...visibles().map(p => p.categoria)])];
   const cont = $("#filtroCategorias");
   cont.innerHTML = `<button class="chip activo" data-cat="todas">Todas</button>` +
     cats.map(c => `<button class="chip" data-cat="${c}">${c}</button>`).join("");
@@ -198,7 +225,23 @@ function iniciar(){
   });
 
   $("#busqueda").oninput = e => { textoBusqueda = e.target.value.toLowerCase(); pintar(); };
+  renderInfo();
   pintar();
+}
+
+function renderInfo(){
+  const iv = CONFIG.infoVenta;
+  if(!iv) return;
+  const bloque = `
+    <h3>📋 Cómo reservar</h3>
+    <ol>${(iv.comoReservar||[]).map(x => `<li>${x}</li>`).join("")}</ol>
+    <h3>📌 Condiciones generales</h3>
+    <ul>${(iv.condiciones||[]).map(x => `<li>${x}</li>`).join("")}</ul>
+    ${iv.notaFinal ? `<p class="nota-final">✨ ${iv.notaFinal}</p>` : ""}`;
+  $("#infoArribaCuerpo").innerHTML = bloque;
+  $("#infoAbajoCuerpo").innerHTML = bloque;
+  $("#infoArriba").hidden = false;
+  $("#infoAbajo").hidden = false;
 }
 
 function filtrados(){
@@ -245,6 +288,7 @@ function pintar(){
         <h2 class="nombre">${p.nombre}</h2>
         <p class="descripcion">${p.descripcion || ""}</p>
         ${p.medidas ? `<p class="medidas">📐 ${p.medidas}</p>` : ""}
+        ${p.entrega ? `<p class="medidas">🚚 Entrega: ${p.entrega}</p>` : ""}
         <div class="precios">
           <span class="precio">${precioFmt(p.precio)}</span>
           ${p.precioOriginal ? `<span class="precio-original">${precioFmt(p.precioOriginal)}</span>` : ""}

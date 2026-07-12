@@ -155,6 +155,12 @@
         <input id="cfgMoneda" placeholder="Q"></div>
       <div class="campo ancho"><label>Nota al pie de la página</label>
         <input id="cfgNota"></div>
+      <div class="campo ancho"><label>Cómo reservar (un paso por línea)</label>
+        <textarea id="cfgReservar" rows="3"></textarea></div>
+      <div class="campo ancho"><label>Condiciones generales (una por línea)</label>
+        <textarea id="cfgCondiciones" rows="6"></textarea></div>
+      <div class="campo ancho"><label>Nota final (próximos artículos)</label>
+        <textarea id="cfgNotaFinal" rows="2"></textarea></div>
     </div>
   </details>
 
@@ -177,8 +183,7 @@
       <div class="campo ancho"><label>Nombre del artículo *</label>
         <input id="pNombre" placeholder="Ej: Sofá de 3 plazas"></div>
       <div class="campo"><label>Categoría *</label>
-        <input id="pCategoria" list="listaCats" placeholder="Ej: Muebles">
-        <datalist id="listaCats"></datalist></div>
+        <select id="pCategoria"></select></div>
       <div class="campo"><label>Estado</label>
         <select id="pEstado">
           <option value="disponible">Disponible</option>
@@ -192,8 +197,10 @@
         <input id="pPrecioOriginal" type="number" min="0"></div>
       <div class="campo ancho"><label>Descripción</label>
         <textarea id="pDescripcion" rows="2" placeholder="Marca, estado, antigüedad…"></textarea></div>
-      <div class="campo ancho"><label>Medidas (opcional)</label>
+      <div class="campo"><label>Medidas (opcional)</label>
         <input id="pMedidas" placeholder="Ej: 210 × 90 × 85 cm"></div>
+      <div class="campo"><label>Fecha de entrega (opcional)</label>
+        <input id="pEntrega" placeholder="Ej: 12–14 de septiembre"></div>
       <div class="campo ancho"><label>Fotos (la primera es la principal)</label>
         <div class="fotos-actuales" id="fotosActuales"></div>
         <div class="zona-carga" id="zonaCarga">📷 Toca aquí o arrastra fotos<br>
@@ -243,6 +250,23 @@
 const $ = s => document.querySelector(s);
 let productos = JSON.parse(JSON.stringify(PRODUCTOS));   // copia editable
 let config    = JSON.parse(JSON.stringify(CONFIG));
+
+const CATEGORIAS = ["Muebles","Electrodomésticos","Bazar","Otros"];
+const INFO_DEFAULT = {
+  comoReservar: [
+    "Elija el o los artículos de su interés y pulse el botón de WhatsApp.",
+    "La reserva se confirma con un anticipo del 20%; el saldo se cancela contra entrega a satisfacción del comprador."
+  ],
+  condiciones: [
+    "Los precios ya incluyen un 20% de descuento sobre el valor estimado de mercado de cada artículo.",
+    "Todos los artículos se encuentran en buen estado y en pleno funcionamiento; pueden verse en persona con cita previa.",
+    "Cada ficha indica la fecha de entrega: los artículos de uso diario se entregan entre el 12 y el 14 de septiembre.",
+    "Entrega en nuestra vivienda, Zona 10 frente a La Estación; el retiro y transporte corren por cuenta del comprador.",
+    "Primero en reservar, primero en derecho."
+  ],
+  notaFinal: "Próximamente se sumarán nuevos artículos. Si tiene interés en algo en particular, no dude en consultar disponibilidad (por ejemplo: camas, colchones, arreglos navideños completos, plantas y macetas, etc.)."
+};
+if(!config.infoVenta) config.infoVenta = JSON.parse(JSON.stringify(INFO_DEFAULT));
 let nuevasImagenes = {};      // ruta -> dataURL (fotos aún no subidas)
 let editandoId = null;        // id del producto en edición (null = nuevo)
 let fotosTemp = [];           // rutas de fotos del producto en el modal
@@ -282,6 +306,7 @@ function pintar(){
         <div class="cat">${p.categoria||""}</div>
         <div class="nom">${p.nombre}</div>
         <div class="desc">${p.descripcion||""}</div>
+        ${p.entrega ? `<div class="desc">🚚 Entrega: ${p.entrega}</div>` : ""}
         <div class="precio-linea">
           <span>${config.moneda}</span>
           <input type="number" value="${p.precio}" min="0"
@@ -356,15 +381,18 @@ function abrirProducto(id){
   const p = id ? buscar(id) : null;
   $("#tituloModal").textContent = p ? "Editar producto" : "Agregar producto";
   $("#pNombre").value = p ? p.nombre : "";
-  $("#pCategoria").value = p ? p.categoria : "";
+  const catSel = $("#pCategoria");
+  catSel.innerHTML = CATEGORIAS.map(c => `<option>${c}</option>`).join("");
+  if(p && p.categoria && !CATEGORIAS.includes(p.categoria))
+    catSel.innerHTML += `<option>${p.categoria}</option>`;
+  catSel.value = p ? p.categoria : "Muebles";
   $("#pEstado").value = p ? p.estado : "disponible";
   $("#pPrecio").value = p ? p.precio : "";
   $("#pPrecioOriginal").value = p && p.precioOriginal ? p.precioOriginal : "";
   $("#pDescripcion").value = p ? (p.descripcion||"") : "";
   $("#pMedidas").value = p ? (p.medidas||"") : "";
+  $("#pEntrega").value = p ? (p.entrega||"") : "";
   fotosTemp = p ? [...(p.imagenes||[])] : [];
-  $("#listaCats").innerHTML = [...new Set(productos.map(x => x.categoria))]
-    .map(c => `<option value="${c}">`).join("");
   pintarFotosModal();
   abrirModal("modalProducto");
 }
@@ -441,6 +469,8 @@ function guardarProducto(){
   if(po) datos.precioOriginal = po;
   const med = $("#pMedidas").value.trim();
   if(med) datos.medidas = med;
+  const ent = $("#pEntrega").value.trim();
+  if(ent) datos.entrega = ent;
 
   if(editandoId){
     const i = productos.indexOf(buscar(editandoId));
@@ -463,6 +493,15 @@ function cargarConfig(){
   [["cfgTitulo","titulo"],["cfgSubtitulo","subtitulo"],["cfgWhatsapp","whatsapp"],
    ["cfgMoneda","moneda"],["cfgNota","notaPie"]].forEach(([el,k]) =>
     $("#"+el).addEventListener("input", e => { config[k] = e.target.value; marcarCambios(); }));
+
+  // Nota informativa (cómo reservar / condiciones)
+  const lineas = t => t.split("\n").map(x => x.trim()).filter(Boolean);
+  $("#cfgReservar").value = (config.infoVenta.comoReservar||[]).join("\n");
+  $("#cfgCondiciones").value = (config.infoVenta.condiciones||[]).join("\n");
+  $("#cfgNotaFinal").value = config.infoVenta.notaFinal || "";
+  $("#cfgReservar").addEventListener("input", e => { config.infoVenta.comoReservar = lineas(e.target.value); marcarCambios(); });
+  $("#cfgCondiciones").addEventListener("input", e => { config.infoVenta.condiciones = lineas(e.target.value); marcarCambios(); });
+  $("#cfgNotaFinal").addEventListener("input", e => { config.infoVenta.notaFinal = e.target.value.trim(); marcarCambios(); });
 }
 
 /* ---------- generar productos.js ---------- */
@@ -477,6 +516,7 @@ function generarJS(){
     if(p.precioOriginal) l.push(`    precioOriginal: ${Number(p.precioOriginal)}`);
     if(p.descripcion)    l.push(`    descripcion: ${JSON.stringify(p.descripcion)}`);
     if(p.medidas)        l.push(`    medidas: ${JSON.stringify(p.medidas)}`);
+    if(p.entrega)        l.push(`    entrega: ${JSON.stringify(p.entrega)}`);
     l.push(`    estado: ${JSON.stringify(p.estado)}`);
     l.push(`    imagenes: ${JSON.stringify(p.imagenes||[])}`);
     return "  {\n" + l.join(",\n") + "\n  }";
@@ -489,7 +529,8 @@ const CONFIG = {
   subtitulo: ${JSON.stringify(config.subtitulo)},
   whatsapp:  ${JSON.stringify(config.whatsapp)},
   moneda:    ${JSON.stringify(config.moneda)},
-  notaPie:   ${JSON.stringify(config.notaPie||"")}
+  notaPie:   ${JSON.stringify(config.notaPie||"")},
+  infoVenta: ${JSON.stringify(config.infoVenta || INFO_DEFAULT, null, 2).replace(/\n/g, "\n  ")}
 };
 
 const PRODUCTOS = [
