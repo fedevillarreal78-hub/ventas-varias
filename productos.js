@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:48:17 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:56:10 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -76,6 +76,7 @@ const PRODUCTOS = [
     categoria: "Bazar",
     precio: 350,
     descripcion: "Plantas de interior de gran porte con macetas. Aporta presencia y elegancia a cualquier ambiente. El precio es por cada una de ellas.",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/plantas-decorativas-varias-1.jpg","imagenes/plantas-decorativas-varias-2.jpg","imagenes/plantas-decorativas-varias-3.jpg","imagenes/plantas-decorativas-varias-4.jpg"]
   },
@@ -112,6 +113,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 800,
     descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar. Muy buen estado de los cabezales.",
+    entrega: "12-14 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
   },
@@ -135,6 +137,7 @@ const PRODUCTOS = [
     precio: 2700,
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
+    entrega: "12-14 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
   },
@@ -158,6 +161,7 @@ const PRODUCTOS = [
     precio: 200,
     precioOriginal: 350,
     descripcion: "Aspiradora compacta Armor All para sólidos y líquidos. Versátil para limpieza doméstica, auto, bodega o áreas utilitarias.",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/aspiradora-armor-all-para-solidos-y-liqu-1.jpg","imagenes/aspiradora-armor-all-para-solidos-y-liqu-2.jpg"]
   },
@@ -181,6 +185,7 @@ const PRODUCTOS = [
     precio: 150,
     precioOriginal: 255,
     descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
+    entrega: "12-14 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
   },
@@ -204,6 +209,7 @@ const PRODUCTOS = [
     precio: 200,
     precioOriginal: 230,
     descripcion: "Freidora de aire Gourmia con panel digital táctil y canasta extraíble. Práctica para cocinar más rápido y con menos aceite.",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/freidora-de-aire-gourmia-negra-1.jpg","imagenes/freidora-de-aire-gourmia-negra-2.jpg"]
   },
@@ -215,7 +221,8 @@ const PRODUCTOS = [
     precio: 1000,
     precioOriginal: 1600,
     descripcion: "Televisor Smart TCL de pantalla plana con patas laterales y marco delgado. Buena opción para sala, dormitorio o estudio; diseño sobrio y fácil de integrar.",
-    entrega: "55'",
+    medidas: "55'",
+    entrega: "12-14 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/televisor-tcl-de-pantalla-plana-55-1.jpg","imagenes/televisor-tcl-de-pantalla-plana-55-2.jpg"]
   },
@@ -228,7 +235,7 @@ const PRODUCTOS = [
     precioOriginal: 480,
     descripcion: "Mesa auxiliar de mimbre o ratán con repisa inferior. Liviana, cálida y decorativa para sala, terraza techada o rincón de lectura.",
     medidas: "Aprox. 70 × 45 × 65 cm",
-    entrega: "Entrega inmediata",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/mesa-auxiliar-de-mimbre-ratan-1.jpg"]
   },
@@ -241,6 +248,7 @@ const PRODUCTOS = [
     precioOriginal: 1300,
     descripcion: "Mueble para TV de estilo rústico, con repisa central y tres compartimentos inferiores. Ideal para organizar equipos y accesorios.",
     medidas: "Aprox. 155 × 45 × 80 cm",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/mueble-para-tv-rustico-de-madera-1.jpg"]
   },
@@ -253,6 +261,7 @@ const PRODUCTOS = [
     precioOriginal: 950,
     descripcion: "Consola de madera oscura con tres cajones y repisa inferior. Elegante, funcional y muy versátil para recibidor, comedor o sala.",
     medidas: "Aprox. 170 × 42 × 85 cm",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/consola-de-madera-oscura-con-tres-cajone-1.jpg","imagenes/consola-de-madera-oscura-con-tres-cajone-2.jpg"]
   },
@@ -265,7 +274,7 @@ const PRODUCTOS = [
     precioOriginal: 2950,
     descripcion: "Juego de comedor completo con mesa rectangular y seis sillas tapizadas. Sobrio, amplio y muy funcional para comedor familiar. Mesa con detalle en uno de los extremos, pero con muy poco uso en general.",
     medidas: "Mesa aprox. 180 × 100 × 76 cm; sillas aprox. 45 × 50 × 95 cm",
-    entrega: "Entrega inmediata",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/producto-5.jpg","imagenes/juego-de-comedor-mesa-rectangular-6-sill-1.jpg"]
   },
@@ -278,7 +287,7 @@ const PRODUCTOS = [
     precioOriginal: 380,
     descripcion: "Espejo de pie con marco negro y diseño ovalado. Ideal para dormitorio, vestidor o recibidor; aporta amplitud y estilo.",
     medidas: "Aprox. 165 × 55 × 35 cm",
-    entrega: "Disponibilidad inmediata",
+    entrega: "12-14 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/producto-3.jpg"]
   },
@@ -291,6 +300,7 @@ const PRODUCTOS = [
     precioOriginal: 2130,
     descripcion: "Sofá tipo diván de tres plazas, tapizado en tono rojo con diseño clásico. Pieza cómoda y con carácter para sala o estudio.",
     medidas: "Aprox. 210 × 85 × 80 cm",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/divan-de-alta-categoria-1.jpg"]
   },
@@ -303,6 +313,7 @@ const PRODUCTOS = [
     precioOriginal: 3200,
     descripcion: "Tela gris, 2 años de uso, excelente estado. Cojines incluidos.",
     medidas: "210 × 90 × 85 cm",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/sofa-de-3-plazas-1.jpg","imagenes/sofa-de-3-plazas-2.jpg","imagenes/sofa-de-3-plazas-3.jpg"]
   }
