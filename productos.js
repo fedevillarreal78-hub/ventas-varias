@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:08:45 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:14:42 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,52 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "lavadora-frigidaire-de-carga-superior-6072",
+    nombre: "Lavadora Frigidaire de carga superior",
+    categoria: "Electrodomésticos",
+    precio: 1200,
+    precioOriginal: 1500,
+    descripcion: "Lavadora Frigidaire de carga superior con tapa de vidrio. Gran capacidad, cómoda para uso familiar y práctica para cargas grandes.",
+    entrega: "12-14 de septiembre",
+    estado: "disponible",
+    imagenes: ["imagenes/lavadora-frigidaire-de-carga-superior-1.jpg","imagenes/lavadora-frigidaire-de-carga-superior-2.jpg"]
+  },
+
+  {
+    id: "secadora-lg-de-carga-frontal-2910",
+    nombre: "Secadora LG de carga frontal",
+    categoria: "Electrodomésticos",
+    precio: 2700,
+    precioOriginal: 3400,
+    descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar.",
+    estado: "disponible",
+    imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
+  },
+
+  {
+    id: "robot-aspirador-con-base-automatica-3195",
+    nombre: "Robot aspirador con base automática",
+    categoria: "Electrodomésticos",
+    precio: 1501,
+    precioOriginal: 1900,
+    descripcion: "Robot aspirador con base de carga y depósito automático. Muy cómodo para mantener pisos limpios con mínima intervención diaria.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/robot-aspirador-con-base-automatica-1.jpg"]
+  },
+
+  {
+    id: "aspiradora-armor-all-para-solidos-y-liqu-0569",
+    nombre: "Aspiradora Armor All para sólidos y líquidos",
+    categoria: "Muebles",
+    precio: 280,
+    precioOriginal: 350,
+    descripcion: "Aspiradora compacta Armor All para sólidos y líquidos. Versátil para limpieza doméstica, auto, bodega o áreas utilitarias.",
+    estado: "disponible",
+    imagenes: ["imagenes/aspiradora-armor-all-para-solidos-y-liqu-1.jpg","imagenes/aspiradora-armor-all-para-solidos-y-liqu-2.jpg"]
+  },
+
   {
     id: "cafetera-black-decker-programable-6867",
     nombre: "Cafetera Black+Decker programable",
