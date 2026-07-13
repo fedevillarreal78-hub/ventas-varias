@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:01:59 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:06:42 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,18 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "mesa-ratona-mesa-de-centro-grande-de-mad-7495",
+    nombre: "Mesa ratona / mesa de centro grande de madera",
+    categoria: "Muebles",
+    precio: 500,
+    descripcion: "Mesa de centro rectangular de madera, amplia y funcional. Diseño sobrio, firme y con excelente superficie de apoyo para sala. El precio es por la mesa grande, las dos mesas pequeñas (que forman parte del juego) Q200 c/u si le interesan las tres.",
+    medidas: "Aprox. 130 × 70 × 45 cm",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-1.jpg","imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-2.jpg","imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-3.jpg"]
+  },
+
   {
     id: "sillon-individual-beige-4027",
     nombre: "Sillón individual beige",
