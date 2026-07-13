@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:06:42 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:09:05 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -264,7 +264,7 @@ const PRODUCTOS = [
     medidas: "Mesa aprox. 180 × 100 × 76 cm; sillas aprox. 45 × 50 × 95 cm",
     entrega: "Entrega inmediata",
     estado: "disponible",
-    imagenes: ["imagenes/producto-4.jpg","imagenes/producto-5.jpg"]
+    imagenes: ["imagenes/producto-5.jpg","imagenes/juego-de-comedor-mesa-rectangular-6-sill-1.jpg"]
   },
 
   {
