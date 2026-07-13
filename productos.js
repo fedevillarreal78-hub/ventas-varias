@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:56:48 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:01:59 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,39 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "sillon-individual-beige-4027",
+    nombre: "Sillón individual beige",
+    categoria: "Muebles",
+    precio: 1000,
+    descripcion: "Sillón individual cómodo y elegante, perfecto para sala, dormitorio o rincón de lectura.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/sillon-individual-beige-1.jpg","imagenes/sillon-individual-beige-2.jpg"]
+  },
+
+  {
+    id: "licuadora-kitchenaid-azul-7433",
+    nombre: "Licuadora KitchenAid azul",
+    categoria: "Electrodomésticos",
+    precio: 800,
+    precioOriginal: 950,
+    descripcion: "Licuadora KitchenAid de diseño atractivo y muy buena capacidad. Ideal para smoothies, salsas y uso diario.",
+    entrega: "12-14 de septiembre",
+    estado: "disponible",
+    imagenes: ["imagenes/licuadora-kitchenaid-azul-1.jpg"]
+  },
+
+  {
+    id: "ecofiltro-blanco-con-base-de-madera-8141",
+    nombre: "Ecofiltro blanco con base de madera",
+    categoria: "Bazar",
+    precio: 200,
+    descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
+    estado: "disponible",
+    imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
+  },
+
   {
     id: "plantas-decorativas-varias-3135",
     nombre: "Plantas decorativas varias",
