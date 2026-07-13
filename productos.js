@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 5:57:51 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:08:45 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -25,29 +25,61 @@ const CONFIG = {
 
 const PRODUCTOS = [
   {
-    id: "mesa-ratona-mesa-de-centro-grande-de-mad-3654",
-    nombre: "Mesa ratona / mesa de centro grande de madera",
-    categoria: "Muebles",
-    precio: 720,
-    precioOriginal: 900,
-    descripcion: "Mesa de centro rectangular de madera, amplia y funcional. Diseño sobrio, firme y con excelente superficie de apoyo para sala. Se cuenta con dos mesas auxiliares del juego, más pequeñas; si son de su interés no dude en consultar.",
-    medidas: "Aprox. 130 × 70 × 45 cm",
+    id: "cafetera-black-decker-programable-6867",
+    nombre: "Cafetera Black+Decker programable",
+    categoria: "Electrodomésticos",
+    precio: 300,
+    precioOriginal: 400,
+    descripcion: "Cafetera Black+Decker programable con jarra térmica de acero inoxidable. Conserva mejor la temperatura y permite preparar hasta 12 tazas.",
     entrega: "Inmediata",
     estado: "disponible",
-    imagenes: ["imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-1.jpg"]
+    imagenes: ["imagenes/cafetera-black-decker-programable-1.jpg","imagenes/cafetera-black-decker-programable-2.jpg"]
   },
 
   {
-    id: "sofa-gris-de-2-cuerpos-con-cojines-8736",
-    nombre: "Sofá gris de 2 cuerpos con cojines",
-    categoria: "Muebles",
-    precio: 1645,
-    precioOriginal: 2050,
-    descripcion: "Sofá de dos cuerpos en tono gris, con cojines decorativos incluidos. Cómodo, moderno y fácil de integrar en sala o estudio.",
-    medidas: "Aprox. 160 × 90 × 85 cm",
+    id: "hervidor-electrico-de-acero-inoxidable-7946",
+    nombre: "Hervidor eléctrico de acero inoxidable",
+    categoria: "Electrodomésticos",
+    precio: 200,
+    precioOriginal: 255,
+    descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
+    estado: "disponible",
+    imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
+  },
+
+  {
+    id: "licuadora-personal-nutribullet-1034",
+    nombre: "Licuadora personal NutriBullet",
+    categoria: "Electrodomésticos",
+    precio: 390,
+    precioOriginal: 480,
+    descripcion: "Licuadora personal NutriBullet compacta con vaso individual transparente. Ideal para batidos, jugos y preparaciones rápidas.",
     entrega: "Inmediata",
     estado: "disponible",
-    imagenes: ["imagenes/sofa-gris-de-2-cuerpos-con-cojines-1.jpg","imagenes/sofa-gris-de-2-cuerpos-con-cojines-2.jpg","imagenes/sofa-gris-de-2-cuerpos-con-cojines-3.jpg"]
+    imagenes: ["imagenes/licuadora-personal-nutribullet-1.jpg","imagenes/licuadora-personal-nutribullet-2.jpg"]
+  },
+
+  {
+    id: "freidora-de-aire-gourmia-negra-3408",
+    nombre: "Freidora de aire Gourmia negra",
+    categoria: "Electrodomésticos",
+    precio: 181,
+    precioOriginal: 230,
+    descripcion: "Freidora de aire Gourmia con panel digital táctil y canasta extraíble. Práctica para cocinar más rápido y con menos aceite.",
+    estado: "disponible",
+    imagenes: ["imagenes/freidora-de-aire-gourmia-negra-1.jpg","imagenes/freidora-de-aire-gourmia-negra-2.jpg"]
+  },
+
+  {
+    id: "televisor-tcl-de-pantalla-plana-55-7870",
+    nombre: "Televisor TCL de pantalla plana 55´",
+    categoria: "Electrodomésticos",
+    precio: 1000,
+    precioOriginal: 1600,
+    descripcion: "Televisor TCL de pantalla plana con patas laterales y marco delgado. Buena opción para sala, dormitorio o estudio; diseño sobrio y fácil de integrar.",
+    entrega: "55'",
+    estado: "disponible",
+    imagenes: ["imagenes/televisor-tcl-de-pantalla-plana-55-1.jpg","imagenes/televisor-tcl-de-pantalla-plana-55-2.jpg"]
   },
 
   {
@@ -139,11 +171,10 @@ const PRODUCTOS = [
     id: "sofa-tres-plazas",
     nombre: "Sofá de 3 plazas",
     categoria: "Muebles",
-    precio: 1700,
-    precioOriginal: 2130,
-    descripcion: "Sofá de tres cuerpos en tono neutro, amplio y cómodo. Excelente opción para sala familiar; combina fácilmente con distintos estilos.",
-    medidas: "Aprox. 220 × 90 × 85 cm",
-    entrega: "Inmediata",
+    precio: 2500,
+    precioOriginal: 3200,
+    descripcion: "Tela gris, 2 años de uso, excelente estado. Cojines incluidos.",
+    medidas: "210 × 90 × 85 cm",
     estado: "disponible",
     imagenes: ["imagenes/sofa-de-3-plazas-1.jpg","imagenes/sofa-de-3-plazas-2.jpg","imagenes/sofa-de-3-plazas-3.jpg"]
   }
