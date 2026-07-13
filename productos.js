@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 7:56:10 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 5:10:10 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,17 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "apple-iphone-13-pro-max-256-gb-sierra-bl-4196",
+    nombre: "Apple iPhone 13 Pro Max 256 GB (Sierra Blue)",
+    categoria: "Electrodomésticos",
+    precio: 4100,
+    descripcion: "iPhone 13 Pro Max en excelente estado de funcionamiento y muy bien cuidado.\n* Color Sierra Blue.\n* Pantalla Super Retina XDR de 6.7\".\n* Triple cámara profesional con modo Noche, modo Cine y ProRAW.\n* Face ID.\n* Compatible con redes 5G.\n* Batería con muy buen desempeño (puede verificarse al momento de la compra).\n* Siempre utilizado con funda y protector.\nEquipo ideal para quien busca un iPhone premium con excelente rendimiento, fotografía de alta calidad y varios años más de actualizaciones de iOS.",
+    entrega: "Disponible",
+    estado: "disponible",
+    imagenes: ["imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-1.jpg","imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-2.jpg","imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-3.jpg"]
+  },
+
   {
     id: "mesa-ratona-mesa-de-centro-grande-de-mad-7495",
     nombre: "Mesa ratona / mesa de centro grande de madera",
