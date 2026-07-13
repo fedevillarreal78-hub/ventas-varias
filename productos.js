@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:14:42 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:29:01 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -62,7 +62,7 @@ const PRODUCTOS = [
   {
     id: "aspiradora-armor-all-para-solidos-y-liqu-0569",
     nombre: "Aspiradora Armor All para sólidos y líquidos",
-    categoria: "Muebles",
+    categoria: "Electrodomésticos",
     precio: 280,
     precioOriginal: 350,
     descripcion: "Aspiradora compacta Armor All para sólidos y líquidos. Versátil para limpieza doméstica, auto, bodega o áreas utilitarias.",
