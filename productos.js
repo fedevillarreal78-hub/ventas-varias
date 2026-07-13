@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:45:42 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/7/2026, 6:56:48 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,50 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "plantas-decorativas-varias-3135",
+    nombre: "Plantas decorativas varias",
+    categoria: "Bazar",
+    precio: 350,
+    descripcion: "Plantas de interior de gran porte con macetas. Aporta presencia y elegancia a cualquier ambiente. El precio es por cada una de ellas.",
+    estado: "disponible",
+    imagenes: ["imagenes/plantas-decorativas-varias-1.jpg","imagenes/plantas-decorativas-varias-2.jpg","imagenes/plantas-decorativas-varias-3.jpg","imagenes/plantas-decorativas-varias-4.jpg"]
+  },
+
+  {
+    id: "sillon-ejecutivo-ergonomico-reclinable-n-6869",
+    nombre: "Sillón ejecutivo ergonómico reclinable negro",
+    categoria: "Muebles",
+    precio: 900,
+    precioOriginal: 1100,
+    descripcion: "Sillón ejecutivo acolchado, cómodo y de gran respaldo. Ideal para oficina o escritorio personal.",
+    estado: "disponible",
+    imagenes: ["imagenes/sillon-ejecutivo-ergonomico-reclinable-n-2.jpg","imagenes/sillon-ejecutivo-ergonomico-reclinable-n-3.jpg"]
+  },
+
+  {
+    id: "escritorio-ejecutivo-de-madera-3438",
+    nombre: "Escritorio ejecutivo de madera",
+    categoria: "Muebles",
+    precio: 1400,
+    precioOriginal: 1520,
+    descripcion: "Escritorio amplio, moderno y funcional, con muy buena presencia para home office o estudio. Cómodo para trabajar con monitor y laptop.",
+    entrega: "180 x 80 x 75 cm",
+    estado: "disponible",
+    imagenes: ["imagenes/escritorio-ejecutivo-de-madera-1.jpg","imagenes/escritorio-ejecutivo-de-madera-2.jpg"]
+  },
+
+  {
+    id: "impresora-brother-multifuncional-dcp-t51-4626",
+    nombre: "Impresora Brother multifuncional DCP‑T510W",
+    categoria: "Electrodomésticos",
+    precio: 700,
+    precioOriginal: 800,
+    descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar.",
+    estado: "disponible",
+    imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
+  },
+
   {
     id: "lavadora-frigidaire-de-carga-superior-6072",
     nombre: "Lavadora Frigidaire de carga superior",
