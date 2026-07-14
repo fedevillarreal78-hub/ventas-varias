@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:30:25 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:32:43 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,16 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "mesa-auxiliar-decorativa-vintage-industr-7607",
+    nombre: "Mesa Auxiliar Decorativa Vintage / Industrial – Excelente Estado",
+    categoria: "Bazar",
+    precio: 550,
+    descripcion: "Mesa auxiliar redonda de metal con acabado vintage en color verde agua y cubierta decorativa de fibra natural.\nIdeal para sala, terraza techada, dormitorio, recibidor o como mesa de apoyo para plantas y decoración.\nSu acabado envejecido forma parte de su estilo y le aporta un diseño muy atractivo.\nSe encuentra en muy buen estado y lista para usar.\nMedidas aproximadas:\nDiámetro: 45 cm\nAltura: 55 cm",
+    estado: "disponible",
+    imagenes: ["imagenes/mesa-auxiliar-decorativa-vintage-industr-1.jpg"]
+  },
+
   {
     id: "2-juegos-de-cubiertos-home-concept-30-pi-0554",
     nombre: "2 Juegos de Cubiertos Home Concept – 30 piezas c/u – Nuevos",
