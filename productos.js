@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 5:10:10 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 6:04:24 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,7 +29,7 @@ const PRODUCTOS = [
     nombre: "Apple iPhone 13 Pro Max 256 GB (Sierra Blue)",
     categoria: "Electrodomésticos",
     precio: 4100,
-    descripcion: "iPhone 13 Pro Max en excelente estado de funcionamiento y muy bien cuidado.\n* Color Sierra Blue.\n* Pantalla Super Retina XDR de 6.7\".\n* Triple cámara profesional con modo Noche, modo Cine y ProRAW.\n* Face ID.\n* Compatible con redes 5G.\n* Batería con muy buen desempeño (puede verificarse al momento de la compra).\n* Siempre utilizado con funda y protector.\nEquipo ideal para quien busca un iPhone premium con excelente rendimiento, fotografía de alta calidad y varios años más de actualizaciones de iOS.",
+    descripcion: "iPhone 13 Pro Max en excelente estado de funcionamiento y muy bien cuidado.\n* Color Sierra Blue.\n* Pantalla Super Retina XDR de 6.7\".\n* Triple cámara profesional con modo Noche, modo Cine y ProRAW.\n* Face ID.\n* Compatible con redes 5G.\n* Batería con muy buen desempeño (87%, excelente estado).\n* Siempre utilizado con funda y protector.\nEquipo ideal para quien busca un iPhone premium con excelente rendimiento, fotografía de alta calidad y varios años más de actualizaciones de iOS.",
     entrega: "Disponible",
     estado: "disponible",
     imagenes: ["imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-1.jpg","imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-2.jpg","imagenes/apple-iphone-13-pro-max-256-gb-sierra-bl-3.jpg"]
