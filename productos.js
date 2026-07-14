@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:28:25 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:30:04 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,17 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "2-juegos-de-cubiertos-home-concept-30-pi-0554",
+    nombre: "2 Juegos de Cubiertos Home Concept – 30 piezas c/u – Nuevos",
+    categoria: "Bazar",
+    precio: 425,
+    descripcion: "Se venden dos juegos de cubiertos Home Concept de acero inoxidable.\nCada caja contiene 30 piezas y se encuentra en excelente estado, sin uso.\nIdeales para vivienda, apartamento, casa vacacional o como regalo.\nSe venden juntos (preferentemente)",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/producto-1.jpg"]
+  },
+
   {
     id: "lote-de-canastos-y-cestos-decorativos-de-2533",
     nombre: "Lote de Canastos y Cestos Decorativos de Fibra Natural – Excelente Estado",
