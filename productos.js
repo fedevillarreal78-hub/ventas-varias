@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:30:04 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:30:25 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -32,7 +32,7 @@ const PRODUCTOS = [
     descripcion: "Se venden dos juegos de cubiertos Home Concept de acero inoxidable.\nCada caja contiene 30 piezas y se encuentra en excelente estado, sin uso.\nIdeales para vivienda, apartamento, casa vacacional o como regalo.\nSe venden juntos (preferentemente)",
     entrega: "Inmediata",
     estado: "disponible",
-    imagenes: ["imagenes/producto-1.jpg"]
+    imagenes: ["imagenes/2-juegos-de-cubiertos-home-concept-30-pi-1.jpg"]
   },
 
   {
