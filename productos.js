@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 6:04:24 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:21:58 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,6 +24,36 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "mesa-auxiliar-decorativa-vintage-industr-7725",
+    nombre: "Mesa Auxiliar Decorativa Vintage / Industrial – Excelente Estado",
+    categoria: "Bazar",
+    precio: 450,
+    descripcion: "Mesa auxiliar redonda de metal con acabado vintage en color verde agua y cubierta decorativa de fibra natural.\nIdeal para sala, terraza techada, dormitorio, recibidor o como mesa de apoyo para plantas y decoración.\nSu acabado envejecido forma parte de su estilo y le aporta un diseño muy atractivo.\nSe encuentra en muy buen estado y lista para usar.\nMedidas aproximadas:\nDiámetro: 45 cm\nAltura: 55 cm",
+    estado: "disponible",
+    imagenes: ["imagenes/mesa-auxiliar-decorativa-vintage-industr-1.jpg"]
+  },
+
+  {
+    id: "2-juegos-de-cubiertos-home-concept-30-pi-9030",
+    nombre: "2 Juegos de Cubiertos Home Concept – 30 piezas c/u – Nuevos",
+    categoria: "Bazar",
+    precio: 400,
+    descripcion: "Se venden dos juegos de cubiertos Home Concept de acero inoxidable.\nCada caja contiene 30 piezas y se encuentra en excelente estado, sin uso.\nIdeales para vivienda, apartamento, casa vacacional o como regalo.\nSe venden juntos.",
+    estado: "disponible",
+    imagenes: ["imagenes/2-juegos-de-cubiertos-home-concept-30-pi-1.jpg"]
+  },
+
+  {
+    id: "lote-de-canastos-y-cestos-decorativos-de-6354",
+    nombre: "Lote de Canastos y Cestos Decorativos de Fibra Natural – Excelente Estado",
+    categoria: "Bazar",
+    precio: 700,
+    descripcion: "Se vende lote completo de canastos y cestos decorativos de excelente calidad y muy poco uso. Ideales para organizar ropa, juguetes, mantas, toallas, revistas o como elementos decorativos en salas, dormitorios, baños y terrazas.\nIncluye diferentes tamaños, modelos con tapa, cestos organizadores, un cesto de bambú para ropa y piezas de fibra natural de estilo contemporáneo.\nTodos se encuentran en muy buen estado de conservación, limpios y listos para usar.\nSe prioriza la venta del lote completo.",
+    estado: "disponible",
+    imagenes: ["imagenes/lote-de-canastos-y-cestos-decorativos-de-1.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-2.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-3.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-4.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-5.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-6.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-7.jpg"]
+  },
+
   {
     id: "apple-iphone-13-pro-max-256-gb-sierra-bl-4196",
     nombre: "Apple iPhone 13 Pro Max 256 GB (Sierra Blue)",
