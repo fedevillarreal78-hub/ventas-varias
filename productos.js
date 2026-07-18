@@ -1,10 +1,10 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/7/2026, 8:32:43 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 18/7/2026, 1:20:56 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
   titulo:    "Ventas de Apartamento",
   subtitulo: "Vendemos muebles, electrodomésticos y artículos del hogar en excelente estado. Todo debe salir — escríbenos por el que te interese.",
-  whatsapp:  "50230010731",
+  whatsapp:  "50242103112",
   moneda:    "Q",
   notaPie:   "Entrega en zona 10, Frente a La Estación, Ciudad de Guatemala. Precios negociables por compra de varios artículos.",
   infoVenta: {
