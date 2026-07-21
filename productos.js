@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 18/7/2026, 1:20:56 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 21/7/2026, 9:25:25 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -86,7 +86,7 @@ const PRODUCTOS = [
     precio: 700,
     descripcion: "Sillón individual cómodo y elegante, perfecto para sala, dormitorio o rincón de lectura.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/sillon-individual-beige-1.jpg","imagenes/sillon-individual-beige-2.jpg"]
   },
 
@@ -253,7 +253,7 @@ const PRODUCTOS = [
     precioOriginal: 230,
     descripcion: "Freidora de aire Gourmia con panel digital táctil y canasta extraíble. Práctica para cocinar más rápido y con menos aceite.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/freidora-de-aire-gourmia-negra-1.jpg","imagenes/freidora-de-aire-gourmia-negra-2.jpg"]
   },
 
