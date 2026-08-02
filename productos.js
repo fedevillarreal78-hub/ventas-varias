@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:23:14 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:24:12 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -278,7 +278,7 @@ const PRODUCTOS = [
     descripcion: "Televisor Smart TCL de pantalla plana con patas laterales y marco delgado. Buena opción para sala, dormitorio o estudio; diseño sobrio y fácil de integrar.",
     medidas: "55'",
     entrega: "12-14 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/televisor-tcl-de-pantalla-plana-55-1.jpg","imagenes/televisor-tcl-de-pantalla-plana-55-2.jpg"]
   },
 
