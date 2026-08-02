@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:22:30 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:23:14 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -343,7 +343,7 @@ const PRODUCTOS = [
     descripcion: "Espejo de pie con marco negro y diseño ovalado. Ideal para dormitorio, vestidor o recibidor; aporta amplitud y estilo.",
     medidas: "Aprox. 165 × 55 × 35 cm",
     entrega: "12-14 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/producto-3.jpg"]
   },
 
