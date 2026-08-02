@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:12:39 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:36:49 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -44,7 +44,7 @@ const PRODUCTOS = [
     precioOriginal: 4500,
     descripcion: "Cómoda cama King Size compuesta por base tapizada y colchón King Koil, ideal para quienes buscan descanso premium con excelente relación calidad-precio.\n\nEl conjunto se encuentra en muy buen estado, con uso exclusivamente residencial y mantenimiento cuidadoso. El colchón conserva muy buen soporte y confort, mientras que la base se encuentra firme y sin daños.",
     entrega: "Entre el 9 y 11 de septiembre",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/cama-king-size-king-koil-y-colchon-1.jpg"]
   },
 
