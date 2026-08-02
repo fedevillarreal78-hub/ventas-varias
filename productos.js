@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:06:38 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:12:39 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -15,7 +15,7 @@ const CONFIG = {
     "condiciones": [
       "Los precios ya incluyen un 20% de descuento sobre el valor estimado de mercado de cada artículo.",
       "Todos los artículos se encuentran en buen estado y en pleno funcionamiento; pueden verse en persona con cita previa.",
-      "Cada ficha indica la fecha de entrega: los artículos de uso diario se entregan entre el 12 y el 14 de septiembre.",
+      "Cada ficha indica la fecha de entrega: los artículos de uso diario se entregan entre el 9 y el 10 de septiembre.",
       "Entrega en nuestra vivienda, Zona 10 frente a La Estación; el retiro y transporte corren por cuenta del comprador.",
       "Primero en reservar, primero en derecho."
     ],
@@ -121,7 +121,7 @@ const PRODUCTOS = [
     precio: 950,
     precioOriginal: 1100,
     descripcion: "Licuadora KitchenAid de diseño atractivo y muy buena capacidad. Ideal para smoothies, salsas y uso diario.",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/licuadora-kitchenaid-azul-1.jpg"]
   },
@@ -132,7 +132,7 @@ const PRODUCTOS = [
     categoria: "Bazar",
     precio: 150,
     descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
-    entrega: "12-14 de Septiembre",
+    entrega: "9-10 de Septiembre",
     estado: "disponible",
     imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
   },
@@ -155,7 +155,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 1100,
     descripcion: "Sillón ejecutivo acolchado, cómodo y de gran respaldo. Ideal para oficina o escritorio personal.",
-    entrega: "Entrega 12-14 de septiembre",
+    entrega: "Entrega 9-10 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/sillon-ejecutivo-ergonomico-reclinable-n-2.jpg","imagenes/sillon-ejecutivo-ergonomico-reclinable-n-3.jpg"]
   },
@@ -168,7 +168,7 @@ const PRODUCTOS = [
     precioOriginal: 1520,
     descripcion: "Escritorio amplio, moderno y funcional, con muy buena presencia para home office o estudio. Cómodo para trabajar con monitor y laptop.",
     medidas: "180 x 80 x 75 cm",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/escritorio-ejecutivo-de-madera-1.jpg","imagenes/escritorio-ejecutivo-de-madera-2.jpg"]
   },
@@ -180,7 +180,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 800,
     descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar. Muy buen estado de los cabezales.",
-    entrega: "12-14 de septiembre",
+    entrega: "8-9 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
   },
@@ -192,7 +192,7 @@ const PRODUCTOS = [
     precio: 1350,
     precioOriginal: 1500,
     descripcion: "Lavadora Frigidaire de carga superior con tapa de vidrio. Gran capacidad, cómoda para uso familiar y práctica para cargas grandes. Capacidad de 20Kg y dos años de uso.",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "reservado",
     imagenes: ["imagenes/lavadora-frigidaire-de-carga-superior-1.jpg","imagenes/lavadora-frigidaire-de-carga-superior-2.jpg"]
   },
@@ -204,7 +204,7 @@ const PRODUCTOS = [
     precio: 2700,
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
   },
@@ -252,7 +252,7 @@ const PRODUCTOS = [
     precio: 150,
     precioOriginal: 255,
     descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
-    entrega: "12-14 de septiembre",
+    entrega: "8-10 de septiembre",
     estado: "disponible",
     imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
   },
@@ -289,7 +289,7 @@ const PRODUCTOS = [
     precioOriginal: 1600,
     descripcion: "Televisor Smart TCL de pantalla plana con patas laterales y marco delgado. Buena opción para sala, dormitorio o estudio; diseño sobrio y fácil de integrar.",
     medidas: "55'",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "reservado",
     imagenes: ["imagenes/televisor-tcl-de-pantalla-plana-55-1.jpg","imagenes/televisor-tcl-de-pantalla-plana-55-2.jpg"]
   },
@@ -354,7 +354,7 @@ const PRODUCTOS = [
     precioOriginal: 380,
     descripcion: "Espejo de pie con marco negro y diseño ovalado. Ideal para dormitorio, vestidor o recibidor; aporta amplitud y estilo.",
     medidas: "Aprox. 165 × 55 × 35 cm",
-    entrega: "12-14 de septiembre",
+    entrega: "9-10 de septiembre",
     estado: "reservado",
     imagenes: ["imagenes/producto-3.jpg"]
   },
