@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:31:22 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:33:40 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -25,23 +25,13 @@ const CONFIG = {
 
 const PRODUCTOS = [
   {
-    id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-7681",
-    nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
-    categoria: "Muebles",
-    precio: 2500,
-    precioOriginal: 2900,
-    descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.\nIncluye:\n2 cojines decorativos.\nManta decorativa",
-    estado: "disponible",
-    imagenes: ["imagenes/sillon-de-dos-cuerpos-tapizado-en-tela-g-1.jpg"]
-  },
-
-  {
-    id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-2359",
+    id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-0718",
     nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
     categoria: "Muebles",
     precio: 2500,
     precioOriginal: 2900,
     descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\n\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.",
+    entrega: "En el momento",
     estado: "disponible",
     imagenes: ["imagenes/producto-1.jpg"]
   },
