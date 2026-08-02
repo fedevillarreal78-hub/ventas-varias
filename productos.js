@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:38:02 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 4:43:45 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -10,7 +10,12 @@ const CONFIG = {
   infoVenta: {
     "comoReservar": [
       "Elija el o los artículos de su interés y pulse el botón de WhatsApp.",
-      "La reserva se confirma con un anticipo del 20%; el saldo se cancela contra entrega a satisfacción del comprador."
+      "La reserva se confirma con un anticipo del 20%; el saldo se cancela contra entrega a satisfacción del comprador.",
+      "Los datos para el pago son:",
+      "* Banco: GyT",
+      "* Cuenta: Monetaria",
+      "* Nombre: FEDERICO VILLARREAL",
+      "* Número: 02901353276"
     ],
     "condiciones": [
       "Los precios ya incluyen un 20% de descuento sobre el valor estimado de mercado de cada artículo.",
