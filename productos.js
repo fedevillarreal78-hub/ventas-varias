@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 21/7/2026, 9:25:25 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 2/8/2026, 3:07:20 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -193,7 +193,7 @@ const PRODUCTOS = [
     precioOriginal: 1900,
     descripcion: "Robot aspirador Roomba i3+ con base de carga y depósito automático. Muy cómodo para mantener pisos limpios con mínima intervención diaria. Dos años de uso. Repuestos de regalía.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/robot-aspirador-con-base-automatica-1.jpg","imagenes/robot-aspirador-con-base-automatica-2.jpg","imagenes/robot-aspirador-con-base-automatica-3.jpg"]
   },
 
@@ -318,7 +318,7 @@ const PRODUCTOS = [
     descripcion: "Juego de comedor completo con mesa rectangular y seis sillas tapizadas. Sobrio, amplio y muy funcional para comedor familiar. Mesa con detalle en uno de los extremos, pero con muy poco uso en general.",
     medidas: "Mesa aprox. 180 × 100 × 76 cm; sillas aprox. 45 × 50 × 95 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/producto-5.jpg","imagenes/juego-de-comedor-mesa-rectangular-6-sill-1.jpg"]
   },
 
