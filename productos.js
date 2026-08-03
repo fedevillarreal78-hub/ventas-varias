@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 1:20:51 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 1:30:35 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,108 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "bandeja-rectangular-1-bowl-hondo-cuadrad-8794",
+    nombre: "Bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado, todo blanco liso.",
+    categoria: "Bazar",
+    precio: 130,
+    descripcion: "Set de 3 piezas de cerámica blanca lisa, diseño moderno: 1 bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado. Combinan con cualquier decoración. Buen estado.",
+    estado: "disponible",
+    imagenes: ["imagenes/bandeja-rectangular-1-bowl-hondo-cuadrad-1.jpg"]
+  },
+
+  {
+    id: "tetera-jarra-decorativa-con-detalles-pin-5037",
+    nombre: "Tetera/jarra decorativa con detalles pintados a mano.",
+    categoria: "Bazar",
+    precio: 200,
+    descripcion: "Tetera/jarra decorativa de cerámica, diseño floral pastel con detalles pintados a mano (rosa en la tapa). Pieza ideal para té o como elemento decorativo. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/producto-2.jpg"]
+  },
+
+  {
+    id: "recipiente-de-vidrio-con-tapa-hermetica--0337",
+    nombre: "Recipiente de vidrio con tapa hermética (sello al vacío)",
+    categoria: "Muebles",
+    precio: 100,
+    precioOriginal: 150,
+    descripcion: "Recipiente de vidrio rectangular con tapa hermética (sistema de sello al vacío), ideal para conservar alimentos frescos por más tiempo. Buen estado.",
+    estado: "disponible",
+    imagenes: ["imagenes/recipiente-de-vidrio-con-tapa-hermetica--1.jpg"]
+  },
+
+  {
+    id: "1-campana-de-vidrio-con-base-borde-ondul-0470",
+    nombre: "1 campana de vidrio con base, borde ondulado",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Campana (cúpula) de vidrio con base, ideal para presentar pasteles, quesos o postres. Diseño clásico con borde ondulado. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/1-campana-de-vidrio-con-base-borde-ondul-1.jpg"]
+  },
+
+  {
+    id: "2-fuentes-redondas-de-vidrio-templado-co-3236",
+    nombre: "2 fuentes redondas de vidrio templado con tapa, tipo Pyrex",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 190,
+    descripcion: "Set de 2 fuentes redondas de vidrio templado con tapa, tipo Pyrex, ideales para horno, refrigerador o para servir en la mesa. Buen estado.",
+    estado: "disponible",
+    imagenes: ["imagenes/2-fuentes-redondas-de-vidrio-templado-co-1.jpg"]
+  },
+
+  {
+    id: "9-mini-bowls-decorativos-3-disenos-flora-1622",
+    nombre: "9 mini bowls decorativos, 3 diseños florales distintos (3 piezas cada uno), interior celeste/turquesa",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 250,
+    descripcion: "Lote de 9 mini bowls decorativos (3 diseños florales diferentes, 3 piezas cada uno), interior celeste/turquesa. Perfectos para dips, snacks o postres individuales. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/9-mini-bowls-decorativos-3-disenos-flora-1.jpg","imagenes/9-mini-bowls-decorativos-3-disenos-flora-2.jpg","imagenes/9-mini-bowls-decorativos-3-disenos-flora-3.jpg"]
+  },
+
+  {
+    id: "6-bowls-tazones-hondos-con-estampado-flo-3723",
+    nombre: "6 bowls/tazones hondos con estampado floral rojo y azul.",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 320,
+    descripcion: "Set de 6 bowls hondos de cerámica, estampado floral rojo y azul estilo vintage. Ideales para ensaladas, pasta o postres. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/6-bowls-tazones-hondos-con-estampado-flo-1.jpg"]
+  },
+
+  {
+    id: "2-platos-redondos-medianos-1-plato-con-l-7268",
+    nombre: "2 platos redondos medianos, 1 plato con lunares, 1 bandeja rectangular y 1 plato grande — diseños florales variados.",
+    categoria: "Bazar",
+    precio: 220,
+    descripcion: "Set decorativo de 5 platos de cerámica floreados, estilo vintage, diseños variados: 2 platos redondos medianos, 1 plato con lunares, 1 bandeja rectangular y 1 plato grande. Ideales para servir o decorar la mesa. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/2-platos-redondos-medianos-1-plato-con-l-1.jpg"]
+  },
+
+  {
+    id: "olla-con-tapa-sarten-grill-redonda-asade-0348",
+    nombre: "Olla con tapa + sartén grill redonda + asadera/bandeja rectangular.",
+    categoria: "Bazar",
+    precio: 450,
+    precioOriginal: 550,
+    descripcion: "Batería MasterPRO en fundición de aluminio esmaltado negro: olla con tapa, sartén grill redonda y asadera rectangular. Aptas para todo tipo de cocinas (incluida inducción). Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/olla-con-tapa-sarten-grill-redonda-asade-1.jpg"]
+  },
+
   {
     id: "wok-antiadherente-28-cm-con-tapa-de-vidr-6802",
     nombre: "Wok antiadherente 28 cm con tapa de vidrio + olla grande con inserto vaporizador + sartén individual.",
