@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 9:23:24 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 1:20:51 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,65 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "wok-antiadherente-28-cm-con-tapa-de-vidr-6802",
+    nombre: "Wok antiadherente 28 cm con tapa de vidrio + olla grande con inserto vaporizador + sartén individual.",
+    categoria: "Bazar",
+    precio: 1000,
+    precioOriginal: 1150,
+    descripcion: "Batería de cocina MasterChef \"The TV Series\", acero inoxidable premium. Incluye: wok antiadherente 28 cm con tapa de vidrio, olla grande con inserto vaporizador y sartén individual. Todo NUEVO, sin usar, en su empaque de fábrica. Precio: Q1,100 por el lote completo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-1.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-2.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-3.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-4.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-5.jpg"]
+  },
+
+  {
+    id: "6-piezas-4-sartenes-redondas-antiadheren-6568",
+    nombre: "6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera",
+    categoria: "Bazar",
+    precio: 700,
+    precioOriginal: 770,
+    descripcion: "Set de 6 sartenes antiadherentes línea \"Origen\", aluminio forjado con base de cobre y mango ergonómico. Incluye 4 sartenes redondas de distintos tamaños y 2 piezas hondas tipo wok/paellera. Todas NUEVAS, con etiqueta, sin usar.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/6-piezas-4-sartenes-redondas-antiadheren-1.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-2.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-3.jpg"]
+  },
+
+  {
+    id: "4-ollas-de-distintos-tamanos-todas-con-t-8182",
+    nombre: "4 ollas de distintos tamaños, todas con tapa de vidrio templado y asas abatibles",
+    categoria: "Bazar",
+    precio: 700,
+    precioOriginal: 800,
+    descripcion: "Batería de cocina Percutti, 4 piezas en acero inoxidable con tapas de vidrio templado y asas abatibles (olla pequeña, mediana, grande y extra grande). Buen estado, poco uso. Precio: Q850 por el set completo. Motivo de venta: nos mudamos de país.",
+    estado: "disponible",
+    imagenes: ["imagenes/4-ollas-de-distintos-tamanos-todas-con-t-1.jpg","imagenes/4-ollas-de-distintos-tamanos-todas-con-t-2.jpg"]
+  },
+
+  {
+    id: "batidora-de-inmersion-con-varilla-y-cuch-0265",
+    nombre: "Batidora de inmersión con varilla y cuchilla en acero inoxidable",
+    categoria: "Electrodomésticos",
+    precio: 220,
+    precioOriginal: 250,
+    descripcion: "Batidora de inmersión Oster, función turbo, mango ergonómico, varilla y cuchilla en acero inoxidable. NUEVA, en caja sellada.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/batidora-de-inmersion-con-varilla-y-cuch-1.jpg"]
+  },
+
+  {
+    id: "wafflera-doble-giratoria-modelo-wmd2008--2309",
+    nombre: "Wafflera doble giratoria, modelo WMD2008/WMD201",
+    categoria: "Electrodomésticos",
+    precio: 450,
+    precioOriginal: 500,
+    descripcion: "Wafflera doble giratoria Black+Decker (mod. WMD2008/WMD201). NUEVA, sin usar, en caja original. Cocina 2 waffles a la vez con sistema de rotación 360° para un dorado parejo por ambos lados. Precio: Q450. Motivo de venta: nos mudamos de país.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/wafflera-doble-giratoria-modelo-wmd2008--1.jpg"]
+  },
+
   {
     id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-0718",
     nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
