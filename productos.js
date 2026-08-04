@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 1:30:35 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 9:00:11 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,16 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "4-jarras-de-ceramica-pintadas-a-mano-col-7119",
+    nombre: "4 jarras de cerámica pintadas a mano, colección exclusiva Cemaco Costa Rica ilustrada por la artista Ana Broennimann.",
+    categoria: "Bazar",
+    precio: 300,
+    descripcion: "Set de 4 jarras de cerámica pintadas a mano, colección exclusiva \"Sonrisas de la Tierra\" de Cemaco Costa Rica, ilustrada por la reconocida artista Ana Broennimann. NUEVAS, en caja sellada de fábrica. Pieza de colección para mesa o decoración.",
+    estado: "disponible",
+    imagenes: ["imagenes/4-jarras-de-ceramica-pintadas-a-mano-col-1.jpg"]
+  },
+
   {
     id: "bandeja-rectangular-1-bowl-hondo-cuadrad-8794",
     nombre: "Bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado, todo blanco liso.",
