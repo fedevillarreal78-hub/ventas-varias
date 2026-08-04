@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 9:00:11 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 3/8/2026, 10:05:29 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -30,11 +30,637 @@ const CONFIG = {
 
 const PRODUCTOS = [
   {
+    id: "banquito-escalera-plegable-3-peldanos-ca-4722",
+    nombre: "Banquito escalera plegable, 3 peldaños (Casco Premium Folding Step Stool)",
+    categoria: "Otros",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Banquito escalera plegable de 3 peldaños con asa superior para transporte, marca Casco (Premium Folding Step Stool). Buen estado, funcional.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/banquito-escalera-plegable-3-peldanos-ca-1.jpg"]
+  },
+
+  {
+    id: "banquito-escalera-plegable-2-peldanos-1837",
+    nombre: "Banquito escalera plegable, 2 peldaños",
+    categoria: "Otros",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Banquito escalera plegable de metal, 2 peldaños antideslizantes, práctico para cocina o closet. Buen estado, funcional.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/banquito-escalera-plegable-2-peldanos-1.jpg"]
+  },
+
+  {
+    id: "fuente-de-porcelana-cuadrada-con-base-de-9901",
+    nombre: "Fuente de porcelana cuadrada con base de mimbre",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Fuente de porcelana blanca, forma cuadrada, presentada en base de mimbre tejido. Ideal para servir ensaladas o postres. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/fuente-de-porcelana-cuadrada-con-base-de-1.jpg"]
+  },
+
+  {
+    id: "tetera-de-ceramica-color-azul-liso-7023",
+    nombre: "Tetera de cerámica, color azul liso",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de cerámica esmaltada en color azul liso, con infusor interno. Diseño moderno y minimalista. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-ceramica-color-azul-liso-1.jpg"]
+  },
+
+  {
+    id: "cubitera-de-madera-con-tapa-metalica-y-p-2684",
+    nombre: "Cubitera de madera con tapa metálica y pinzas",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Cubitera de madera con tapa e interior metálico e insulado, incluye pinzas para hielo a juego. Ideal para bar en casa. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/cubitera-de-madera-con-tapa-metalica-y-p-1.jpg"]
+  },
+
+  {
+    id: "tetera-de-porcelana-motivo-floral-azul-c-9852",
+    nombre: "Tetera de porcelana, motivo floral azul con mariposas",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de porcelana, fondo azul con flores y mariposas pintadas a mano. Pieza decorativa y funcional. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-porcelana-motivo-floral-azul-c-1.jpg"]
+  },
+
+  {
+    id: "azucarera-y-cremera-ceramica-blanca-con--4571",
+    nombre: "Azucarera y cremera, cerámica blanca con rayas azules",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Azucarera con tapa y cremera a juego, cerámica blanca con rayas y borde azul. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/azucarera-y-cremera-ceramica-blanca-con--1.jpg"]
+  },
+
+  {
+    id: "par-de-bandejas-rectangulares-motivo-con-1728",
+    nombre: "Par de bandejas rectangulares, motivo conejos (roja y azul)",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Par de bandejas rectangulares de cerámica con motivo de conejos, una con borde rojo y otra con borde azul. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/par-de-bandejas-rectangulares-motivo-con-1.jpg"]
+  },
+
+  {
+    id: "set-de-6-mugs-plato-y-bandeja-diseno-lim-0236",
+    nombre: "Set de 6 mugs, plato y bandeja — diseño limones y limas, asas doradas",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 300,
+    descripcion: "Set combinado de 6 mugs con asa dorada, plato y bandeja rectangular, motivo de limones y limas en tono celeste. Buen estado, ideal para servir café o té con estilo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-6-mugs-plato-y-bandeja-diseno-lim-1.jpg"]
+  },
+
+  {
+    id: "bugatti-pasta-pizza-maquina-para-ravioli-7392",
+    nombre: "Bugatti Pasta & Pizza — máquina para ravioli",
+    categoria: "Bazar",
+    precio: 450,
+    precioOriginal: 540,
+    descripcion: "Máquina manual para hacer ravioles, marca italiana Bugatti, línea Pasta & Pizza. En su caja original. Ideal para los amantes de la pasta casera.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/bugatti-pasta-pizza-maquina-para-ravioli-1.jpg"]
+  },
+
+  {
+    id: "cuisinart-pasta-maker-maquina-electrica--0270",
+    nombre: "Cuisinart Pasta Maker (máquina eléctrica para pasta)",
+    categoria: "Bazar",
+    precio: 650,
+    precioOriginal: 780,
+    descripcion: "Máquina eléctrica para hacer pasta casera Cuisinart, con accesorios para distintos tipos de corte. En su caja original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/cuisinart-pasta-maker-maquina-electrica--1.jpg"]
+  },
+
+  {
+    id: "set-pasabahce-basic-12-piezas-6-tazas-6--7395",
+    nombre: "Set Pasabahce Basic — 12 piezas (6 tazas + 6 platos de vidrio)",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set Pasabahce Basic de 12 piezas: 6 tazas de vidrio con asa y 6 platos a juego. NUEVO, en su caja.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-pasabahce-basic-12-piezas-6-tazas-6--1.jpg"]
+  },
+
+  {
+    id: "set-bugatti-montalatte-y-2-juegos-de-taz-9213",
+    nombre: "Set Bugatti — montalatte y 2 juegos de tazas de té (vidrio borosilicato)",
+    categoria: "Bazar",
+    precio: 350,
+    precioOriginal: 420,
+    descripcion: "Set de accesorios de vidrio borosilicato marca italiana Bugatti: 1 montalatte y 2 juegos de tazas de té \"hot & cold\". Todo NUEVO, en cajas selladas. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-bugatti-montalatte-y-2-juegos-de-taz-1.jpg"]
+  },
+
+  {
+    id: "ana-broennimann-azucarera-y-cremera-sonr-6372",
+    nombre: "Ana Broennimann — azucarera y cremera \"Sonrisas de la Tierra\" (caja sellada)",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Azucarera y cremera de la colección exclusiva \"Sonrisas de la Tierra\" de Ana Broennimann para Cemaco Costa Rica. NUEVAS, en caja sellada de fábrica, con etiqueta de precio original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/ana-broennimann-azucarera-y-cremera-sonr-1.jpg"]
+  },
+
+  {
+    id: "set-de-cuchillos-profesionales-de-cocina-5547",
+    nombre: "Set de cuchillos profesionales de cocina (aprox. 10 piezas, en cajas)",
+    categoria: "Bazar",
+    precio: 950,
+    precioOriginal: 1140,
+    descripcion: "Lote de aproximadamente 10 cuchillos de cocina de gama profesional (incluye santoku, chef, deshuesador y utilitarios), cada uno NUEVO, sin usar, en su caja individual sellada. Ideal para quienes cocinan con frecuencia o para regalo. Se vende como lote completo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-cuchillos-profesionales-de-cocina-1.jpg"]
+  },
+
+  {
+    id: "taza-mug-floral-amarilla-2665",
+    nombre: "Taza mug floral amarilla",
+    categoria: "Bazar",
+    precio: 50,
+    precioOriginal: 60,
+    descripcion: "Taza tipo mug de cerámica, estampado floral en tonos amarillos, ideal para uso diario. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/taza-mug-floral-amarilla-1.jpg"]
+  },
+
+  {
+    id: "juego-de-te-oriental-azul-floral-3060",
+    nombre: "Juego de té oriental azul floral",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Juego de té de estilo oriental, porcelana azul y blanca con motivos florales. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/juego-de-te-oriental-azul-floral-1.jpg"]
+  },
+
+  {
+    id: "juego-de-te-dorado-floral-0286",
+    nombre: "Juego de té dorado floral",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Juego de té en porcelana con delicados detalles dorados y estampado floral. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/juego-de-te-dorado-floral-1.jpg"]
+  },
+
+  {
+    id: "bandeja-de-bambu-con-barra-metalica-1981",
+    nombre: "Servilletero de bambú con barra metálica",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Bandeja de servicio en bambú con barra/asa metálica, práctica para servir bebidas o como pieza decorativa. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/bandeja-de-bambu-con-barra-metalica-1.jpg"]
+  },
+
+  {
+    id: "tetera-cuadrada-de-porcelana-floral-9192",
+    nombre: "Tetera cuadrada de porcelana floral",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de porcelana, diseño de forma cuadrada poco común, estampado floral. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-cuadrada-de-porcelana-floral-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-refractarias-de-vidrio-rectangu-5580",
+    nombre: "Set de 4 refractarias de vidrio rectangulares",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 4 refractarias de vidrio templado, forma rectangular, distintos tamaños, aptas para horno y microondas. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-refractarias-de-vidrio-rectangu-1.jpg"]
+  },
+
+  {
+    id: "cremera-de-porcelana-floreada-2800",
+    nombre: "Cremera de porcelana floreada",
+    categoria: "Bazar",
+    precio: 50,
+    precioOriginal: 60,
+    descripcion: "Cremera de porcelana con estampado floral. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/cremera-de-porcelana-floreada-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-boles-hondos-conejo-y-flores-9008",
+    nombre: "Set de 4 boles hondos, conejo y flores",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 boles hondos de cerámica, motivo conejo entre flores, a juego con la bandeja de la misma colección. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-boles-hondos-conejo-y-flores-1.jpg"]
+  },
+
+  {
+    id: "caja-china-de-te-shang-pin-cha-qu-6229",
+    nombre: "Caja china de té \"Shang Pin Cha Qu\"",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 300,
+    descripcion: "Set de té chino en su caja decorativa original, colección \"Shang Pin Cha Qu\". Pieza de regalo o colección para aficionados al té chino. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/caja-china-de-te-shang-pin-cha-qu-1.jpg"]
+  },
+
+  {
+    id: "juego-de-te-chino-negro-y-dorado-0279",
+    nombre: "Juego de té chino, negro y dorado",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Juego de té chino tradicional, tetera y tazas en acabado negro con detalles dorados. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/juego-de-te-chino-negro-y-dorado-1.jpg"]
+  },
+
+  {
+    id: "caja-china-de-te-loto-azul-7504",
+    nombre: "Caja china de té Loto Azul",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de té oriental \"Loto Azul\", presentado en su caja decorativa original, ideal para regalo o para amantes del té chino. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/caja-china-de-te-loto-azul-1.jpg"]
+  },
+
+  {
+    id: "juego-de-te-infantil-diseno-casita-0435",
+    nombre: "Juego de té infantil, diseño casita",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Juego de té infantil en cerámica, diseño de casita, perfecto para juego simbólico o para coleccionistas de miniaturas. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/juego-de-te-infantil-diseno-casita-1.jpg"]
+  },
+
+  {
+    id: "tetera-de-porcelana-fina-hometrends-7675",
+    nombre: "Tetera de porcelana fina Hometrends",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de porcelana fina, marca Hometrends, acabado elegante. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-porcelana-fina-hometrends-1.jpg"]
+  },
+
+  {
+    id: "tetera-individual-floral-tropical-9875",
+    nombre: "Tetera individual floral tropical",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Tetera individual de cerámica, tamaño personal, motivo floral tropical. Ideal para una taza de té a la vez. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-individual-floral-tropical-1.jpg"]
+  },
+
+  {
+    id: "azucarera-de-porcelana-floreada-7116",
+    nombre: "Azucarera de porcelana floreada",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Azucarera de porcelana con tapa, estampado floral. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/azucarera-de-porcelana-floreada-1.jpg"]
+  },
+
+  {
+    id: "plato-decorativo-floral-tropical-2877",
+    nombre: "Plato decorativo floral tropical",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Plato decorativo de cerámica, motivo floral tropical en colores vivos. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/plato-decorativo-floral-tropical-1.jpg"]
+  },
+
+  {
+    id: "taza-con-plato-floral-amarillo-y-verde-0106",
+    nombre: "Taza con plato, floral amarillo y verde",
+    categoria: "Bazar",
+    precio: 50,
+    precioOriginal: 60,
+    descripcion: "Taza de té con su plato, estampado floral en tonos amarillo y verde. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/taza-con-plato-floral-amarillo-y-verde-1.jpg"]
+  },
+
+  {
+    id: "vajilla-azul-y-blanco-motivo-colonial-ca-1257",
+    nombre: "Vajilla azul y blanco, motivo colonial Castillo San Felipe (set completo)",
+    categoria: "Bazar",
+    precio: 600,
+    precioOriginal: 720,
+    descripcion: "Vajilla completa en cerámica azul y blanco, motivo colonial \"Castillo San Felipe\" (Río Dulce, Izabal). Incluye platos, tazas con plato, plato hondo y piezas de servicio. Buen estado, se vende como lote completo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/vajilla-azul-y-blanco-motivo-colonial-ca-1.jpg"]
+  },
+
+  {
+    id: "set-de-te-secret-de-gourmet-8509",
+    nombre: "Set de té Secret de Gourmet",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de té \"Secret de Gourmet\", ideal para preparar y servir infusiones con estilo. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-te-secret-de-gourmet-1.jpg"]
+  },
+
+  {
+    id: "set-de-6-vasos-de-cristal-crystalite-boh-6178",
+    nombre: "Set de 6 vasos de cristal Crystalite Bohemia",
+    categoria: "Bazar",
+    precio: 400,
+    precioOriginal: 480,
+    descripcion: "Set de 6 vasos de cristal genuino, marca checa Crystalite Bohemia, tallado clásico. Buen estado, sin astillas. Cristalería de calidad reconocida internacionalmente.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-6-vasos-de-cristal-crystalite-boh-1.jpg"]
+  },
+
+  {
+    id: "bandeja-de-porcelana-motivo-conejo-y-flo-3410",
+    nombre: "Bandeja de porcelana, motivo conejo y flores",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Bandeja decorativa de porcelana, motivo conejo entre flores, pintada a mano. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/bandeja-de-porcelana-motivo-conejo-y-flo-1.jpg"]
+  },
+
+  {
+    id: "saleros-mickey-y-minnie-9686",
+    nombre: "Saleros Mickey y Minnie",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Par de saleros de cerámica con diseño de Mickey y Minnie Mouse, ideales para colección o cocina temática. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/saleros-mickey-y-minnie-1.jpg"]
+  },
+
+  {
+    id: "juego-navideno-san-martin-6959",
+    nombre: "Juego navideño San Martín",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 300,
+    descripcion: "Juego de cerámica con motivos navideños, colección \"San Martín\". Ideal para decorar la mesa en la temporada de fin de año. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/juego-navideno-san-martin-1.jpg"]
+  },
+
+  {
+    id: "tetera-de-ceramica-azul-jaspeada-8518",
+    nombre: "Tetera de cerámica azul jaspeada",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de cerámica con acabado azul jaspeado, ideal para servir o como pieza decorativa de cocina. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-ceramica-azul-jaspeada-2.jpg"]
+  },
+
+  {
+    id: "set-de-4-platos-cuadrados-izzy-oliver-di-2668",
+    nombre: "Set de 4 platos cuadrados Izzy Oliver, diseño pájaros",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 4 platos cuadrados marca Izzy Oliver, estampado de pájaros en tonos vivos. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-platos-cuadrados-izzy-oliver-di-2.jpg"]
+  },
+
+  {
+    id: "pichel-de-ceramica-pintado-a-mano-motivo-4455",
+    nombre: "Pichel de cerámica pintado a mano, motivo heliconia, colección Ana Broennimann",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Pichel en cerámica pintada a mano, motivo heliconia, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVO, caja sellada. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/pichel-de-ceramica-pintado-a-mano-motivo-2.jpg"]
+  },
+
+  {
+    id: "caja-sellada-coleccion-ana-broennimann-m-5203",
+    nombre: "Caja sellada colección Ana Broennimann, motivo lirios amarillos",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Caja sellada, sin abrir, colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo lirios amarillos. NUEVA de fábrica, ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/caja-sellada-coleccion-ana-broennimann-m-4.jpg"]
+  },
+
+  {
+    id: "4-tazas-con-plato-en-ceramica-pintada-a--7708",
+    nombre: "4 tazas con plato en cerámica pintada a mano, colección Ana Broennimann",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 tazas con plato en cerámica pintada a mano, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVAS, caja sellada. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/4-tazas-con-plato-en-ceramica-pintada-a--2.jpg"]
+  },
+
+  {
+    id: "4-platos-de-ensalada-en-ceramica-pintada-3178",
+    nombre: "4 platos de ensalada en cerámica pintada a mano, motivo lirios blancos, colección Ana Broennimann",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 platos de ensalada en cerámica pintada a mano, motivo de lirios blancos, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada (con etiqueta de precio original). Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/4-platos-de-ensalada-en-ceramica-pintada-2.jpg"]
+  },
+
+  {
+    id: "tetera-de-vidrio-con-infusor-1935",
+    nombre: "Tetera de vidrio con infusor",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Tetera de vidrio resistente al calor con infusor removible en acero inoxidable, ideal para té de hoja suelta o hierbas. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-vidrio-con-infusor-1.jpg"]
+  },
+
+  {
+    id: "repisa-de-bambu-con-toallero-3594",
+    nombre: "Repisa de bambú con toallero",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Repisa de bambú con toallero integrado, ideal para organizar cocina o baño. Buen estado, madera en buenas condiciones.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/tetera-de-ceramica-azul-jaspeada-1.jpg","imagenes/repisa-de-bambu-con-toallero-1.jpg"]
+  },
+
+  {
+    id: "plato-decorativo-floral-amarillo-6981",
+    nombre: "Plato decorativo floral amarillo",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Plato decorativo de cerámica, motivo floral en tonos amarillos, ideal para colgar en pared o exhibir en vitrina. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-platos-cuadrados-izzy-oliver-di-1.jpg","imagenes/plato-decorativo-floral-amarillo-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-platos-cuadrados-diseno-mascota-9020",
+    nombre: "Set de 4 platos cuadrados, diseño mascotas",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 4 platos cuadrados de cerámica con divertidas ilustraciones de mascotas. Buen estado. Ideales para amantes de los animales o para regalo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/pichel-de-ceramica-pintado-a-mano-motivo-1.jpg","imagenes/set-de-4-platos-cuadrados-diseno-mascota-1.jpg"]
+  },
+
+  {
+    id: "caja-sellada-coleccion-ana-broennimann-m-0599",
+    nombre: "Caja sellada colección Ana Broennimann, motivo ave del paraíso",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Caja sellada, sin abrir, colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo ave del paraíso. NUEVA de fábrica, ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/caja-sellada-coleccion-ana-broennimann-m-2.jpg","imagenes/caja-sellada-coleccion-ana-broennimann-m-3.jpg"]
+  },
+
+  {
+    id: "caja-sellada-coleccion-ana-broennimann-m-7654",
+    nombre: "Caja sellada colección Ana Broennimann, motivo orquídea",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Caja sellada, sin abrir, de la colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo orquídea. NUEVA de fábrica. Ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/4-tazas-con-plato-en-ceramica-pintada-a--1.jpg","imagenes/caja-sellada-coleccion-ana-broennimann-m-1.jpg"]
+  },
+
+  {
+    id: "4-platos-de-cena-en-ceramica-pintada-a-m-6068",
+    nombre: "4 platos de cena en cerámica pintada a mano, colección Ana Broennimann",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 4 platos de cena en cerámica pintada a mano, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada (con etiqueta de precio original). Ideales para completar un juego de mesa temático o para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/4-platos-de-ensalada-en-ceramica-pintada-1.jpg","imagenes/4-platos-de-cena-en-ceramica-pintada-a-m-1.jpg"]
+  },
+
+  {
+    id: "4-platos-cuadrados-de-ceramica-diseno-mo-3143",
+    nombre: "4 platos cuadrados de cerámica, diseño mosaico floral, colección Ana Broennimann para Cemaco Costa Rica",
+    categoria: "Bazar",
+    precio: 300,
+    precioOriginal: 360,
+    descripcion: "Set de 4 platos cuadrados de cerámica, diseño mosaico floral, colección \"Sonrisas de la Tierra\" de Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/4-platos-cuadrados-de-ceramica-diseno-mo-1.jpg"]
+  },
+
+  {
     id: "4-jarras-de-ceramica-pintadas-a-mano-col-7119",
     nombre: "4 jarras de cerámica pintadas a mano, colección exclusiva Cemaco Costa Rica ilustrada por la artista Ana Broennimann.",
     categoria: "Bazar",
-    precio: 300,
-    descripcion: "Set de 4 jarras de cerámica pintadas a mano, colección exclusiva \"Sonrisas de la Tierra\" de Cemaco Costa Rica, ilustrada por la reconocida artista Ana Broennimann. NUEVAS, en caja sellada de fábrica. Pieza de colección para mesa o decoración.",
+    precio: 100,
+    precioOriginal: 120,
+    descripcion: "Set de 4 jarras de cerámica pintadas a mano, colección exclusiva \"Sonrisas de la Tierra\" de Cemaco Costa Rica, ilustrada por la reconocida artista Ana Broennimann. NUEVAS, en caja sellada de fábrica (con etiqueta de precio original). Pieza de colección para mesa o decoración. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
+    entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/4-jarras-de-ceramica-pintadas-a-mano-col-1.jpg"]
   },
