@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:17:57 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:36:52 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -306,18 +306,6 @@ const PRODUCTOS = [
   },
 
   {
-    id: "caja-china-de-te-shang-pin-cha-qu-6229",
-    nombre: "Caja china de té \"Shang Pin Cha Qu\"",
-    categoria: "Bazar",
-    precio: 250,
-    precioOriginal: 300,
-    descripcion: "Set de té chino en su caja decorativa original, colección \"Shang Pin Cha Qu\". Pieza de regalo o colección para aficionados al té chino. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/caja-china-de-te-shang-pin-cha-qu-1.jpg"]
-  },
-
-  {
     id: "juego-de-te-chino-negro-y-dorado-0279",
     nombre: "Juego de té chino, negro y dorado",
     categoria: "Bazar",
@@ -327,18 +315,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/juego-de-te-chino-negro-y-dorado-1.jpg"]
-  },
-
-  {
-    id: "caja-china-de-te-loto-azul-7504",
-    nombre: "Caja china de té Loto Azul",
-    categoria: "Bazar",
-    precio: 200,
-    precioOriginal: 240,
-    descripcion: "Set de té oriental \"Loto Azul\", presentado en su caja decorativa original, ideal para regalo o para amantes del té chino. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/caja-china-de-te-loto-azul-1.jpg"]
   },
 
   {
@@ -716,7 +692,7 @@ const PRODUCTOS = [
     precio: 150,
     precioOriginal: 190,
     descripcion: "Set de 2 fuentes redondas de vidrio templado con tapa, tipo Pyrex, ideales para horno, refrigerador o para servir en la mesa. Buen estado.",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/2-fuentes-redondas-de-vidrio-templado-co-1.jpg"]
   },
 
