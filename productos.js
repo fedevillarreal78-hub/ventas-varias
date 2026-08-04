@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:36:52 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:55:48 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -211,9 +211,9 @@ const PRODUCTOS = [
 
   {
     id: "taza-mug-floral-amarilla-2665",
-    nombre: "Taza mug floral amarilla",
+    nombre: "4 tazas mug floral amarilla",
     categoria: "Bazar",
-    precio: 50,
+    precio: 150,
     precioOriginal: 60,
     descripcion: "Taza tipo mug de cerámica, estampado floral en tonos amarillos, ideal para uso diario. Buen estado.",
     entrega: "Inmediata",
