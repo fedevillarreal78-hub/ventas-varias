@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 7:07:08 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:17:57 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -391,11 +391,11 @@ const PRODUCTOS = [
 
   {
     id: "plato-decorativo-floral-tropical-2877",
-    nombre: "Plato decorativo floral tropical",
+    nombre: "4 platos decorativos florales tropicales",
     categoria: "Bazar",
-    precio: 100,
+    precio: 350,
     precioOriginal: 120,
-    descripcion: "Plato decorativo de cerámica, motivo floral tropical en colores vivos. Buen estado.",
+    descripcion: "Platos decorativos de cerámica, motivo floral tropical en colores vivos. Buen estado.",
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/plato-decorativo-floral-tropical-1.jpg"]
