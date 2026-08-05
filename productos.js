@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 9:55:48 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 7:48:46 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -151,11 +151,11 @@ const PRODUCTOS = [
 
   {
     id: "cuisinart-pasta-maker-maquina-electrica--0270",
-    nombre: "Cuisinart Pasta Maker (máquina eléctrica para pasta)",
+    nombre: "Cuisinart Pasta Maker",
     categoria: "Bazar",
     precio: 650,
     precioOriginal: 780,
-    descripcion: "Máquina eléctrica para hacer pasta casera Cuisinart, con accesorios para distintos tipos de corte. En su caja original.",
+    descripcion: "Máquina para hacer pasta casera Cuisinart, con accesorios para distintos tipos de corte. En su caja original.",
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/cuisinart-pasta-maker-maquina-electrica--1.jpg"]
@@ -219,18 +219,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/taza-mug-floral-amarilla-1.jpg"]
-  },
-
-  {
-    id: "juego-de-te-oriental-azul-floral-3060",
-    nombre: "Juego de té oriental azul floral",
-    categoria: "Bazar",
-    precio: 200,
-    precioOriginal: 240,
-    descripcion: "Juego de té de estilo oriental, porcelana azul y blanca con motivos florales. Buen estado.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/juego-de-te-oriental-azul-floral-1.jpg"]
   },
 
   {
@@ -379,11 +367,11 @@ const PRODUCTOS = [
 
   {
     id: "taza-con-plato-floral-amarillo-y-verde-0106",
-    nombre: "Taza con plato, floral amarillo y verde",
+    nombre: "4 tazas con plato, floral amarillo y verde",
     categoria: "Bazar",
-    precio: 50,
-    precioOriginal: 60,
-    descripcion: "Taza de té con su plato, estampado floral en tonos amarillo y verde. Buen estado.",
+    precio: 150,
+    precioOriginal: 200,
+    descripcion: "4 tazas de té con su plato, estampado floral en tonos amarillo y verde. Buen estado.",
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/taza-con-plato-floral-amarillo-y-verde-1.jpg"]
@@ -438,18 +426,6 @@ const PRODUCTOS = [
   },
 
   {
-    id: "saleros-mickey-y-minnie-9686",
-    nombre: "Saleros Mickey y Minnie",
-    categoria: "Bazar",
-    precio: 100,
-    precioOriginal: 120,
-    descripcion: "Par de saleros de cerámica con diseño de Mickey y Minnie Mouse, ideales para colección o cocina temática. Buen estado.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/saleros-mickey-y-minnie-1.jpg"]
-  },
-
-  {
     id: "juego-navideno-san-martin-6959",
     nombre: "Juego navideño San Martín",
     categoria: "Bazar",
@@ -483,54 +459,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/set-de-4-platos-cuadrados-izzy-oliver-di-2.jpg"]
-  },
-
-  {
-    id: "pichel-de-ceramica-pintado-a-mano-motivo-4455",
-    nombre: "Pichel de cerámica pintado a mano, motivo heliconia, colección Ana Broennimann",
-    categoria: "Bazar",
-    precio: 100,
-    precioOriginal: 120,
-    descripcion: "Pichel en cerámica pintada a mano, motivo heliconia, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVO, caja sellada. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/pichel-de-ceramica-pintado-a-mano-motivo-2.jpg"]
-  },
-
-  {
-    id: "caja-sellada-coleccion-ana-broennimann-m-5203",
-    nombre: "Caja sellada colección Ana Broennimann, motivo lirios amarillos",
-    categoria: "Bazar",
-    precio: 150,
-    precioOriginal: 180,
-    descripcion: "Caja sellada, sin abrir, colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo lirios amarillos. NUEVA de fábrica, ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/caja-sellada-coleccion-ana-broennimann-m-4.jpg"]
-  },
-
-  {
-    id: "4-tazas-con-plato-en-ceramica-pintada-a--7708",
-    nombre: "4 tazas con plato en cerámica pintada a mano, colección Ana Broennimann",
-    categoria: "Bazar",
-    precio: 150,
-    precioOriginal: 180,
-    descripcion: "Set de 4 tazas con plato en cerámica pintada a mano, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVAS, caja sellada. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/4-tazas-con-plato-en-ceramica-pintada-a--2.jpg"]
-  },
-
-  {
-    id: "4-platos-de-ensalada-en-ceramica-pintada-3178",
-    nombre: "4 platos de ensalada en cerámica pintada a mano, motivo lirios blancos, colección Ana Broennimann",
-    categoria: "Bazar",
-    precio: 150,
-    precioOriginal: 180,
-    descripcion: "Set de 4 platos de ensalada en cerámica pintada a mano, motivo de lirios blancos, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada (con etiqueta de precio original). Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/4-platos-de-ensalada-en-ceramica-pintada-2.jpg"]
   },
 
   {
@@ -570,54 +498,6 @@ const PRODUCTOS = [
   },
 
   {
-    id: "set-de-4-platos-cuadrados-diseno-mascota-9020",
-    nombre: "Set de 4 platos cuadrados, diseño mascotas",
-    categoria: "Bazar",
-    precio: 200,
-    precioOriginal: 240,
-    descripcion: "Set de 4 platos cuadrados de cerámica con divertidas ilustraciones de mascotas. Buen estado. Ideales para amantes de los animales o para regalo.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/pichel-de-ceramica-pintado-a-mano-motivo-1.jpg","imagenes/set-de-4-platos-cuadrados-diseno-mascota-1.jpg"]
-  },
-
-  {
-    id: "caja-sellada-coleccion-ana-broennimann-m-0599",
-    nombre: "Caja sellada colección Ana Broennimann, motivo ave del paraíso",
-    categoria: "Bazar",
-    precio: 150,
-    precioOriginal: 180,
-    descripcion: "Caja sellada, sin abrir, colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo ave del paraíso. NUEVA de fábrica, ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/caja-sellada-coleccion-ana-broennimann-m-2.jpg","imagenes/caja-sellada-coleccion-ana-broennimann-m-3.jpg"]
-  },
-
-  {
-    id: "caja-sellada-coleccion-ana-broennimann-m-7654",
-    nombre: "Caja sellada colección Ana Broennimann, motivo orquídea",
-    categoria: "Bazar",
-    precio: 150,
-    precioOriginal: 180,
-    descripcion: "Caja sellada, sin abrir, de la colección exclusiva Ana Broennimann para Cemaco Costa Rica, motivo orquídea. NUEVA de fábrica. Ideal para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/4-tazas-con-plato-en-ceramica-pintada-a--1.jpg","imagenes/caja-sellada-coleccion-ana-broennimann-m-1.jpg"]
-  },
-
-  {
-    id: "4-platos-de-cena-en-ceramica-pintada-a-m-6068",
-    nombre: "4 platos de cena en cerámica pintada a mano, colección Ana Broennimann",
-    categoria: "Bazar",
-    precio: 200,
-    precioOriginal: 240,
-    descripcion: "Set de 4 platos de cena en cerámica pintada a mano, colección exclusiva Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada (con etiqueta de precio original). Ideales para completar un juego de mesa temático o para regalo. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/4-platos-de-ensalada-en-ceramica-pintada-1.jpg","imagenes/4-platos-de-cena-en-ceramica-pintada-a-m-1.jpg"]
-  },
-
-  {
     id: "4-platos-cuadrados-de-ceramica-diseno-mo-3143",
     nombre: "4 platos cuadrados de cerámica, diseño mosaico floral, colección Ana Broennimann para Cemaco Costa Rica",
     categoria: "Bazar",
@@ -627,18 +507,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/4-platos-cuadrados-de-ceramica-diseno-mo-1.jpg"]
-  },
-
-  {
-    id: "4-jarras-de-ceramica-pintadas-a-mano-col-7119",
-    nombre: "4 jarras de cerámica pintadas a mano, colección exclusiva Cemaco Costa Rica ilustrada por la artista Ana Broennimann.",
-    categoria: "Bazar",
-    precio: 100,
-    precioOriginal: 120,
-    descripcion: "Set de 4 jarras de cerámica pintadas a mano, colección exclusiva \"Sonrisas de la Tierra\" de Cemaco Costa Rica, ilustrada por la reconocida artista Ana Broennimann. NUEVAS, en caja sellada de fábrica (con etiqueta de precio original). Pieza de colección para mesa o decoración. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/4-jarras-de-ceramica-pintadas-a-mano-col-1.jpg"]
   },
 
   {
