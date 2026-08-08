@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 7/8/2026, 7:43:29 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 8/8/2026, 3:57:33 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -597,7 +597,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Campana (cúpula) de vidrio con base, ideal para presentar pasteles, quesos o postres. Diseño clásico con borde ondulado. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/1-campana-de-vidrio-con-base-borde-ondul-1.jpg"]
   },
 
@@ -674,6 +674,18 @@ const PRODUCTOS = [
   {
     id: "6-piezas-4-sartenes-redondas-antiadheren-6568",
     nombre: "6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera",
+    categoria: "Bazar",
+    precio: 700,
+    precioOriginal: 770,
+    descripcion: "Set de 6 sartenes antiadherentes línea \"Origen\", aluminio forjado con base de cobre y mango ergonómico. Incluye 4 sartenes redondas de distintos tamaños y 2 piezas hondas tipo wok/paellera. Todas NUEVAS, con etiqueta, sin usar.",
+    entrega: "Inmediata",
+    estado: "reservado",
+    imagenes: ["imagenes/6-piezas-4-sartenes-redondas-antiadheren-1.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-2.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-3.jpg"]
+  },
+
+  {
+    id: "6-piezas-4-sartenes-redondas-antiadheren-6568-copia-8305",
+    nombre: "6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera (copia)",
     categoria: "Bazar",
     precio: 700,
     precioOriginal: 770,
