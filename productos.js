@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 8/8/2026, 3:58:43 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 8/8/2026, 3:59:20 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -685,7 +685,7 @@ const PRODUCTOS = [
 
   {
     id: "6-piezas-4-sartenes-redondas-antiadheren-6568-copia-8305",
-    nombre: "6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera (copia)",
+    nombre: "Segundo juego de 6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera",
     categoria: "Bazar",
     precio: 700,
     precioOriginal: 770,
