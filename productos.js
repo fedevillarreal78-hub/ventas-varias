@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 4/8/2026, 7:48:46 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 7/8/2026, 6:46:40 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -654,7 +654,7 @@ const PRODUCTOS = [
     precioOriginal: 250,
     descripcion: "Batidora de inmersión Oster, función turbo, mango ergonómico, varilla y cuchilla en acero inoxidable. NUEVA, en caja sellada.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/batidora-de-inmersion-con-varilla-y-cuch-1.jpg"]
   },
 
@@ -899,7 +899,7 @@ const PRODUCTOS = [
     precioOriginal: 480,
     descripcion: "Licuadora personal NutriBullet compacta con vaso individual transparente. Ideal para batidos, jugos y preparaciones rápidas.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/licuadora-personal-nutribullet-1.jpg","imagenes/licuadora-personal-nutribullet-2.jpg"]
   },
 
