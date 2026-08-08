@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 7/8/2026, 6:53:32 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 7/8/2026, 7:43:29 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,54 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "colorescencia-julio-cesar-valverde-set-d-5330",
+    nombre: "Colorescencia (Julio César Valverde) — set de 4 platos cuadrados decorativos, edición limitada",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 4 platos/platones cuadrados de cerámica, edición limitada \"Colorescencia\" del artista costarricense Julio César Valverde, colección \"Trazos Criollos\" exclusiva de Cemaco Costa Rica. Cada plato presenta una ilustración distinta (medias de patrones geométricos multicolor con distintas razas de perro). NUEVOS, en su caja original. Pieza de colección de arte costarricense contemporáneo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/colorescencia-julio-cesar-valverde-set-d-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-platos-motivo-floral-amarillo-r-6825",
+    nombre: "Set de 4 platos, motivo floral amarillo (ramillete central)",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 platos de porcelana blanca, motivo de ramillete floral amarillo con hojas verdes, centrado en el plato. NUEVOS, en su caja original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-platos-motivo-floral-amarillo-r-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-platos-motivo-heliconia-roja-5206",
+    nombre: "Set de 4 platos, motivo heliconia roja",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 platos de porcelana blanca, motivo de heliconia roja con hojas verdes, estampado tropical vívido. NUEVOS, en su caja original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-platos-motivo-heliconia-roja-1.jpg"]
+  },
+
+  {
+    id: "set-de-4-platos-motivo-floral-amarillo-d-8740",
+    nombre: "Set de 4 platos, motivo floral amarillo (diseño lateral)",
+    categoria: "Bazar",
+    precio: 150,
+    precioOriginal: 180,
+    descripcion: "Set de 4 platos de porcelana blanca con motivo floral amarillo pintado a mano en el borde. NUEVOS, en su caja original. Pieza de mesa o decoración, con el mismo estilo de pincelada que otras piezas de colección ya ofrecidas en este catálogo.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-4-platos-motivo-floral-amarillo-d-1.jpg"]
+  },
+
   {
     id: "banquito-escalera-plegable-3-peldanos-ca-4722",
     nombre: "Banquito escalera plegable, 3 peldaños (Casco Premium Folding Step Stool)",
