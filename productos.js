@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 8/8/2026, 3:59:20 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 11:46:23 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,114 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "mantel-modernhome-floral-multicolor-160--9521",
+    nombre: "Mantel modernhome, floral multicolor, 160×280 cm",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 320,
+    descripcion: "Mantel de algodón 100%, estampado floral multicolor sobre fondo blanco, marca modernhome, tamaño 160×280 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mantel-modernhome-floral-multicolor-160--3.jpg","imagenes/mantel-modernhome-floral-multicolor-160--4.jpg"]
+  },
+
+  {
+    id: "mantel-modernhome-blanco-160-280-cm-5339",
+    nombre: "Mantel modernhome, blanco, 160×280 cm",
+    categoria: "Bazar",
+    precio: 300,
+    precioOriginal: 390,
+    descripcion: "Mantel de algodón fino 100%, color blanco, marca modernhome, tamaño 160×280 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mantel-modernhome-blanco-160-280-cm-3.jpg","imagenes/mantel-modernhome-blanco-160-280-cm-4.jpg"]
+  },
+
+  {
+    id: "mantel-servilletas-modernhome-hotel-coll-1895",
+    nombre: "Mantel + servilletas modernhome Hotel Collection, gris claro, 160×280 cm",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 350,
+    descripcion: "Mantel de algodón 100%, color gris claro, marca modernhome línea Hotel Collection, con vainica decorativa en el borde, tamaño 160×280 cm. Incluye juego de servilletas de tela a juego, misma colección y color. NUEVO, en su empaque original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mantel-servilletas-modernhome-hotel-coll-3.jpg","imagenes/mantel-servilletas-modernhome-hotel-coll-4.jpg"]
+  },
+
+  {
+    id: "mantel-modernhome-celeste-con-encaje-160-0451",
+    nombre: "Mantel modernhome, celeste con encaje, 160×320 cm",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 300,
+    descripcion: "Mantel de algodón 100%, color celeste, con banda de encaje crema en el borde. Marca modernhome, colección RO-02. Tamaño 160×320 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/mantel-modernhome-celeste-con-encaje-160-3.jpg"]
+  },
+
+  {
+    id: "set-de-8-servilleteras-plateadas-diseno--0333",
+    nombre: "Set de 8 servilleteras plateadas, diseño de alambre entrelazado",
+    categoria: "Bazar",
+    precio: 250,
+    precioOriginal: 350,
+    descripcion: "Set de 8 servilleteras metálicas de alambre entrelazado, acabado plateado. NUEVAS, con etiqueta de precio original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-8-servilleteras-plateadas-diseno--2.jpg"]
+  },
+
+  {
+    id: "set-de-servilletas-de-tela-motivo-huevos-8766",
+    nombre: "Set de servilletas de tela, motivo huevos multicolor",
+    categoria: "Bazar",
+    precio: 75,
+    precioOriginal: 150,
+    descripcion: "Dos paquetes de servilletas de tela de algodón, estampado de óvalos con patrones multicolor. NUEVAS, en su empaque original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-servilletas-de-tela-motivo-huevos-2.jpg"]
+  },
+
+  {
+    id: "set-de-2-bowls-decorativos-floral-rojo-y-4181",
+    nombre: "Set de 2 bowls decorativos, floral rojo y lunares turquesa",
+    categoria: "Bazar",
+    precio: 100,
+    precioOriginal: 216,
+    descripcion: "Set de 2 bowls decorativos a juego, uno rojo con motivo floral vintage y otro turquesa con lunares blancos. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-2-bowls-decorativos-floral-rojo-y-1.jpg","imagenes/set-de-2-bowls-decorativos-floral-rojo-y-2.jpg"]
+  },
+
+  {
+    id: "set-de-3-piezas-redondas-decorativas-bor-1556",
+    nombre: "Set de 3 piezas redondas decorativas, borde de madera",
+    categoria: "Bazar",
+    precio: 220,
+    precioOriginal: 264,
+    descripcion: "Set de 3 piezas redondas decorativas de tamaños graduados, borde de madera, con motivos geométrico, de espigas y de hojas onduladas. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-3-piezas-redondas-decorativas-bor-3.jpg","imagenes/set-de-3-piezas-redondas-decorativas-bor-4.jpg"]
+  },
+
+  {
+    id: "set-de-3-bandejas-cuadradas-decorativas--5424",
+    nombre: "Set de 3 bandejas cuadradas decorativas, borde dorado",
+    categoria: "Bazar",
+    precio: 200,
+    precioOriginal: 240,
+    descripcion: "Set de 3 bandejas cuadradas decorativas con borde dorado, tamaños graduados. Motivos: floral blanco y negro sobre fondo mostaza, hojas de palma blancas sobre fondo terracota, y espigas negras sobre fondo crema. Buen estado.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/set-de-3-bandejas-cuadradas-decorativas--1.jpg"]
+  },
+
   {
     id: "colorescencia-julio-cesar-valverde-set-d-5330",
     nombre: "Colorescencia (Julio César Valverde) — set de 4 platos cuadrados decorativos, edición limitada",
