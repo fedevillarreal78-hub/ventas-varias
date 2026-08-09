@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 11:46:23 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 4:03:25 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,18 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "televisor-tcl-43-smart-tv-6866",
+    nombre: "Televisor TCL 43\", Smart TV",
+    categoria: "Electrodomésticos",
+    precio: 490,
+    precioOriginal: 610,
+    descripcion: "Televisor TCL de 43 pulgadas, pantalla LED plana con marco color plateado. Funciona correctamente, sin rayones visibles en pantalla. Incluye control remoto original.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/televisor-tcl-43-smart-tv-1.jpg"]
+  },
+
   {
     id: "mantel-modernhome-floral-multicolor-160--9521",
     nombre: "Mantel modernhome, floral multicolor, 160×280 cm",
