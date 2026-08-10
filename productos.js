@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 7:49:22 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 10/8/2026, 11:08:03 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -37,7 +37,7 @@ const PRODUCTOS = [
     precioOriginal: 610,
     descripcion: "Televisor TCL de 43 pulgadas, pantalla LED plana con marco color plateado. Funciona correctamente, sin rayones visibles en pantalla. Incluye control remoto original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/televisor-tcl-43-smart-tv-1.jpg"]
   },
 
@@ -421,7 +421,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de porcelana, diseño de forma cuadrada poco común, estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/tetera-cuadrada-de-porcelana-floral-1.jpg"]
   },
 
@@ -445,7 +445,7 @@ const PRODUCTOS = [
     precioOriginal: 60,
     descripcion: "Cremera de porcelana con estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/cremera-de-porcelana-floreada-1.jpg"]
   },
 
@@ -517,7 +517,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Azucarera de porcelana con tapa, estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/azucarera-de-porcelana-floreada-1.jpg"]
   },
 
@@ -947,7 +947,7 @@ const PRODUCTOS = [
     precio: 150,
     descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
     entrega: "9-10 de Septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
   },
 
