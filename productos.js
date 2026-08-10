@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 4:03:25 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 9/8/2026, 7:49:22 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
