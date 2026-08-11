@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 10/8/2026, 11:08:03 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 10/8/2026, 7:16:28 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -553,7 +553,7 @@ const PRODUCTOS = [
     precioOriginal: 720,
     descripcion: "Vajilla completa en cerámica azul y blanco, motivo colonial \"Castillo San Felipe\" (Río Dulce, Izabal). Incluye platos, tazas con plato, plato hondo y piezas de servicio. Buen estado, se vende como lote completo.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/vajilla-azul-y-blanco-motivo-colonial-ca-1.jpg"]
   },
 
@@ -804,25 +804,13 @@ const PRODUCTOS = [
   },
 
   {
-    id: "6-piezas-4-sartenes-redondas-antiadheren-6568-copia-8305",
-    nombre: "Segundo juego de 6 piezas: 4 sartenes redondas antiadherentes de distintos tamaños + 2 piezas hondas tipo wok/paellera",
-    categoria: "Bazar",
-    precio: 700,
-    precioOriginal: 770,
-    descripcion: "Set de 6 sartenes antiadherentes línea \"Origen\", aluminio forjado con base de cobre y mango ergonómico. Incluye 4 sartenes redondas de distintos tamaños y 2 piezas hondas tipo wok/paellera. Todas NUEVAS, con etiqueta, sin usar.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/6-piezas-4-sartenes-redondas-antiadheren-1.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-2.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-3.jpg"]
-  },
-
-  {
     id: "4-ollas-de-distintos-tamanos-todas-con-t-8182",
     nombre: "4 ollas de distintos tamaños, todas con tapa de vidrio templado y asas abatibles",
     categoria: "Bazar",
     precio: 700,
     precioOriginal: 800,
     descripcion: "Batería de cocina Percutti, 4 piezas en acero inoxidable con tapas de vidrio templado y asas abatibles (olla pequeña, mediana, grande y extra grande). Buen estado, poco uso. Precio: Q850 por el set completo. Motivo de venta: nos mudamos de país.",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/4-ollas-de-distintos-tamanos-todas-con-t-1.jpg","imagenes/4-ollas-de-distintos-tamanos-todas-con-t-2.jpg"]
   },
 
@@ -879,7 +867,7 @@ const PRODUCTOS = [
     precio: 425,
     descripcion: "Se venden dos juegos de cubiertos Home Concept de acero inoxidable.\nCada caja contiene 30 piezas y se encuentra en excelente estado, sin uso.\nIdeales para vivienda, apartamento, casa vacacional o como regalo.\nSe venden juntos (preferentemente)",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/2-juegos-de-cubiertos-home-concept-30-pi-1.jpg"]
   },
 
@@ -1067,7 +1055,7 @@ const PRODUCTOS = [
     precioOriginal: 255,
     descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
     entrega: "8-10 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
   },
 
