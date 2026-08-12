@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 7:07:49 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/8/2026, 9:59:51 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -995,7 +995,7 @@ const PRODUCTOS = [
     precioOriginal: 800,
     descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar. Muy buen estado de los cabezales.",
     entrega: "8-9 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
   },
 
