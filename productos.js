@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 10/8/2026, 7:16:45 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 6:01:24 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -37,7 +37,7 @@ const PRODUCTOS = [
     precioOriginal: 610,
     descripcion: "Televisor TCL de 43 pulgadas, pantalla LED plana con marco color plateado. Funciona correctamente, sin rayones visibles en pantalla. Incluye control remoto original.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/televisor-tcl-43-smart-tv-1.jpg"]
   },
 
@@ -205,7 +205,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Banquito escalera plegable de 3 peldaños con asa superior para transporte, marca Casco (Premium Folding Step Stool). Buen estado, funcional.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/banquito-escalera-plegable-3-peldanos-ca-1.jpg"]
   },
 
@@ -265,7 +265,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de porcelana, fondo azul con flores y mariposas pintadas a mano. Pieza decorativa y funcional. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/tetera-de-porcelana-motivo-floral-azul-c-1.jpg"]
   },
 
@@ -421,7 +421,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de porcelana, diseño de forma cuadrada poco común, estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/tetera-cuadrada-de-porcelana-floral-1.jpg"]
   },
 
@@ -445,7 +445,7 @@ const PRODUCTOS = [
     precioOriginal: 60,
     descripcion: "Cremera de porcelana con estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/cremera-de-porcelana-floreada-1.jpg"]
   },
 
@@ -481,7 +481,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Juego de té infantil en cerámica, diseño de casita, perfecto para juego simbólico o para coleccionistas de miniaturas. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/juego-de-te-infantil-diseno-casita-1.jpg"]
   },
 
@@ -517,7 +517,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Azucarera de porcelana con tapa, estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/azucarera-de-porcelana-floreada-1.jpg"]
   },
 
@@ -553,7 +553,7 @@ const PRODUCTOS = [
     precioOriginal: 720,
     descripcion: "Vajilla completa en cerámica azul y blanco, motivo colonial \"Castillo San Felipe\" (Río Dulce, Izabal). Incluye platos, tazas con plato, plato hondo y piezas de servicio. Buen estado, se vende como lote completo.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/vajilla-azul-y-blanco-motivo-colonial-ca-1.jpg"]
   },
 
@@ -810,7 +810,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 800,
     descripcion: "Batería de cocina Percutti, 4 piezas en acero inoxidable con tapas de vidrio templado y asas abatibles (olla pequeña, mediana, grande y extra grande). Buen estado, poco uso. Precio: Q850 por el set completo. Motivo de venta: nos mudamos de país.",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/4-ollas-de-distintos-tamanos-todas-con-t-1.jpg","imagenes/4-ollas-de-distintos-tamanos-todas-con-t-2.jpg"]
   },
 
@@ -834,7 +834,7 @@ const PRODUCTOS = [
     precioOriginal: 500,
     descripcion: "Wafflera doble giratoria Black+Decker (mod. WMD2008/WMD201). NUEVA, sin usar, en caja original. Cocina 2 waffles a la vez con sistema de rotación 360° para un dorado parejo por ambos lados. Precio: Q450. Motivo de venta: nos mudamos de país.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/wafflera-doble-giratoria-modelo-wmd2008--1.jpg"]
   },
 
@@ -856,7 +856,7 @@ const PRODUCTOS = [
     categoria: "Bazar",
     precio: 550,
     descripcion: "Mesa auxiliar redonda de metal con acabado vintage en color verde agua y cubierta decorativa de fibra natural.\nIdeal para sala, terraza techada, dormitorio, recibidor o como mesa de apoyo para plantas y decoración.\nSu acabado envejecido forma parte de su estilo y le aporta un diseño muy atractivo.\nSe encuentra en muy buen estado y lista para usar.\nMedidas aproximadas:\nDiámetro: 45 cm\nAltura: 55 cm",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mesa-auxiliar-decorativa-vintage-industr-1.jpg"]
   },
 
@@ -867,7 +867,7 @@ const PRODUCTOS = [
     precio: 425,
     descripcion: "Se venden dos juegos de cubiertos Home Concept de acero inoxidable.\nCada caja contiene 30 piezas y se encuentra en excelente estado, sin uso.\nIdeales para vivienda, apartamento, casa vacacional o como regalo.\nSe venden juntos (preferentemente)",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/2-juegos-de-cubiertos-home-concept-30-pi-1.jpg"]
   },
 
@@ -878,7 +878,7 @@ const PRODUCTOS = [
     precio: 450,
     descripcion: "Se vende lote completo de canastos y cestos decorativos de excelente calidad y muy poco uso. Ideales para organizar ropa, juguetes, mantas, toallas, revistas o como elementos decorativos en salas, dormitorios, baños y terrazas.\nIncluye diferentes tamaños, modelos con tapa, cestos organizadores, un cesto de bambú para ropa y piezas de fibra natural de estilo contemporáneo.\nTodos se encuentran en muy buen estado de conservación, limpios y listos para usar.\nSe prioriza la venta del lote completo.\n1 cesto blanco de mimbre con tapa.\n2 canastos rectangulares con tapa.\n1 cesto de bambú para ropa.\n1 paragüero/cesto alto de fibra natural.\n2 canastos pequeños de fibra natural (\"Home\").",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/lote-de-canastos-y-cestos-decorativos-de-1.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-2.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-3.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-4.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-5.jpg","imagenes/lote-de-canastos-y-cestos-decorativos-de-6.jpg"]
   },
 
@@ -912,7 +912,7 @@ const PRODUCTOS = [
     precio: 700,
     descripcion: "Sillón individual cómodo y elegante, perfecto para sala, dormitorio o rincón de lectura.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/sillon-individual-beige-1.jpg","imagenes/sillon-individual-beige-2.jpg"]
   },
 
@@ -935,7 +935,7 @@ const PRODUCTOS = [
     precio: 150,
     descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
     entrega: "9-10 de Septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
   },
 
@@ -1079,7 +1079,7 @@ const PRODUCTOS = [
     precioOriginal: 230,
     descripcion: "Freidora de aire Gourmia con panel digital táctil y canasta extraíble. Práctica para cocinar más rápido y con menos aceite.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/freidora-de-aire-gourmia-negra-1.jpg","imagenes/freidora-de-aire-gourmia-negra-2.jpg"]
   },
 
