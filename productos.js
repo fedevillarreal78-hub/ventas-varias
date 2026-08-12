@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/8/2026, 11:17:13 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/8/2026, 3:42:04 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -651,18 +651,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/tetera-de-vidrio-con-infusor-1.jpg"]
-  },
-
-  {
-    id: "repisa-de-bambu-con-toallero-3594",
-    nombre: "Repisa de bambú con toallero",
-    categoria: "Bazar",
-    precio: 200,
-    precioOriginal: 240,
-    descripcion: "Repisa de bambú con toallero integrado, ideal para organizar cocina o baño. Buen estado, madera en buenas condiciones.",
-    entrega: "Inmediata",
-    estado: "disponible",
-    imagenes: ["imagenes/tetera-de-ceramica-azul-jaspeada-1.jpg","imagenes/repisa-de-bambu-con-toallero-1.jpg"]
   },
 
   {
