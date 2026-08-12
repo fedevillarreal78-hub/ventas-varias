@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 6:01:24 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 7:02:53 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,18 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "canastos-de-fibra-natural-con-asas-juego-8551",
+    nombre: "Canastos de fibra natural con asas — juego de 3",
+    categoria: "Muebles",
+    precio: 300,
+    precioOriginal: 450,
+    descripcion: "Juego de tres canastos cuadrados tejidos en fibra natural, con asas laterales reforzadas y estructura firme que mantiene la forma aun estando vacíos. Prácticos y decorativos a la vez: sirven para guardar mantas, juguetes, revistas o ropa, y se ven muy bien bajo una consola o al pie de un mueble. En excelente estado, sin roturas ni hilos sueltos. Se venden los tres juntos",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/canastos-de-fibra-natural-con-asas-juego-1.jpg"]
+  },
+
   {
     id: "televisor-tcl-43-smart-tv-6866",
     nombre: "Televisor TCL 43\", Smart TV",
