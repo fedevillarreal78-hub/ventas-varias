@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 7:04:36 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 11/8/2026, 7:07:49 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -30,14 +30,15 @@ const CONFIG = {
 
 const PRODUCTOS = [
   {
-    id: "canastos-de-fibra-natural-con-asas-juego-8899",
-    nombre: "Canastos de fibra natural con asas — juego de 3",
-    categoria: "Bazar",
-    precio: 300,
-    precioOriginal: 450,
-    descripcion: "Juego de tres canastos cuadrados tejidos en fibra natural, con asas laterales reforzadas y estructura firme que mantiene la forma aun estando vacíos. Prácticos y decorativos a la vez: sirven para guardar mantas, juguetes, revistas o ropa, y se ven muy bien bajo una consola o al pie de un mueble. En excelente estado, sin roturas ni hilos sueltos. Se venden los tres juntos.",
+    id: "televisor-tcl-55-smart-tv-4094",
+    nombre: "Televisor TCL 55\" Smart TV",
+    categoria: "Electrodomésticos",
+    precio: 1000,
+    precioOriginal: 1400,
+    descripcion: "Televisor TCL de 55 pulgadas con Smart TV integrado: Netflix, YouTube y demás aplicaciones instaladas y funcionando, sin necesidad de dispositivos adicionales. Marco delgado y diseño sobrio que se integra bien en sala, dormitorio o estudio. Pantalla en perfecto estado, sin píxeles muertos ni manchas. Se entrega con control remoto, cable de corriente y sus patas laterales; puede probarse encendido antes de la compra.",
+    entrega: "1 de septiembre",
     estado: "disponible",
-    imagenes: ["imagenes/producto-4.jpg"]
+    imagenes: ["imagenes/televisor-tcl-55-smart-tv-1.jpg"]
   },
 
   {
