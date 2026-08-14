@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 13/8/2026, 6:02:08 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 14/8/2026, 9:12:25 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -924,7 +924,7 @@ const PRODUCTOS = [
     precioOriginal: 1100,
     descripcion: "Licuadora KitchenAid de diseño atractivo y muy buena capacidad. Ideal para smoothies, salsas y uso diario.",
     entrega: "9-10 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/licuadora-kitchenaid-azul-1.jpg"]
   },
 
