@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 12/8/2026, 3:42:04 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 13/8/2026, 6:02:03 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -775,7 +775,7 @@ const PRODUCTOS = [
     precioOriginal: 550,
     descripcion: "Batería MasterPRO en fundición de aluminio esmaltado negro: olla con tapa, sartén grill redonda y asadera rectangular. Aptas para todo tipo de cocinas (incluida inducción). Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/olla-con-tapa-sarten-grill-redonda-asade-1.jpg"]
   },
 
