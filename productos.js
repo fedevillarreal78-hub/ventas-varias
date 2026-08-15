@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 14/8/2026, 9:12:25 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 15/8/2026, 11:26:57 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -1007,7 +1007,7 @@ const PRODUCTOS = [
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
   },
 
