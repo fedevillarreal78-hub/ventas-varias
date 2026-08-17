@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 15/8/2026, 11:26:57 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 17/8/2026, 5:29:47 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -24,7 +24,7 @@ const CONFIG = {
       "Entrega en nuestra vivienda, Zona 10 frente a La Estación; el retiro y transporte corren por cuenta del comprador.",
       "Primero en reservar, primero en derecho."
     ],
-    "notaFinal": "Próximamente se sumarán nuevos artículos. Si tiene interés en algo en particular, no dude en consultar disponibilidad (por ejemplo: camas, colchones, arreglos navideños completos, plantas y macetas, etc.)."
+    "notaFinal": "Próximamente se sumarán nuevos artículos."
   }
 };
 
