@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 17/8/2026, 5:29:47 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 17/8/2026, 5:31:30 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -649,7 +649,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de vidrio resistente al calor con infusor removible en acero inoxidable, ideal para té de hoja suelta o hierbas. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/tetera-de-vidrio-con-infusor-1.jpg"]
   },
 
