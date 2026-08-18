@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 17/8/2026, 5:31:30 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 9:25:29 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -613,7 +613,7 @@ const PRODUCTOS = [
     precioOriginal: 300,
     descripcion: "Juego de cerámica con motivos navideños, colección \"San Martín\". Ideal para decorar la mesa en la temporada de fin de año. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/juego-navideno-san-martin-1.jpg"]
   },
 
@@ -649,7 +649,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de vidrio resistente al calor con infusor removible en acero inoxidable, ideal para té de hoja suelta o hierbas. Buen estado.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/tetera-de-vidrio-con-infusor-1.jpg"]
   },
 
