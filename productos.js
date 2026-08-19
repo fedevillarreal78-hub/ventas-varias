@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 7:48:47 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 7:52:49 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -585,7 +585,7 @@ const PRODUCTOS = [
     id: "set-de-6-vasos-de-cristal-crystalite-boh-6178",
     nombre: "Set de 6 vasos de cristal Crystalite Bohemia",
     categoria: "Bazar",
-    precio: 400,
+    precio: 200,
     precioOriginal: 480,
     descripcion: "Set de 6 vasos de cristal genuino, marca checa Crystalite Bohemia, tallado clásico. Buen estado, sin astillas. Cristalería de calidad reconocida internacionalmente.",
     entrega: "Inmediata",
@@ -669,7 +669,7 @@ const PRODUCTOS = [
     id: "4-platos-cuadrados-de-ceramica-diseno-mo-3143",
     nombre: "4 platos cuadrados de cerámica, diseño mosaico floral, colección Ana Broennimann para Cemaco Costa Rica",
     categoria: "Bazar",
-    precio: 300,
+    precio: 200,
     precioOriginal: 360,
     descripcion: "Set de 4 platos cuadrados de cerámica, diseño mosaico floral, colección \"Sonrisas de la Tierra\" de Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada.",
     entrega: "Inmediata",
@@ -696,17 +696,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/producto-2.jpg"]
-  },
-
-  {
-    id: "recipiente-de-vidrio-con-tapa-hermetica--0337",
-    nombre: "Recipiente de vidrio con tapa hermética (sello al vacío)",
-    categoria: "Muebles",
-    precio: 100,
-    precioOriginal: 150,
-    descripcion: "Recipiente de vidrio rectangular con tapa hermética (sistema de sello al vacío), ideal para conservar alimentos frescos por más tiempo. Buen estado.",
-    estado: "disponible",
-    imagenes: ["imagenes/recipiente-de-vidrio-con-tapa-hermetica--1.jpg"]
   },
 
   {
@@ -783,7 +772,7 @@ const PRODUCTOS = [
     id: "wok-antiadherente-28-cm-con-tapa-de-vidr-6802",
     nombre: "Wok antiadherente 28 cm con tapa de vidrio + olla grande con inserto vaporizador + sartén individual.",
     categoria: "Bazar",
-    precio: 1000,
+    precio: 500,
     precioOriginal: 1150,
     descripcion: "Batería de cocina MasterChef \"The TV Series\", acero inoxidable premium. Incluye: wok antiadherente 28 cm con tapa de vidrio, olla grande con inserto vaporizador y sartén individual. Todo NUEVO, sin usar, en su empaque de fábrica. Precio: Q1,100 por el lote completo.",
     entrega: "Inmediata",
@@ -842,7 +831,7 @@ const PRODUCTOS = [
     id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-0718",
     nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
     categoria: "Muebles",
-    precio: 2500,
+    precio: 2000,
     precioOriginal: 2900,
     descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\n\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.",
     entrega: "En el momento",
@@ -943,7 +932,8 @@ const PRODUCTOS = [
     id: "plantas-decorativas-varias-3135",
     nombre: "Plantas decorativas varias",
     categoria: "Bazar",
-    precio: 350,
+    precio: 300,
+    precioOriginal: 400,
     descripcion: "Plantas de interior de gran porte con macetas. Aporta presencia y elegancia a cualquier ambiente. El precio es por cada una de ellas.",
     entrega: "Inmediata",
     estado: "disponible",
@@ -1100,7 +1090,7 @@ const PRODUCTOS = [
     id: "mesa-auxiliar-de-mimbre-ratan-3602",
     nombre: "Mesa auxiliar de mimbre / ratán",
     categoria: "Muebles",
-    precio: 380,
+    precio: 350,
     precioOriginal: 480,
     descripcion: "Mesa auxiliar de mimbre o ratán con repisa inferior. Liviana, cálida y decorativa para sala, terraza techada o rincón de lectura.",
     medidas: "Aprox. 70 × 45 × 65 cm",
@@ -1113,7 +1103,7 @@ const PRODUCTOS = [
     id: "mueble-para-tv-rustico-de-madera-8980",
     nombre: "Mueble para TV rústico de madera",
     categoria: "Muebles",
-    precio: 950,
+    precio: 900,
     precioOriginal: 1300,
     descripcion: "Mueble para TV de estilo rústico, con repisa central y tres compartimentos inferiores. Ideal para organizar equipos y accesorios.",
     medidas: "Aprox. 155 × 45 × 80 cm",
@@ -1126,7 +1116,7 @@ const PRODUCTOS = [
     id: "consola-de-madera-oscura-con-tres-cajone-9198",
     nombre: "Consola de madera oscura con tres cajones",
     categoria: "Muebles",
-    precio: 750,
+    precio: 700,
     precioOriginal: 950,
     descripcion: "Consola de madera oscura con tres cajones y repisa inferior. Elegante, funcional y muy versátil para recibidor, comedor o sala.",
     medidas: "Aprox. 170 × 42 × 85 cm",
@@ -1178,7 +1168,7 @@ const PRODUCTOS = [
     id: "sofa-tres-plazas",
     nombre: "Sofá de 3 plazas",
     categoria: "Muebles",
-    precio: 2000,
+    precio: 2400,
     precioOriginal: 3200,
     descripcion: "Tela gris, 2 años de uso, excelente estado. Cojines incluidos.",
     medidas: "210 × 90 × 85 cm",
