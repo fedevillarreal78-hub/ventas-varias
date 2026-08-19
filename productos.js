@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 12:55:01 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 1:00:12 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,39 +29,6 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
-  {
-    id: "horno-de-microondas-digital-con-panel-de-4065",
-    nombre: "Horno de microondas digital con panel de cocción instantánea",
-    categoria: "Electrodomésticos",
-    precio: 450,
-    precioOriginal: 600,
-    descripcion: "Horno de microondas Samsung de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
-    estado: "disponible",
-    imagenes: ["imagenes/horno-de-microondas-digital-con-panel-de-1.jpg","imagenes/horno-de-microondas-digital-con-panel-de-2.jpg"]
-  },
-
-  {
-    id: "batidora-amasadora-planetaria-masterpro--3196",
-    nombre: "Batidora amasadora planetaria MasterPRO Foodies con accesorios – Nueva, sin uso",
-    categoria: "Electrodomésticos",
-    precio: 800,
-    precioOriginal: 1000,
-    descripcion: "Batidora amasadora planetaria MasterPRO Foodies, nueva y sin uso, con su caja y protecciones originales.\nBol de acero inoxidable de gran capacidad y brazo basculante para colocar y retirar el bol con facilidad.\nTapa antisalpicaduras con orificio para agregar ingredientes durante el batido, sin desorden.\nSelector de velocidades con función de pulso e incluye los tres accesorios: gancho para masa, batidor plano y batidor de globo.\nEquipo pensado para repostería y panificación en casa: masas de pan y pizza, merengues, cremas, batidos y mezclas densas que no se logran con una batidora de mano.",
-    estado: "disponible",
-    imagenes: ["imagenes/batidora-amasadora-planetaria-masterpro--1.jpg"]
-  },
-
-  {
-    id: "procesador-de-alimentos-masterpro-foodie-8539",
-    nombre: "Procesador de alimentos MasterPRO Foodies 4 en 1 – Nuevo, sin uso",
-    categoria: "Electrodomésticos",
-    precio: 700,
-    precioOriginal: 900,
-    descripcion: "Procesador de alimentos MasterPRO Foodies 4 en 1, completamente nuevo y sin uso, en su caja original sellada.\nUn solo motor de 1000 W para cuatro accesorios independientes:\n• Vaso de licuadora de 1.5 L.\n• Bol procesador de 2 L con 4 cuchillas de picado.\n• Molinillo para café, especias y granos.\n• Vaso personal portátil con tapa, para llevar.\nControl de un solo toque con programas predefinidos (picado, puré, hielo y pulso).\nIdeal para quien quiere resolver licuado, picado, molido y batidos con un solo aparato y sin ocupar espacio con varios electrodomésticos.",
-    estado: "disponible",
-    imagenes: ["imagenes/procesador-de-alimentos-masterpro-foodie-2.jpg","imagenes/procesador-de-alimentos-masterpro-foodie-1.jpg"]
-  },
-
   {
     id: "televisor-tcl-55-smart-tv-4094",
     nombre: "Televisor TCL 55\" Smart TV",
@@ -286,7 +253,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de cerámica esmaltada en color azul liso, con infusor interno. Diseño moderno y minimalista. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/tetera-de-ceramica-color-azul-liso-1.jpg"]
   },
 
@@ -750,7 +717,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Campana (cúpula) de vidrio con base, ideal para presentar pasteles, quesos o postres. Diseño clásico con borde ondulado. Buen estado.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/1-campana-de-vidrio-con-base-borde-ondul-1.jpg"]
   },
 
@@ -761,7 +728,7 @@ const PRODUCTOS = [
     precio: 150,
     precioOriginal: 190,
     descripcion: "Set de 2 fuentes redondas de vidrio templado con tapa, tipo Pyrex, ideales para horno, refrigerador o para servir en la mesa. Buen estado.",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/2-fuentes-redondas-de-vidrio-templado-co-1.jpg"]
   },
 
@@ -832,7 +799,7 @@ const PRODUCTOS = [
     precioOriginal: 770,
     descripcion: "Set de 6 sartenes antiadherentes línea \"Origen\", aluminio forjado con base de cobre y mango ergonómico. Incluye 4 sartenes redondas de distintos tamaños y 2 piezas hondas tipo wok/paellera. Todas NUEVAS, con etiqueta, sin usar.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/6-piezas-4-sartenes-redondas-antiadheren-1.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-2.jpg","imagenes/6-piezas-4-sartenes-redondas-antiadheren-3.jpg"]
   },
 
@@ -855,7 +822,7 @@ const PRODUCTOS = [
     precioOriginal: 250,
     descripcion: "Batidora de inmersión Oster, función turbo, mango ergonómico, varilla y cuchilla en acero inoxidable. NUEVA, en caja sellada.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/batidora-de-inmersion-con-varilla-y-cuch-1.jpg"]
   },
 
@@ -1004,7 +971,7 @@ const PRODUCTOS = [
     descripcion: "Escritorio amplio, moderno y funcional, con muy buena presencia para home office o estudio. Cómodo para trabajar con monitor y laptop.",
     medidas: "180 x 80 x 75 cm",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/escritorio-ejecutivo-de-madera-1.jpg","imagenes/escritorio-ejecutivo-de-madera-2.jpg"]
   },
 
@@ -1052,7 +1019,7 @@ const PRODUCTOS = [
     precioOriginal: 1900,
     descripcion: "Robot aspirador Roomba i3+ con base de carga y depósito automático. Muy cómodo para mantener pisos limpios con mínima intervención diaria. Dos años de uso. Repuestos de regalía.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/robot-aspirador-con-base-automatica-1.jpg","imagenes/robot-aspirador-con-base-automatica-2.jpg","imagenes/robot-aspirador-con-base-automatica-3.jpg"]
   },
 
@@ -1076,7 +1043,7 @@ const PRODUCTOS = [
     precioOriginal: 400,
     descripcion: "Cafetera Black+Decker programable con jarra térmica de acero inoxidable. Conserva mejor la temperatura y permite preparar hasta 12 tazas.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/cafetera-black-decker-programable-1.jpg","imagenes/cafetera-black-decker-programable-2.jpg"]
   },
 
@@ -1100,7 +1067,7 @@ const PRODUCTOS = [
     precioOriginal: 480,
     descripcion: "Licuadora personal NutriBullet compacta con vaso individual transparente. Ideal para batidos, jugos y preparaciones rápidas.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/licuadora-personal-nutribullet-1.jpg","imagenes/licuadora-personal-nutribullet-2.jpg"]
   },
 
