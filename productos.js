@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 2:10:18 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 2:11:43 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -30,14 +30,14 @@ const CONFIG = {
 
 const PRODUCTOS = [
   {
-    id: "horno-de-microondas-digital-con-panel-de-0985",
+    id: "horno-de-microondas-digital-con-panel-de-5754",
     nombre: "Horno de microondas digital con panel de cocción instantánea",
     categoria: "Electrodomésticos",
     precio: 450,
     precioOriginal: 600,
-    descripcion: "Horno de microondas Samsung, de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
+    descripcion: "Horno de microondas de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
     estado: "disponible",
-    imagenes: ["imagenes/producto-4.jpg","imagenes/producto-6.jpg"]
+    imagenes: ["imagenes/horno-de-microondas-digital-con-panel-de-1.jpg","imagenes/horno-de-microondas-digital-con-panel-de-2.jpg"]
   },
 
   {
