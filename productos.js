@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 3:56:37 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 7:48:47 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -971,7 +971,7 @@ const PRODUCTOS = [
     descripcion: "Escritorio amplio, moderno y funcional, con muy buena presencia para home office o estudio. Cómodo para trabajar con monitor y laptop.",
     medidas: "180 x 80 x 75 cm",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/escritorio-ejecutivo-de-madera-1.jpg","imagenes/escritorio-ejecutivo-de-madera-2.jpg"]
   },
 
