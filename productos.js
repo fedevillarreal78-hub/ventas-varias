@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 2:05:12 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 2:08:25 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,18 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "batidora-amasadora-planetaria-masterpro--9025",
+    nombre: "Batidora amasadora planetaria MasterPRO Foodies con accesorios – Nueva, sin uso",
+    categoria: "Electrodomésticos",
+    precio: 800,
+    precioOriginal: 1000,
+    descripcion: "Batidora amasadora planetaria MasterPRO Foodies, nueva y sin uso, con su caja y protecciones originales.\nBol de acero inoxidable de gran capacidad y brazo basculante para colocar y retirar el bol con facilidad.\nTapa antisalpicaduras con orificio para agregar ingredientes durante el batido, sin desorden.\nSelector de velocidades con función de pulso e incluye los tres accesorios: gancho para masa, batidor plano y batidor de globo.\nEquipo pensado para repostería y panificación en casa: masas de pan y pizza, merengues, cremas, batidos y mezclas densas que no se logran con una batidora de mano.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/batidora-amasadora-planetaria-masterpro--1.jpg"]
+  },
+
   {
     id: "procesador-de-alimentos-masterpro-foodie-6120",
     nombre: "Procesador de alimentos MasterPRO Foodies 4 en 1 – Nuevo, sin uso",
