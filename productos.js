@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 18/8/2026, 7:58:54 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 12:55:01 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,39 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "horno-de-microondas-digital-con-panel-de-4065",
+    nombre: "Horno de microondas digital con panel de cocción instantánea",
+    categoria: "Electrodomésticos",
+    precio: 450,
+    precioOriginal: 600,
+    descripcion: "Horno de microondas Samsung de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
+    estado: "disponible",
+    imagenes: ["imagenes/horno-de-microondas-digital-con-panel-de-1.jpg","imagenes/horno-de-microondas-digital-con-panel-de-2.jpg"]
+  },
+
+  {
+    id: "batidora-amasadora-planetaria-masterpro--3196",
+    nombre: "Batidora amasadora planetaria MasterPRO Foodies con accesorios – Nueva, sin uso",
+    categoria: "Electrodomésticos",
+    precio: 800,
+    precioOriginal: 1000,
+    descripcion: "Batidora amasadora planetaria MasterPRO Foodies, nueva y sin uso, con su caja y protecciones originales.\nBol de acero inoxidable de gran capacidad y brazo basculante para colocar y retirar el bol con facilidad.\nTapa antisalpicaduras con orificio para agregar ingredientes durante el batido, sin desorden.\nSelector de velocidades con función de pulso e incluye los tres accesorios: gancho para masa, batidor plano y batidor de globo.\nEquipo pensado para repostería y panificación en casa: masas de pan y pizza, merengues, cremas, batidos y mezclas densas que no se logran con una batidora de mano.",
+    estado: "disponible",
+    imagenes: ["imagenes/batidora-amasadora-planetaria-masterpro--1.jpg"]
+  },
+
+  {
+    id: "procesador-de-alimentos-masterpro-foodie-8539",
+    nombre: "Procesador de alimentos MasterPRO Foodies 4 en 1 – Nuevo, sin uso",
+    categoria: "Electrodomésticos",
+    precio: 700,
+    precioOriginal: 900,
+    descripcion: "Procesador de alimentos MasterPRO Foodies 4 en 1, completamente nuevo y sin uso, en su caja original sellada.\nUn solo motor de 1000 W para cuatro accesorios independientes:\n• Vaso de licuadora de 1.5 L.\n• Bol procesador de 2 L con 4 cuchillas de picado.\n• Molinillo para café, especias y granos.\n• Vaso personal portátil con tapa, para llevar.\nControl de un solo toque con programas predefinidos (picado, puré, hielo y pulso).\nIdeal para quien quiere resolver licuado, picado, molido y batidos con un solo aparato y sin ocupar espacio con varios electrodomésticos.",
+    estado: "disponible",
+    imagenes: ["imagenes/procesador-de-alimentos-masterpro-foodie-2.jpg","imagenes/procesador-de-alimentos-masterpro-foodie-1.jpg"]
+  },
+
   {
     id: "televisor-tcl-55-smart-tv-4094",
     nombre: "Televisor TCL 55\" Smart TV",
