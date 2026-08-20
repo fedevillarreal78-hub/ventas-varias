@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 10:02:18 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 1:44:19 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -59,7 +59,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 1000,
     descripcion: "Procesador de alimentos MasterPRO Foodies 4 en 1, completamente nuevo y sin uso, en su caja original sellada.\nUn solo motor de 1000 W para cuatro accesorios independientes:\n• Vaso de licuadora de 1.5 L.\n• Bol procesador de 2 L con 4 cuchillas de picado.\n• Molinillo para café, especias y granos.\n• Vaso personal portátil con tapa, para llevar.\nControl de un solo toque con programas predefinidos (picado, puré, hielo y pulso).\nIdeal para quien quiere resolver licuado, picado, molido y batidos con un solo aparato y sin ocupar espacio con varios electrodomésticos.",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/procesador-de-alimentos-masterpro-foodie-1.jpg","imagenes/procesador-de-alimentos-masterpro-foodie-2.jpg"]
   },
 
