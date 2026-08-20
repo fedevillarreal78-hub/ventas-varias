@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 19/8/2026, 2:11:43 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 9:36:53 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -36,7 +36,7 @@ const PRODUCTOS = [
     precio: 450,
     precioOriginal: 600,
     descripcion: "Horno de microondas de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/horno-de-microondas-digital-con-panel-de-1.jpg","imagenes/horno-de-microondas-digital-con-panel-de-2.jpg"]
   },
 
@@ -48,7 +48,7 @@ const PRODUCTOS = [
     precioOriginal: 1000,
     descripcion: "Batidora amasadora planetaria MasterPRO Foodies, nueva y sin uso, con su caja y protecciones originales.\nBol de acero inoxidable de gran capacidad y brazo basculante para colocar y retirar el bol con facilidad.\nTapa antisalpicaduras con orificio para agregar ingredientes durante el batido, sin desorden.\nSelector de velocidades con función de pulso e incluye los tres accesorios: gancho para masa, batidor plano y batidor de globo.\nEquipo pensado para repostería y panificación en casa: masas de pan y pizza, merengues, cremas, batidos y mezclas densas que no se logran con una batidora de mano.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/batidora-amasadora-planetaria-masterpro--1.jpg"]
   },
 
