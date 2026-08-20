@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 1:44:19 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 2:21:03 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -730,17 +730,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/producto-2.jpg"]
-  },
-
-  {
-    id: "recipiente-de-vidrio-con-tapa-hermetica--0337",
-    nombre: "Recipiente de vidrio con tapa hermética (sello al vacío)",
-    categoria: "Muebles",
-    precio: 100,
-    precioOriginal: 150,
-    descripcion: "Recipiente de vidrio rectangular con tapa hermética (sistema de sello al vacío), ideal para conservar alimentos frescos por más tiempo. Buen estado.",
-    estado: "disponible",
-    imagenes: ["imagenes/recipiente-de-vidrio-con-tapa-hermetica--1.jpg"]
   },
 
   {
