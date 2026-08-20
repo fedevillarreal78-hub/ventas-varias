@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 9:36:53 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 10:02:18 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -1029,7 +1029,7 @@ const PRODUCTOS = [
     precioOriginal: 1500,
     descripcion: "Lavadora Frigidaire de carga superior con tapa de vidrio. Gran capacidad, cómoda para uso familiar y práctica para cargas grandes. Capacidad de 20Kg y dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "disponible",
     imagenes: ["imagenes/lavadora-frigidaire-de-carga-superior-1.jpg","imagenes/lavadora-frigidaire-de-carga-superior-2.jpg"]
   },
 
