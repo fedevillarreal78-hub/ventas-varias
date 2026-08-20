@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 2:21:03 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 5:51:18 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -1154,7 +1154,7 @@ const PRODUCTOS = [
     descripcion: "Consola de madera oscura con tres cajones y repisa inferior. Elegante, funcional y muy versátil para recibidor, comedor o sala.",
     medidas: "Aprox. 170 × 42 × 85 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/consola-de-madera-oscura-con-tres-cajone-1.jpg","imagenes/consola-de-madera-oscura-con-tres-cajone-2.jpg"]
   },
 
