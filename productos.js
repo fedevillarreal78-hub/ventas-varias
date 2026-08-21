@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 6:39:06 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 6:44:03 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,18 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "maquina-para-hacer-pan-automatica-con-19-9936",
+    nombre: "Máquina para hacer pan automática con 19 programas",
+    categoria: "Electrodomésticos",
+    precio: 450,
+    precioOriginal: 600,
+    descripcion: "Máquina automática para hacer pan, con acabado en acero inoxidable y negro, visor superior para seguir el horneado y panel digital en español. En buen estado de funcionamiento, con uso normal de hogar.\n19 programas: básico, rápido, dulce, francés, integral, pan de arroz, sin gluten, postre, mix, masa, amasar, pastel, mermelada, yogurt, hornear, arroz, arroz de vino, descongelar y freír.\nPermite elegir el tamaño del pan (500 g, 750 g o 1000 g) y el tono de la corteza (luz, medio, oscuro o con fruta), además de temporizador programable.\nIdeal para quien quiere pan casero recién hecho sin amasar a mano, y para dietas especiales: la función sin gluten y la de masa amplían mucho su utilidad.",
+    entrega: "Inmediata",
+    estado: "disponible",
+    imagenes: ["imagenes/maquina-para-hacer-pan-automatica-con-19-1.jpg","imagenes/maquina-para-hacer-pan-automatica-con-19-2.jpg"]
+  },
+
   {
     id: "olla-de-presion-electrica-multifuncion-p-6433",
     nombre: "Olla de presión eléctrica multifunción Percutti – Prácticamente sin uso",
