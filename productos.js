@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 21/8/2026, 9:24:09 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 21/8/2026, 2:48:54 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -60,7 +60,7 @@ const PRODUCTOS = [
     precio: 450,
     precioOriginal: 600,
     descripcion: "Horno de microondas de color negro con panel digital, en perfecto estado de funcionamiento y muy bien conservado. Tiene uso normal de hogar, sin golpes, sin óxido y con el interior limpio.\nPanel de cocción instantánea con programas de un toque (palomitas, arroces, snacks, alimento para bebés, entre otros), niveles de potencia, cronómetro, auto recalentado y auto descongelado.\nAmplia capacidad interior, útil para uso familiar diario.",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/horno-de-microondas-digital-con-panel-de-1.jpg","imagenes/horno-de-microondas-digital-con-panel-de-2.jpg"]
   },
 
@@ -72,7 +72,7 @@ const PRODUCTOS = [
     precioOriginal: 1000,
     descripcion: "Batidora amasadora planetaria MasterPRO Foodies, nueva y sin uso, con su caja y protecciones originales.\nBol de acero inoxidable de gran capacidad y brazo basculante para colocar y retirar el bol con facilidad.\nTapa antisalpicaduras con orificio para agregar ingredientes durante el batido, sin desorden.\nSelector de velocidades con función de pulso e incluye los tres accesorios: gancho para masa, batidor plano y batidor de globo.\nEquipo pensado para repostería y panificación en casa: masas de pan y pizza, merengues, cremas, batidos y mezclas densas que no se logran con una batidora de mano.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/batidora-amasadora-planetaria-masterpro--1.jpg"]
   },
 
@@ -83,7 +83,7 @@ const PRODUCTOS = [
     precio: 700,
     precioOriginal: 1000,
     descripcion: "Procesador de alimentos MasterPRO Foodies 4 en 1, completamente nuevo y sin uso, en su caja original sellada.\nUn solo motor de 1000 W para cuatro accesorios independientes:\n• Vaso de licuadora de 1.5 L.\n• Bol procesador de 2 L con 4 cuchillas de picado.\n• Molinillo para café, especias y granos.\n• Vaso personal portátil con tapa, para llevar.\nControl de un solo toque con programas predefinidos (picado, puré, hielo y pulso).\nIdeal para quien quiere resolver licuado, picado, molido y batidos con un solo aparato y sin ocupar espacio con varios electrodomésticos.",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/procesador-de-alimentos-masterpro-foodie-1.jpg","imagenes/procesador-de-alimentos-masterpro-foodie-2.jpg"]
   },
 
@@ -1178,7 +1178,7 @@ const PRODUCTOS = [
     descripcion: "Consola de madera oscura con tres cajones y repisa inferior. Elegante, funcional y muy versátil para recibidor, comedor o sala.",
     medidas: "Aprox. 170 × 42 × 85 cm",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/consola-de-madera-oscura-con-tres-cajone-1.jpg","imagenes/consola-de-madera-oscura-con-tres-cajone-2.jpg"]
   },
 
