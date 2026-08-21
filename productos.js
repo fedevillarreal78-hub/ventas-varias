@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 20/8/2026, 6:44:03 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 21/8/2026, 9:24:09 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -49,7 +49,7 @@ const PRODUCTOS = [
     precioOriginal: 650,
     descripcion: "Olla de presión eléctrica multifunción marca Percutti, con cuerpo de acero inoxidable y panel digital. En excelente estado y con muy poco uso: el recetario todavía está sellado en su bolsa original.\nReemplaza varios aparatos en un solo equipo: cocción a presión, guisos, sopas, carnes, mariscos, arroces, granos, repostería y función crispy.\nDos niveles de presión (baja y alta), temporizador de inicio diferido, indicadores de precalentamiento y cocción, y función de mantener caliente.\nOlla interior antiadherente extraíble con marcas de nivel, tapa con cierre de seguridad y asas laterales.\nMuy conveniente para frijoles, caldos y carnes que normalmente toman horas: los resuelve en una fracción del tiempo y sin supervisión.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/olla-de-presion-electrica-multifuncion-p-1.jpg","imagenes/olla-de-presion-electrica-multifuncion-p-2.jpg"]
   },
 
