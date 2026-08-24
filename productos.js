@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 1:37:37 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 2:22:13 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -439,7 +439,7 @@ const PRODUCTOS = [
     id: "set-de-cuchillos-profesionales-de-cocina-5547",
     nombre: "Set de cuchillos profesionales de cocina (aprox. 10 piezas, en cajas)",
     categoria: "Bazar",
-    precio: 950,
+    precio: 600,
     precioOriginal: 1140,
     descripcion: "Lote de aproximadamente 10 cuchillos de cocina de gama profesional (incluye santoku, chef, deshuesador y utilitarios), cada uno NUEVO, sin usar, en su caja individual sellada. Ideal para quienes cocinan con frecuencia o para regalo. Se vende como lote completo.",
     entrega: "Inmediata",
@@ -830,7 +830,7 @@ const PRODUCTOS = [
     id: "wok-antiadherente-28-cm-con-tapa-de-vidr-6802",
     nombre: "Wok antiadherente 28 cm con tapa de vidrio + olla grande con inserto vaporizador + sartén individual.",
     categoria: "Bazar",
-    precio: 1000,
+    precio: 800,
     precioOriginal: 1150,
     descripcion: "Batería de cocina MasterChef \"The TV Series\", acero inoxidable premium. Incluye: wok antiadherente 28 cm con tapa de vidrio, olla grande con inserto vaporizador y sartén individual. Todo NUEVO, sin usar, en su empaque de fábrica. Precio: Q1,100 por el lote completo.",
     entrega: "Inmediata",
@@ -889,7 +889,7 @@ const PRODUCTOS = [
     id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-0718",
     nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
     categoria: "Muebles",
-    precio: 2500,
+    precio: 1500,
     precioOriginal: 2900,
     descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\n\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.",
     entrega: "En el momento",
@@ -1001,7 +1001,7 @@ const PRODUCTOS = [
     id: "sillon-ejecutivo-ergonomico-reclinable-n-6869",
     nombre: "Sillón ejecutivo ergonómico reclinable negro",
     categoria: "Muebles",
-    precio: 700,
+    precio: 500,
     precioOriginal: 1100,
     descripcion: "Sillón ejecutivo acolchado, cómodo y de gran respaldo. Ideal para oficina o escritorio personal.",
     entrega: "Entrega 9-10 de septiembre",
@@ -1050,7 +1050,7 @@ const PRODUCTOS = [
     id: "secadora-lg-de-carga-frontal-2910",
     nombre: "Secadora LG de carga frontal",
     categoria: "Electrodomésticos",
-    precio: 2700,
+    precio: 2200,
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
     entrega: "9-10 de septiembre",
@@ -1160,7 +1160,7 @@ const PRODUCTOS = [
     id: "mueble-para-tv-rustico-de-madera-8980",
     nombre: "Mueble para TV rústico de madera",
     categoria: "Muebles",
-    precio: 950,
+    precio: 750,
     precioOriginal: 1300,
     descripcion: "Mueble para TV de estilo rústico, con repisa central y tres compartimentos inferiores. Ideal para organizar equipos y accesorios.",
     medidas: "Aprox. 155 × 45 × 80 cm",
