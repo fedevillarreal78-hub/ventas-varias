@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 2:22:13 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 4:38:31 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -733,16 +733,6 @@ const PRODUCTOS = [
     entrega: "Inmediata",
     estado: "disponible",
     imagenes: ["imagenes/4-platos-cuadrados-de-ceramica-diseno-mo-1.jpg"]
-  },
-
-  {
-    id: "bandeja-rectangular-1-bowl-hondo-cuadrad-8794",
-    nombre: "Bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado, todo blanco liso.",
-    categoria: "Bazar",
-    precio: 130,
-    descripcion: "Set de 3 piezas de cerámica blanca lisa, diseño moderno: 1 bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado. Combinan con cualquier decoración. Buen estado.",
-    estado: "disponible",
-    imagenes: ["imagenes/bandeja-rectangular-1-bowl-hondo-cuadrad-1.jpg"]
   },
 
   {
