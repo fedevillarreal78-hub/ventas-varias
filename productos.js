@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 21/8/2026, 2:48:54 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 1:37:37 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -1042,7 +1042,7 @@ const PRODUCTOS = [
     precioOriginal: 1500,
     descripcion: "Lavadora Frigidaire de carga superior con tapa de vidrio. Gran capacidad, cómoda para uso familiar y práctica para cargas grandes. Capacidad de 20Kg y dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/lavadora-frigidaire-de-carga-superior-1.jpg","imagenes/lavadora-frigidaire-de-carga-superior-2.jpg"]
   },
 
@@ -1054,7 +1054,7 @@ const PRODUCTOS = [
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "vendido",
+    estado: "disponible",
     imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
   },
 
