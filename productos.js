@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 24/8/2026, 4:38:31 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 25/8/2026, 4:57:21 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -287,7 +287,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Banquito escalera plegable de metal, 2 peldaños antideslizantes, práctico para cocina o closet. Buen estado, funcional.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/banquito-escalera-plegable-2-peldanos-1.jpg"]
   },
 
