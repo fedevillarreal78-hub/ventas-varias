@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 25/8/2026, 4:57:21 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 26/8/2026, 3:23:35 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -1155,7 +1155,7 @@ const PRODUCTOS = [
     descripcion: "Mueble para TV de estilo rústico, con repisa central y tres compartimentos inferiores. Ideal para organizar equipos y accesorios.",
     medidas: "Aprox. 155 × 45 × 80 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mueble-para-tv-rustico-de-madera-1.jpg"]
   },
 
