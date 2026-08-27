@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 26/8/2026, 3:23:35 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 26/8/2026, 6:23:03 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -119,7 +119,7 @@ const PRODUCTOS = [
     precioOriginal: 320,
     descripcion: "Mantel de algodón 100%, estampado floral multicolor sobre fondo blanco, marca modernhome, tamaño 160×280 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mantel-modernhome-floral-multicolor-160--3.jpg","imagenes/mantel-modernhome-floral-multicolor-160--4.jpg"]
   },
 
@@ -131,7 +131,7 @@ const PRODUCTOS = [
     precioOriginal: 390,
     descripcion: "Mantel de algodón fino 100%, color blanco, marca modernhome, tamaño 160×280 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mantel-modernhome-blanco-160-280-cm-3.jpg","imagenes/mantel-modernhome-blanco-160-280-cm-4.jpg"]
   },
 
@@ -143,7 +143,7 @@ const PRODUCTOS = [
     precioOriginal: 350,
     descripcion: "Mantel de algodón 100%, color gris claro, marca modernhome línea Hotel Collection, con vainica decorativa en el borde, tamaño 160×280 cm. Incluye juego de servilletas de tela a juego, misma colección y color. NUEVO, en su empaque original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mantel-servilletas-modernhome-hotel-coll-3.jpg","imagenes/mantel-servilletas-modernhome-hotel-coll-4.jpg"]
   },
 
@@ -167,7 +167,7 @@ const PRODUCTOS = [
     precioOriginal: 350,
     descripcion: "Set de 8 servilleteras metálicas de alambre entrelazado, acabado plateado. NUEVAS, con etiqueta de precio original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-8-servilleteras-plateadas-diseno--2.jpg"]
   },
 
@@ -179,7 +179,7 @@ const PRODUCTOS = [
     precioOriginal: 150,
     descripcion: "Dos paquetes de servilletas de tela de algodón, estampado de óvalos con patrones multicolor. NUEVAS, en su empaque original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-servilletas-de-tela-motivo-huevos-2.jpg"]
   },
 
@@ -203,7 +203,7 @@ const PRODUCTOS = [
     precioOriginal: 264,
     descripcion: "Set de 3 piezas redondas decorativas de tamaños graduados, borde de madera, con motivos geométrico, de espigas y de hojas onduladas. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-3-piezas-redondas-decorativas-bor-3.jpg","imagenes/set-de-3-piezas-redondas-decorativas-bor-4.jpg"]
   },
 
@@ -215,7 +215,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Set de 3 bandejas cuadradas decorativas con borde dorado, tamaños graduados. Motivos: floral blanco y negro sobre fondo mostaza, hojas de palma blancas sobre fondo terracota, y espigas negras sobre fondo crema. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-3-bandejas-cuadradas-decorativas--1.jpg"]
   },
 
