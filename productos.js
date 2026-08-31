@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 26/8/2026, 6:23:03 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 30/8/2026, 8:01:55 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -29,6 +29,46 @@ const CONFIG = {
 };
 
 const PRODUCTOS = [
+  {
+    id: "cama-pochy-6561",
+    nombre: "Cama Pochy",
+    categoria: "Muebles",
+    precio: 2160,
+    descripcion: "Cama en muy buen estado.",
+    estado: "reservado",
+    imagenes: []
+  },
+
+  {
+    id: "recipiente-de-vidrio-con-tapa-hermetica--6561",
+    nombre: "Recipiente de vidrio con tapa hermética (sello al vacío)",
+    categoria: "Bazar",
+    precio: 100,
+    descripcion: "Recipiente de vidrio con tapa hermética de sello al vacío. Ideal para conservar alimentos secos.",
+    estado: "disponible",
+    imagenes: []
+  },
+
+  {
+    id: "bandeja-rectangular-1-bowl-hondo-cuadrad-6561",
+    nombre: "Bandeja rectangular, 1 bowl hondo cuadrado y 1 plato cuadrado, todo blanco liso.",
+    categoria: "Bazar",
+    precio: 130,
+    descripcion: "Conjunto de tres piezas en blanco liso: bandeja rectangular, bowl hondo cuadrado y plato cuadrado. Versátiles y en excelente estado.",
+    estado: "disponible",
+    imagenes: []
+  },
+
+  {
+    id: "repisa-de-bambu-con-toallero-6561",
+    nombre: "Repisa de bambú con toallero",
+    categoria: "Bazar",
+    precio: 200,
+    descripcion: "Repisa de bambú con barra toallero, práctica y decorativa para baño o cocina. En muy buen estado.",
+    estado: "disponible",
+    imagenes: []
+  },
+
   {
     id: "maquina-para-hacer-pan-automatica-con-19-9936",
     nombre: "Máquina para hacer pan automática con 19 programas",
@@ -95,7 +135,7 @@ const PRODUCTOS = [
     precioOriginal: 950,
     descripcion: "Televisor TCL de 55 pulgadas con Smart TV integrado: Netflix, YouTube y demás aplicaciones instaladas y funcionando, sin necesidad de dispositivos adicionales. Marco delgado y diseño sobrio que se integra bien en sala, dormitorio o estudio. Pantalla en perfecto estado, sin píxeles muertos ni manchas. Se entrega con control remoto, cable de corriente y sus patas laterales; puede probarse encendido antes de la compra.",
     entrega: "1 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/televisor-tcl-55-smart-tv-1.jpg"]
   },
 
@@ -287,7 +327,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Banquito escalera plegable de metal, 2 peldaños antideslizantes, práctico para cocina o closet. Buen estado, funcional.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/banquito-escalera-plegable-2-peldanos-1.jpg"]
   },
 
@@ -311,7 +351,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de cerámica esmaltada en color azul liso, con infusor interno. Diseño moderno y minimalista. Buen estado.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "disponible",
     imagenes: ["imagenes/tetera-de-ceramica-color-azul-liso-1.jpg"]
   },
 
@@ -439,7 +479,7 @@ const PRODUCTOS = [
     id: "set-de-cuchillos-profesionales-de-cocina-5547",
     nombre: "Set de cuchillos profesionales de cocina (aprox. 10 piezas, en cajas)",
     categoria: "Bazar",
-    precio: 600,
+    precio: 950,
     precioOriginal: 1140,
     descripcion: "Lote de aproximadamente 10 cuchillos de cocina de gama profesional (incluye santoku, chef, deshuesador y utilitarios), cada uno NUEVO, sin usar, en su caja individual sellada. Ideal para quienes cocinan con frecuencia o para regalo. Se vende como lote completo.",
     entrega: "Inmediata",
@@ -587,7 +627,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Azucarera de porcelana con tapa, estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/azucarera-de-porcelana-floreada-1.jpg"]
   },
 
@@ -611,7 +651,7 @@ const PRODUCTOS = [
     precioOriginal: 200,
     descripcion: "4 tazas de té con su plato, estampado floral en tonos amarillo y verde. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "reservado",
     imagenes: ["imagenes/taza-con-plato-floral-amarillo-y-verde-1.jpg"]
   },
 
@@ -623,7 +663,7 @@ const PRODUCTOS = [
     precioOriginal: 720,
     descripcion: "Vajilla completa en cerámica azul y blanco, motivo colonial \"Castillo San Felipe\" (Río Dulce, Izabal). Incluye platos, tazas con plato, plato hondo y piezas de servicio. Buen estado, se vende como lote completo.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/vajilla-azul-y-blanco-motivo-colonial-ca-1.jpg"]
   },
 
@@ -671,7 +711,7 @@ const PRODUCTOS = [
     precioOriginal: 300,
     descripcion: "Juego de cerámica con motivos navideños, colección \"San Martín\". Ideal para decorar la mesa en la temporada de fin de año. Buen estado.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "disponible",
     imagenes: ["imagenes/juego-navideno-san-martin-1.jpg"]
   },
 
@@ -765,7 +805,7 @@ const PRODUCTOS = [
     precio: 150,
     precioOriginal: 190,
     descripcion: "Set de 2 fuentes redondas de vidrio templado con tapa, tipo Pyrex, ideales para horno, refrigerador o para servir en la mesa. Buen estado.",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/2-fuentes-redondas-de-vidrio-templado-co-1.jpg"]
   },
 
@@ -820,7 +860,7 @@ const PRODUCTOS = [
     id: "wok-antiadherente-28-cm-con-tapa-de-vidr-6802",
     nombre: "Wok antiadherente 28 cm con tapa de vidrio + olla grande con inserto vaporizador + sartén individual.",
     categoria: "Bazar",
-    precio: 800,
+    precio: 1000,
     precioOriginal: 1150,
     descripcion: "Batería de cocina MasterChef \"The TV Series\", acero inoxidable premium. Incluye: wok antiadherente 28 cm con tapa de vidrio, olla grande con inserto vaporizador y sartén individual. Todo NUEVO, sin usar, en su empaque de fábrica. Precio: Q1,100 por el lote completo.",
     entrega: "Inmediata",
@@ -859,7 +899,7 @@ const PRODUCTOS = [
     precioOriginal: 250,
     descripcion: "Batidora de inmersión Oster, función turbo, mango ergonómico, varilla y cuchilla en acero inoxidable. NUEVA, en caja sellada.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/batidora-de-inmersion-con-varilla-y-cuch-1.jpg"]
   },
 
@@ -879,7 +919,7 @@ const PRODUCTOS = [
     id: "sillon-de-dos-cuerpos-tapizado-en-tela-g-0718",
     nombre: "Sillón de dos cuerpos tapizado en tela gris – Excelente estado",
     categoria: "Muebles",
-    precio: 1500,
+    precio: 2500,
     precioOriginal: 2900,
     descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\n\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.",
     entrega: "En el momento",
@@ -972,7 +1012,7 @@ const PRODUCTOS = [
     precio: 150,
     descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
     entrega: "9-10 de Septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
   },
 
@@ -991,7 +1031,7 @@ const PRODUCTOS = [
     id: "sillon-ejecutivo-ergonomico-reclinable-n-6869",
     nombre: "Sillón ejecutivo ergonómico reclinable negro",
     categoria: "Muebles",
-    precio: 500,
+    precio: 700,
     precioOriginal: 1100,
     descripcion: "Sillón ejecutivo acolchado, cómodo y de gran respaldo. Ideal para oficina o escritorio personal.",
     entrega: "Entrega 9-10 de septiembre",
@@ -1003,8 +1043,7 @@ const PRODUCTOS = [
     id: "escritorio-ejecutivo-de-madera-3438",
     nombre: "Escritorio ejecutivo de madera",
     categoria: "Muebles",
-    precio: 1400,
-    precioOriginal: 1520,
+    precio: 1800,
     descripcion: "Escritorio amplio, moderno y funcional, con muy buena presencia para home office o estudio. Cómodo para trabajar con monitor y laptop.",
     medidas: "180 x 80 x 75 cm",
     entrega: "9-10 de septiembre",
@@ -1020,7 +1059,7 @@ const PRODUCTOS = [
     precioOriginal: 800,
     descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar. Muy buen estado de los cabezales.",
     entrega: "8-9 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
   },
 
@@ -1040,7 +1079,7 @@ const PRODUCTOS = [
     id: "secadora-lg-de-carga-frontal-2910",
     nombre: "Secadora LG de carga frontal",
     categoria: "Electrodomésticos",
-    precio: 2200,
+    precio: 2700,
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
     entrega: "9-10 de septiembre",
@@ -1056,7 +1095,7 @@ const PRODUCTOS = [
     precioOriginal: 1900,
     descripcion: "Robot aspirador Roomba i3+ con base de carga y depósito automático. Muy cómodo para mantener pisos limpios con mínima intervención diaria. Dos años de uso. Repuestos de regalía.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/robot-aspirador-con-base-automatica-1.jpg","imagenes/robot-aspirador-con-base-automatica-2.jpg","imagenes/robot-aspirador-con-base-automatica-3.jpg"]
   },
 
@@ -1068,7 +1107,7 @@ const PRODUCTOS = [
     precioOriginal: 350,
     descripcion: "Aspiradora compacta Armor All para sólidos y líquidos. Versátil para limpieza doméstica, auto, bodega o áreas utilitarias.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/aspiradora-armor-all-para-solidos-y-liqu-1.jpg","imagenes/aspiradora-armor-all-para-solidos-y-liqu-2.jpg"]
   },
 
@@ -1080,7 +1119,7 @@ const PRODUCTOS = [
     precioOriginal: 400,
     descripcion: "Cafetera Black+Decker programable con jarra térmica de acero inoxidable. Conserva mejor la temperatura y permite preparar hasta 12 tazas.",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/cafetera-black-decker-programable-1.jpg","imagenes/cafetera-black-decker-programable-2.jpg"]
   },
 
@@ -1092,7 +1131,7 @@ const PRODUCTOS = [
     precioOriginal: 255,
     descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
     entrega: "8-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
   },
 
@@ -1150,12 +1189,12 @@ const PRODUCTOS = [
     id: "mueble-para-tv-rustico-de-madera-8980",
     nombre: "Mueble para TV rústico de madera",
     categoria: "Muebles",
-    precio: 750,
+    precio: 700,
     precioOriginal: 1300,
     descripcion: "Mueble para TV de estilo rústico, con repisa central y tres compartimentos inferiores. Ideal para organizar equipos y accesorios.",
     medidas: "Aprox. 155 × 45 × 80 cm",
     entrega: "Inmediata",
-    estado: "vendido",
+    estado: "reservado",
     imagenes: ["imagenes/mueble-para-tv-rustico-de-madera-1.jpg"]
   },
 
@@ -1163,7 +1202,7 @@ const PRODUCTOS = [
     id: "consola-de-madera-oscura-con-tres-cajone-9198",
     nombre: "Consola de madera oscura con tres cajones",
     categoria: "Muebles",
-    precio: 750,
+    precio: 680,
     precioOriginal: 950,
     descripcion: "Consola de madera oscura con tres cajones y repisa inferior. Elegante, funcional y muy versátil para recibidor, comedor o sala.",
     medidas: "Aprox. 170 × 42 × 85 cm",
