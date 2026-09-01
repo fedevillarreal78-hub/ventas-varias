@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 31/8/2026, 2:12:55 p. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 1/9/2026, 2:12:42 p. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -95,7 +95,7 @@ const PRODUCTOS = [
     precioOriginal: 950,
     descripcion: "Televisor TCL de 55 pulgadas con Smart TV integrado: Netflix, YouTube y demás aplicaciones instaladas y funcionando, sin necesidad de dispositivos adicionales. Marco delgado y diseño sobrio que se integra bien en sala, dormitorio o estudio. Pantalla en perfecto estado, sin píxeles muertos ni manchas. Se entrega con control remoto, cable de corriente y sus patas laterales; puede probarse encendido antes de la compra.",
     entrega: "1 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/televisor-tcl-55-smart-tv-1.jpg"]
   },
 
