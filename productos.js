@@ -1,4 +1,4 @@
-/* Archivo generado por el Panel de gestión (admin.html) — 6/9/2026, 11:00:37 a. m..
+/* Archivo generado por el Panel de gestión (admin.html) — 12/9/2026, 11:09:34 a. m..
    Puedes editarlo a mano o seguir usando el panel. */
 
 const CONFIG = {
@@ -37,7 +37,7 @@ const PRODUCTOS = [
     precioOriginal: 600,
     descripcion: "Máquina automática para hacer pan, con acabado en acero inoxidable y negro, visor superior para seguir el horneado y panel digital en español. En buen estado de funcionamiento, con uso normal de hogar.\n19 programas: básico, rápido, dulce, francés, integral, pan de arroz, sin gluten, postre, mix, masa, amasar, pastel, mermelada, yogurt, hornear, arroz, arroz de vino, descongelar y freír.\nPermite elegir el tamaño del pan (500 g, 750 g o 1000 g) y el tono de la corteza (luz, medio, oscuro o con fruta), además de temporizador programable.\nIdeal para quien quiere pan casero recién hecho sin amasar a mano, y para dietas especiales: la función sin gluten y la de masa amplían mucho su utilidad.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/maquina-para-hacer-pan-automatica-con-19-1.jpg","imagenes/maquina-para-hacer-pan-automatica-con-19-2.jpg"]
   },
 
@@ -155,7 +155,7 @@ const PRODUCTOS = [
     precioOriginal: 300,
     descripcion: "Mantel de algodón 100%, color celeste, con banda de encaje crema en el borde. Marca modernhome, colección RO-02. Tamaño 160×320 cm, ideal para mesas de 10–12 personas. NUEVO, en su empaque original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mantel-modernhome-celeste-con-encaje-160-3.jpg"]
   },
 
@@ -191,7 +191,7 @@ const PRODUCTOS = [
     precioOriginal: 216,
     descripcion: "Set de 2 bowls decorativos a juego, uno rojo con motivo floral vintage y otro turquesa con lunares blancos. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-2-bowls-decorativos-floral-rojo-y-1.jpg","imagenes/set-de-2-bowls-decorativos-floral-rojo-y-2.jpg"]
   },
 
@@ -227,7 +227,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Set de 4 platos/platones cuadrados de cerámica, edición limitada \"Colorescencia\" del artista costarricense Julio César Valverde, colección \"Trazos Criollos\" exclusiva de Cemaco Costa Rica. Cada plato presenta una ilustración distinta (medias de patrones geométricos multicolor con distintas razas de perro). NUEVOS, en su caja original. Pieza de colección de arte costarricense contemporáneo.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/colorescencia-julio-cesar-valverde-set-d-1.jpg"]
   },
 
@@ -239,7 +239,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set de 4 platos de porcelana blanca, motivo de ramillete floral amarillo con hojas verdes, centrado en el plato. NUEVOS, en su caja original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-platos-motivo-floral-amarillo-r-1.jpg"]
   },
 
@@ -251,7 +251,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set de 4 platos de porcelana blanca, motivo de heliconia roja con hojas verdes, estampado tropical vívido. NUEVOS, en su caja original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-platos-motivo-heliconia-roja-1.jpg"]
   },
 
@@ -263,7 +263,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set de 4 platos de porcelana blanca con motivo floral amarillo pintado a mano en el borde. NUEVOS, en su caja original. Pieza de mesa o decoración, con el mismo estilo de pincelada que otras piezas de colección ya ofrecidas en este catálogo.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-platos-motivo-floral-amarillo-d-1.jpg"]
   },
 
@@ -287,7 +287,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Banquito escalera plegable de metal, 2 peldaños antideslizantes, práctico para cocina o closet. Buen estado, funcional.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/banquito-escalera-plegable-2-peldanos-1.jpg"]
   },
 
@@ -299,7 +299,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Fuente de porcelana blanca, forma cuadrada, presentada en base de mimbre tejido. Ideal para servir ensaladas o postres. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/fuente-de-porcelana-cuadrada-con-base-de-1.jpg"]
   },
 
@@ -323,7 +323,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Cubitera de madera con tapa e interior metálico e insulado, incluye pinzas para hielo a juego. Ideal para bar en casa. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/cubitera-de-madera-con-tapa-metalica-y-p-1.jpg"]
   },
 
@@ -347,7 +347,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Azucarera con tapa y cremera a juego, cerámica blanca con rayas y borde azul. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/azucarera-y-cremera-ceramica-blanca-con--1.jpg"]
   },
 
@@ -359,7 +359,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Par de bandejas rectangulares de cerámica con motivo de conejos, una con borde rojo y otra con borde azul. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/par-de-bandejas-rectangulares-motivo-con-1.jpg"]
   },
 
@@ -371,7 +371,7 @@ const PRODUCTOS = [
     precioOriginal: 300,
     descripcion: "Set combinado de 6 mugs con asa dorada, plato y bandeja rectangular, motivo de limones y limas en tono celeste. Buen estado, ideal para servir café o té con estilo.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-6-mugs-plato-y-bandeja-diseno-lim-1.jpg"]
   },
 
@@ -383,7 +383,7 @@ const PRODUCTOS = [
     precioOriginal: 540,
     descripcion: "Máquina manual para hacer ravioles, marca italiana Bugatti, línea Pasta & Pizza. En su caja original. Ideal para los amantes de la pasta casera.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/bugatti-pasta-pizza-maquina-para-ravioli-1.jpg"]
   },
 
@@ -395,7 +395,7 @@ const PRODUCTOS = [
     precioOriginal: 780,
     descripcion: "Máquina para hacer pasta casera Cuisinart, con accesorios para distintos tipos de corte. En su caja original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/cuisinart-pasta-maker-maquina-electrica--1.jpg"]
   },
 
@@ -407,7 +407,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set Pasabahce Basic de 12 piezas: 6 tazas de vidrio con asa y 6 platos a juego. NUEVO, en su caja.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-pasabahce-basic-12-piezas-6-tazas-6--1.jpg"]
   },
 
@@ -419,7 +419,7 @@ const PRODUCTOS = [
     precioOriginal: 420,
     descripcion: "Set de accesorios de vidrio borosilicato marca italiana Bugatti: 1 montalatte y 2 juegos de tazas de té \"hot & cold\". Todo NUEVO, en cajas selladas. Fotos ilustrativas del empaque disponibles; se pueden enviar más fotografías a solicitud.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-bugatti-montalatte-y-2-juegos-de-taz-1.jpg"]
   },
 
@@ -431,7 +431,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Azucarera y cremera de la colección exclusiva \"Sonrisas de la Tierra\" de Ana Broennimann para Cemaco Costa Rica. NUEVAS, en caja sellada de fábrica, con etiqueta de precio original.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/ana-broennimann-azucarera-y-cremera-sonr-1.jpg"]
   },
 
@@ -443,7 +443,7 @@ const PRODUCTOS = [
     precioOriginal: 1140,
     descripcion: "Lote de aproximadamente 10 cuchillos de cocina de gama profesional (incluye santoku, chef, deshuesador y utilitarios), cada uno NUEVO, sin usar, en su caja individual sellada. Ideal para quienes cocinan con frecuencia o para regalo. Se vende como lote completo.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-cuchillos-profesionales-de-cocina-1.jpg"]
   },
 
@@ -455,7 +455,7 @@ const PRODUCTOS = [
     precioOriginal: 60,
     descripcion: "Taza tipo mug de cerámica, estampado floral en tonos amarillos, ideal para uso diario. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/taza-mug-floral-amarilla-1.jpg"]
   },
 
@@ -467,7 +467,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Juego de té en porcelana con delicados detalles dorados y estampado floral. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/juego-de-te-dorado-floral-1.jpg"]
   },
 
@@ -479,7 +479,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Bandeja de servicio en bambú con barra/asa metálica, práctica para servir bebidas o como pieza decorativa. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/bandeja-de-bambu-con-barra-metalica-1.jpg"]
   },
 
@@ -503,7 +503,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Set de 4 refractarias de vidrio templado, forma rectangular, distintos tamaños, aptas para horno y microondas. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-refractarias-de-vidrio-rectangu-1.jpg"]
   },
 
@@ -527,7 +527,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set de 4 boles hondos de cerámica, motivo conejo entre flores, a juego con la bandeja de la misma colección. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-boles-hondos-conejo-y-flores-1.jpg"]
   },
 
@@ -539,7 +539,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Juego de té chino tradicional, tetera y tazas en acabado negro con detalles dorados. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/juego-de-te-chino-negro-y-dorado-1.jpg"]
   },
 
@@ -563,7 +563,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de porcelana fina, marca Hometrends, acabado elegante. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/tetera-de-porcelana-fina-hometrends-1.jpg"]
   },
 
@@ -575,7 +575,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Tetera individual de cerámica, tamaño personal, motivo floral tropical. Ideal para una taza de té a la vez. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/tetera-individual-floral-tropical-1.jpg"]
   },
 
@@ -599,7 +599,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Platos decorativos de cerámica, motivo floral tropical en colores vivos. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/plato-decorativo-floral-tropical-1.jpg"]
   },
 
@@ -611,7 +611,7 @@ const PRODUCTOS = [
     precioOriginal: 200,
     descripcion: "4 tazas de té con su plato, estampado floral en tonos amarillo y verde. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/taza-con-plato-floral-amarillo-y-verde-1.jpg"]
   },
 
@@ -635,7 +635,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Set de té \"Secret de Gourmet\", ideal para preparar y servir infusiones con estilo. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-te-secret-de-gourmet-1.jpg"]
   },
 
@@ -647,7 +647,7 @@ const PRODUCTOS = [
     precioOriginal: 480,
     descripcion: "Set de 6 vasos de cristal genuino, marca checa Crystalite Bohemia, tallado clásico. Buen estado, sin astillas. Cristalería de calidad reconocida internacionalmente.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-6-vasos-de-cristal-crystalite-boh-1.jpg"]
   },
 
@@ -659,7 +659,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Bandeja decorativa de porcelana, motivo conejo entre flores, pintada a mano. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/bandeja-de-porcelana-motivo-conejo-y-flo-1.jpg"]
   },
 
@@ -683,7 +683,7 @@ const PRODUCTOS = [
     precioOriginal: 180,
     descripcion: "Tetera de cerámica con acabado azul jaspeado, ideal para servir o como pieza decorativa de cocina. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/tetera-de-ceramica-azul-jaspeada-2.jpg"]
   },
 
@@ -695,7 +695,7 @@ const PRODUCTOS = [
     precioOriginal: 240,
     descripcion: "Set de 4 platos cuadrados marca Izzy Oliver, estampado de pájaros en tonos vivos. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/set-de-4-platos-cuadrados-izzy-oliver-di-2.jpg"]
   },
 
@@ -719,7 +719,7 @@ const PRODUCTOS = [
     precioOriginal: 120,
     descripcion: "Plato decorativo de cerámica, motivo floral en tonos amarillos, ideal para colgar en pared o exhibir en vitrina. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/set-de-4-platos-cuadrados-izzy-oliver-di-1.jpg","imagenes/plato-decorativo-floral-amarillo-1.jpg"]
   },
 
@@ -731,7 +731,7 @@ const PRODUCTOS = [
     precioOriginal: 360,
     descripcion: "Set de 4 platos cuadrados de cerámica, diseño mosaico floral, colección \"Sonrisas de la Tierra\" de Ana Broennimann para Cemaco Costa Rica. NUEVOS, caja sellada.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/4-platos-cuadrados-de-ceramica-diseno-mo-1.jpg"]
   },
 
@@ -742,7 +742,7 @@ const PRODUCTOS = [
     precio: 200,
     descripcion: "Tetera/jarra decorativa de cerámica, diseño floral pastel con detalles pintados a mano (rosa en la tapa). Pieza ideal para té o como elemento decorativo. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/producto-2.jpg"]
   },
 
@@ -777,7 +777,7 @@ const PRODUCTOS = [
     precioOriginal: 250,
     descripcion: "Lote de 9 mini bowls decorativos (3 diseños florales diferentes, 3 piezas cada uno), interior celeste/turquesa. Perfectos para dips, snacks o postres individuales. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "oculto",
     imagenes: ["imagenes/9-mini-bowls-decorativos-3-disenos-flora-1.jpg","imagenes/9-mini-bowls-decorativos-3-disenos-flora-2.jpg","imagenes/9-mini-bowls-decorativos-3-disenos-flora-3.jpg"]
   },
 
@@ -789,7 +789,7 @@ const PRODUCTOS = [
     precioOriginal: 320,
     descripcion: "Set de 6 bowls hondos de cerámica, estampado floral rojo y azul estilo vintage. Ideales para ensaladas, pasta o postres. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/6-bowls-tazones-hondos-con-estampado-flo-1.jpg"]
   },
 
@@ -800,7 +800,7 @@ const PRODUCTOS = [
     precio: 220,
     descripcion: "Set decorativo de 5 platos de cerámica floreados, estilo vintage, diseños variados: 2 platos redondos medianos, 1 plato con lunares, 1 bandeja rectangular y 1 plato grande. Ideales para servir o decorar la mesa. Buen estado.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/2-platos-redondos-medianos-1-plato-con-l-1.jpg"]
   },
 
@@ -824,7 +824,7 @@ const PRODUCTOS = [
     precioOriginal: 1150,
     descripcion: "Batería de cocina MasterChef \"The TV Series\", acero inoxidable premium. Incluye: wok antiadherente 28 cm con tapa de vidrio, olla grande con inserto vaporizador y sartén individual. Todo NUEVO, sin usar, en su empaque de fábrica. Precio: Q1,100 por el lote completo.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-1.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-2.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-3.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-4.jpg","imagenes/wok-antiadherente-28-cm-con-tapa-de-vidr-5.jpg"]
   },
 
@@ -883,7 +883,7 @@ const PRODUCTOS = [
     precioOriginal: 2900,
     descripcion: "Sillón de dos cuerpos, de diseño contemporáneo, tapizado en tela color gris de alta resistencia. Cuenta con apoyabrazos amplios, estructura robusta y patas de madera, ofreciendo una excelente combinación de confort y durabilidad.\n\nLos almohadones de respaldo y asiento son amplios y muy cómodos, ideales tanto para sala principal como para estudio, apartamento o sala de televisión. Se encuentra en muy buen estado de conservación, sin roturas ni daños visibles, listo para usar.",
     entrega: "En el momento",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/producto-1.jpg"]
   },
 
@@ -938,7 +938,7 @@ const PRODUCTOS = [
     descripcion: "Mesa de centro rectangular de madera, amplia y funcional. Diseño sobrio, firme y con excelente superficie de apoyo para sala. El precio es por la mesa grande, las dos mesas pequeñas (que forman parte del juego) Q200 c/u si le interesan las tres.",
     medidas: "Aprox. 130 × 70 × 45 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-1.jpg","imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-2.jpg","imagenes/mesa-ratona-mesa-de-centro-grande-de-mad-3.jpg"]
   },
 
@@ -961,7 +961,7 @@ const PRODUCTOS = [
     precioOriginal: 1100,
     descripcion: "Licuadora KitchenAid de diseño atractivo y muy buena capacidad. Ideal para smoothies, salsas y uso diario.",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/licuadora-kitchenaid-azul-1.jpg"]
   },
 
@@ -972,7 +972,7 @@ const PRODUCTOS = [
     precio: 150,
     descripcion: "Ecofiltro decorativo y funcional, ideal para agua o bebidas frías. Un detalle práctico y con estilo.",
     entrega: "9-10 de Septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/ecofiltro-blanco-con-base-de-madera-1.jpg"]
   },
 
@@ -983,7 +983,7 @@ const PRODUCTOS = [
     precio: 350,
     descripcion: "Plantas de interior de gran porte con macetas. Aporta presencia y elegancia a cualquier ambiente. El precio es por cada una de ellas.",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/plantas-decorativas-varias-1.jpg","imagenes/plantas-decorativas-varias-2.jpg","imagenes/plantas-decorativas-varias-3.jpg","imagenes/plantas-decorativas-varias-4.jpg"]
   },
 
@@ -995,7 +995,7 @@ const PRODUCTOS = [
     precioOriginal: 1100,
     descripcion: "Sillón ejecutivo acolchado, cómodo y de gran respaldo. Ideal para oficina o escritorio personal.",
     entrega: "Entrega 9-10 de septiembre",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/sillon-ejecutivo-ergonomico-reclinable-n-2.jpg","imagenes/sillon-ejecutivo-ergonomico-reclinable-n-3.jpg"]
   },
 
@@ -1020,7 +1020,7 @@ const PRODUCTOS = [
     precioOriginal: 800,
     descripcion: "Impresora multifuncional con sistema de tinta continua, ideal para casa u oficina. Práctica, rendidora y lista para trabajar. Muy buen estado de los cabezales.",
     entrega: "8-9 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/impresora-brother-multifuncional-dcp-t51-1.jpg"]
   },
 
@@ -1032,7 +1032,7 @@ const PRODUCTOS = [
     precioOriginal: 1500,
     descripcion: "Lavadora Frigidaire de carga superior con tapa de vidrio. Gran capacidad, cómoda para uso familiar y práctica para cargas grandes. Capacidad de 20Kg y dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/lavadora-frigidaire-de-carga-superior-1.jpg","imagenes/lavadora-frigidaire-de-carga-superior-2.jpg"]
   },
 
@@ -1044,7 +1044,7 @@ const PRODUCTOS = [
     precioOriginal: 3400,
     descripcion: "Secadora LG de carga frontal con panel digital. Equipo amplio y moderno para secado eficiente de ropa en el hogar. Eléctrica 220v y con dos años de uso.",
     entrega: "9-10 de septiembre",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/secadora-lg-de-carga-frontal-1.jpg","imagenes/secadora-lg-de-carga-frontal-2.jpg"]
   },
 
@@ -1068,7 +1068,7 @@ const PRODUCTOS = [
     precioOriginal: 350,
     descripcion: "Aspiradora compacta Armor All para sólidos y líquidos. Versátil para limpieza doméstica, auto, bodega o áreas utilitarias.",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/aspiradora-armor-all-para-solidos-y-liqu-1.jpg","imagenes/aspiradora-armor-all-para-solidos-y-liqu-2.jpg"]
   },
 
@@ -1092,7 +1092,7 @@ const PRODUCTOS = [
     precioOriginal: 255,
     descripcion: "Hervidor eléctrico de acero inoxidable con control de temperatura y visor de nivel de agua. Útil, rápido y de diseño compacto.",
     entrega: "8-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/hervidor-electrico-de-acero-inoxidable-1.jpg","imagenes/hervidor-electrico-de-acero-inoxidable-2.jpg"]
   },
 
@@ -1129,7 +1129,7 @@ const PRODUCTOS = [
     descripcion: "Televisor Smart TCL de pantalla plana con patas laterales y marco delgado. Buena opción para sala, dormitorio o estudio; diseño sobrio y fácil de integrar.",
     medidas: "55'",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/televisor-tcl-de-pantalla-plana-55-1.jpg","imagenes/televisor-tcl-de-pantalla-plana-55-2.jpg"]
   },
 
@@ -1142,7 +1142,7 @@ const PRODUCTOS = [
     descripcion: "Mesa auxiliar de mimbre o ratán con repisa inferior. Liviana, cálida y decorativa para sala, terraza techada o rincón de lectura.",
     medidas: "Aprox. 70 × 45 × 65 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/mesa-auxiliar-de-mimbre-ratan-1.jpg"]
   },
 
@@ -1181,7 +1181,7 @@ const PRODUCTOS = [
     descripcion: "Juego de comedor completo con mesa rectangular y seis sillas tapizadas. Sobrio, amplio y muy funcional para comedor familiar. Mesa con detalle en uno de los extremos, pero con muy poco uso en general.",
     medidas: "Mesa aprox. 180 × 100 × 76 cm; sillas aprox. 45 × 50 × 95 cm",
     entrega: "Inmediata",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/producto-5.jpg","imagenes/juego-de-comedor-mesa-rectangular-6-sill-1.jpg"]
   },
 
@@ -1194,7 +1194,7 @@ const PRODUCTOS = [
     descripcion: "Espejo de pie con marco negro y diseño ovalado. Ideal para dormitorio, vestidor o recibidor; aporta amplitud y estilo.",
     medidas: "Aprox. 165 × 55 × 35 cm",
     entrega: "9-10 de septiembre",
-    estado: "reservado",
+    estado: "vendido",
     imagenes: ["imagenes/producto-3.jpg"]
   },
 
@@ -1207,7 +1207,7 @@ const PRODUCTOS = [
     descripcion: "Sofá tipo diván de tres plazas, tapizado en tono rojo con diseño clásico. Pieza cómoda y con carácter para sala o estudio.",
     medidas: "Aprox. 210 × 85 × 80 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/divan-de-alta-categoria-1.jpg"]
   },
 
@@ -1220,7 +1220,7 @@ const PRODUCTOS = [
     descripcion: "Tela gris, 2 años de uso, excelente estado. Cojines incluidos.",
     medidas: "210 × 90 × 85 cm",
     entrega: "Inmediata",
-    estado: "disponible",
+    estado: "vendido",
     imagenes: ["imagenes/sofa-de-3-plazas-1.jpg","imagenes/sofa-de-3-plazas-2.jpg","imagenes/sofa-de-3-plazas-3.jpg"]
   }
 ];
